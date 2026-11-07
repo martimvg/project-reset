@@ -39,7 +39,7 @@ def browser(p, http):
     if not http.allowed(url):
         raise Blocked(url)
     link_hint = p.get("link_contains")
-    with _lock:  # Playwright's sync API is not thread-safe: one page at a time
+    with _lock:  # called from the main thread only (see run.py)
         page = _browser().new_page(user_agent=USER_AGENT)
         try:
             page.goto(url, wait_until="networkidle", timeout=45000)

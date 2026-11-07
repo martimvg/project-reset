@@ -112,7 +112,7 @@ def rendered_html(url: str) -> tuple[str, str]:
             page.close()
 
 
-def from_seed(url: str, http: Http) -> tuple[str, dict, str]:
+def from_seed(url: str, http: Http, allow_browser: bool = True) -> tuple[str, dict, str]:
     try:
         final, html = http.final_url_and_text(url)
     except Blocked:
@@ -123,6 +123,8 @@ def from_seed(url: str, http: Http) -> tuple[str, dict, str]:
     else:
         note = ""
     found = detect(final, html)
+    if not found and not allow_browser:
+        return "needs-browser", {}, note
     if not found:
         try:
             final, html = rendered_html(url)
@@ -142,7 +144,9 @@ def discover_one(company: dict, seeds: dict, overrides: dict, http: Http) -> dic
         return {**entry, **overrides[cid], "how": "set by hand"}
     seed = seeds.get(cid)
     if seed:
-        system, params, note = from_seed(seed, http)
+        system, params, note = from_seed(seed, http, allow_browser=False)
+        if system == "needs-browser":
+            return {**entry, "system": None, "careers_url": seed, "how": "careers page", "needs_browser": True}
         if system:
             return {**entry, "system": system, "params": params, "careers_url": seed, "how": "careers page", "note": note}
         return {**entry, "system": None, "careers_url": seed, "how": "careers page", "note": note}
@@ -192,12 +196,23 @@ def main() -> None:
             if (args.all or c["id"] not in sources or not sources[c["id"]].get("system") or c["id"] in overrides)
             and (not args.only or c["id"] in args.only.split(","))
             and (not args.segment or c["segment"] == args.segment)]
-    print(f"Discovering {len(todo)} of {len(companies)} companies")
+    print(f"Discovering {len(todo)} of {len(companies)} companies", flush=True)
     http = Http(min_gap=1.0)
+    # Plain web requests run in parallel; the screenless browser only works on
+    # one thread, so pages that need it are handled afterwards, one by one.
+    later = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         for result in pool.map(lambda c: discover_one(c, seeds, overrides, http), todo):
+            if result.pop("needs_browser", False):
+                later.append(result)
+                continue
             sources[result["id"]] = result
-            print(f"  {result['name']}: {result.get('system') or '-'} ({result['how']})")
+            print(f"  {result['name']}: {result.get('system') or '-'} ({result['how']})", flush=True)
+    for result in later:
+        system, params, note = from_seed(result["careers_url"], http, allow_browser=True)
+        result.update({"system": system or None, "params": params, "note": note})
+        sources[result["id"]] = result
+        print(f"  {result['name']}: {result.get('system') or '-'} (careers page, browser)", flush=True)
     (DATA / "sources.json").write_text(json.dumps(sources, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     write_report(sources)
     try:

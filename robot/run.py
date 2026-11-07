@@ -55,8 +55,13 @@ def main() -> int:
     http = Http(min_gap=1.0)
 
     new_roles, newly_broken = [], []
+    # Plain web requests run in parallel; browser-based sources run one by one
+    # on the main thread (the screenless browser can't be shared between threads).
+    plain = [s for s in sources.values() if s["system"] != "browser"]
+    in_browser = [s for s in sources.values() if s["system"] == "browser"]
     with ThreadPoolExecutor(max_workers=int(os.environ.get("WORKERS", "8"))) as pool:
-        results = list(pool.map(lambda s: read_source(s, http), sources.values()))
+        results = list(pool.map(lambda s: read_source(s, http), plain))
+    results += [read_source(s, http) for s in in_browser]
 
     for src, jobs, error, seconds in results:
         cid = src["id"]

@@ -19,6 +19,9 @@ on:
 permissions:
   contents: write
 
+env:
+  PYTHONUNBUFFERED: "1"
+
 concurrency:
   group: check
   cancel-in-progress: false
