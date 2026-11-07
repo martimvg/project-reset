@@ -8,11 +8,11 @@
   "system": "workable"
  },
  "alantra": {
-  "entry_level_found": 2,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 2,
+  "postings_read": 0,
   "system": "browser"
  },
  "alixpartners": {
@@ -32,28 +32,31 @@
   "system": "browser"
  },
  "ardea-partners": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "baird": {
   "entry_level_found": 2,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 2,
-  "system": "browser"
- },
- "baird": {
-  "entry_level_found": 5,
-  "error": "",
-  "failures": 0,
-  "last_ok": "2026-11-07",
-  "postings_read": 5,
+  "postings_read": 3,
   "system": "browser"
  },
  "bank-of-america": {
-  "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 1,
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 280,
   "system": "workday"
  },
  "barclays": {
-  "entry_level_found": 16,
+  "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -69,19 +72,19 @@
   "system": "workable"
  },
  "bdo-global": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "berenberg": {
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
   "postings_read": 1,
-  "system": "browser"
- },
- "berenberg": {
-  "entry_level_found": 7,
-  "error": "",
-  "failures": 0,
-  "last_ok": "2026-11-07",
-  "postings_read": 7,
   "system": "browser"
  },
  "bmo-capital-markets": {
@@ -133,7 +136,7 @@
   "system": "workable"
  },
  "citi": {
-  "entry_level_found": 12,
+  "entry_level_found": 9,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -149,19 +152,19 @@
   "system": "personio"
  },
  "commerzbank": {
-  "entry_level_found": 1,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "credit-agricole": {
-  "entry_level_found": 1,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "dc-advisory": {
@@ -181,32 +184,35 @@
   "system": "workable"
  },
  "deloitte": {
-  "entry_level_found": 1,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "deutsche-bank": {
-  "entry_level_found": 2,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 2,
+  "postings_read": 0,
   "system": "browser"
  },
  "evercore": {
-  "error": "robots.txt asks tools not to read this page",
-  "failures": 1,
-  "system": "smartrecruiters"
- },
- "ey": {
-  "entry_level_found": 9,
+  "entry_level_found": 7,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 9,
+  "postings_read": 10,
+  "system": "oleeo"
+ },
+ "ey": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 0,
   "system": "browser"
  },
  "ey-parthenon": {
@@ -226,11 +232,11 @@
   "system": "browser"
  },
  "forvis-mazars": {
-  "entry_level_found": 28,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 28,
+  "postings_read": 0,
   "system": "browser"
  },
  "galaxy": {
@@ -266,11 +272,11 @@
   "system": "browser"
  },
  "gp-bullhound": {
-  "entry_level_found": 1,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "grant-thornton": {
@@ -282,11 +288,11 @@
   "system": "workday"
  },
  "greenhill": {
-  "entry_level_found": 4,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 4,
+  "postings_read": 0,
   "system": "browser"
  },
  "guggenheim-partners": {
@@ -322,11 +328,11 @@
   "system": "workable"
  },
  "hsbc": {
-  "entry_level_found": 4,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 4,
+  "postings_read": 0,
   "system": "browser"
  },
  "ik-partners": {
@@ -339,7 +345,7 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 1,
+  "failures": 2,
   "system": "radancy"
  },
  "interpath-advisory": {
@@ -351,15 +357,15 @@
   "system": "workable"
  },
  "investec": {
-  "entry_level_found": 4,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 4,
+  "postings_read": 0,
   "system": "browser"
  },
  "j-p-morgan": {
-  "entry_level_found": 9,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -375,24 +381,24 @@
   "system": "oleeo"
  },
  "kpmg": {
-  "entry_level_found": 10,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 10,
+  "postings_read": 0,
   "system": "browser"
  },
  "kr8-advisory": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers\nCall log:\n  - navigating to \"https://www.kr8advisory.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 1,
+  "failures": 2,
   "system": "browser"
  },
  "kroll": {
-  "entry_level_found": 1,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "lazard": {
@@ -420,11 +426,11 @@
   "system": "browser"
  },
  "lloyds-banking-group": {
-  "entry_level_found": 13,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 13,
+  "postings_read": 0,
   "system": "browser"
  },
  "macquarie-group": {
@@ -432,19 +438,19 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 1,
+  "postings_read": 0,
   "system": "browser"
  },
  "mizuho": {
-  "entry_level_found": 4,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 4,
+  "postings_read": 0,
   "system": "browser"
  },
  "moelis-and-co": {
-  "entry_level_found": 6,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -453,7 +459,7 @@
  },
  "morgan-stanley": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates\nCall log:\n  - navigating to \"https://www.morganstanley.com/people-opportunities/students-graduates\", waiting until \"domcontentloaded\"",
-  "failures": 1,
+  "failures": 2,
   "system": "browser"
  },
  "mufg": {
@@ -463,6 +469,14 @@
   "last_ok": "2026-11-07",
   "postings_read": 0,
   "system": "browser"
+ },
+ "national-bank-of-canada": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 0,
+  "system": "workable"
  },
  "natixis": {
   "entry_level_found": 0,
@@ -497,9 +511,12 @@
   "system": "bamboohr"
  },
  "peel-hunt": {
-  "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.teamtailor.com/jobs.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 1,
-  "system": "rss"
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-07",
+  "postings_read": 0,
+  "system": "browser"
  },
  "perella-weinberg-partners": {
   "entry_level_found": 0,
@@ -518,11 +535,11 @@
   "system": "workday"
  },
  "pwc": {
-  "entry_level_found": 8,
+  "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 8,
+  "postings_read": 1,
   "system": "browser"
  },
  "qatalyst-partners": {
@@ -535,7 +552,7 @@
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 1,
+  "failures": 2,
   "system": "browser"
  },
  "rbc-capital-markets": {
@@ -547,15 +564,15 @@
   "system": "phenom"
  },
  "rothschild-and-co": {
-  "entry_level_found": 9,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 9,
+  "postings_read": 0,
   "system": "browser"
  },
  "rsm": {
-  "entry_level_found": 4,
+  "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -611,15 +628,15 @@
   "system": "workable"
  },
  "standard-chartered": {
-  "entry_level_found": 6,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 6,
+  "postings_read": 0,
   "system": "browser"
  },
  "stifel": {
-  "entry_level_found": 4,
+  "entry_level_found": 2,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -627,7 +644,7 @@
   "system": "icims"
  },
  "td-securities": {
-  "entry_level_found": 3,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
@@ -635,32 +652,32 @@
   "system": "workday"
  },
  "teneo": {
-  "entry_level_found": 4,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 4,
+  "postings_read": 0,
   "system": "browser"
  },
  "ubs": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 1,
+  "failures": 2,
   "system": "radancy"
  },
  "wells-fargo": {
-  "entry_level_found": 11,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 11,
+  "postings_read": 5,
   "system": "browser"
  },
  "william-blair": {
-  "entry_level_found": 8,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-07",
-  "postings_read": 8,
+  "postings_read": 0,
   "system": "browser"
  }
 }
