@@ -1,1 +1,2185 @@
-{}
+{
+ "abn-amro": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "abn-amro",
+  "name": "ABN AMRO",
+  "params": {
+   "account": "abn-amro"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "access-capital-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "access-capital-partners",
+  "name": "Access Capital Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "aib": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "aib",
+  "name": "AIB",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "alantra": {
+  "careers_url": "https://www.alantra.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "alantra",
+  "name": "Alantra",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.alantra.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "alba-infra-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "alba-infra-partners",
+  "name": "Alba Infra Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "alixpartners": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "alixpartners",
+  "name": "AlixPartners",
+  "params": {
+   "board": "alixpartners"
+  },
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": "greenhouse"
+ },
+ "allia-candc": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "allia-candc",
+  "name": "Allia C&C",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "alvarez-and-marsal": {
+  "careers_url": "https://www.alvarezandmarsal.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "alvarez-and-marsal",
+  "name": "Alvarez & Marsal",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.alvarezandmarsal.com/careers"
+  },
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "ardea-partners": {
+  "careers_url": "https://www.ardeapartners.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ardea-partners",
+  "name": "Ardea Partners",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.ardeapartners.com/"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "ardian": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "ardian",
+  "name": "Ardian",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "ares-management": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "ares-management",
+  "name": "Ares Management",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "arkap-and-co": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "arkap-and-co",
+  "name": "arKap & Co",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "astorg": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "astorg",
+  "name": "Astorg",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "atlas-holdings": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "atlas-holdings",
+  "name": "Atlas Holdings",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "augusta-and-co": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "augusta-and-co",
+  "name": "Augusta & Co",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "IB",
+  "system": null
+ },
+ "baird": {
+  "careers_url": "https://www.rwbaird.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "baird",
+  "name": "Baird",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.bairdcareers.com/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "balurca-advisory": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "balurca-advisory",
+  "name": "Balurca Advisory",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Investment Banking",
+  "segment": "IB",
+  "system": null
+ },
+ "bank-of-america": {
+  "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search.html",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "bank-of-america",
+  "name": "Bank of America",
+  "note": "",
+  "params": {
+   "host": "ghr.wd1.myworkdayjobs.com",
+   "site": "en-us",
+   "tenant": "ghr"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "barclays": {
+  "careers_url": "https://search.jobs.barclays/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "barclays",
+  "name": "Barclays",
+  "note": "",
+  "params": {
+   "host": "barclays.wd3.myworkdayjobs.com",
+   "site": "External_Career_Site_Barclays",
+   "tenant": "barclays"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "bbva": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "bbva",
+  "name": "BBVA",
+  "params": {
+   "account": "bbva"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "bda-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "bda-partners",
+  "name": "BDA Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "IB",
+  "system": null
+ },
+ "bdo-global": {
+  "careers_url": "https://www.bdo.co.uk/en-gb/careers/students-and-graduates",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "bdo-global",
+  "name": "BDO Global",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.bdo.co.uk/en-gb/careers/students-and-graduates"
+  },
+  "sector": "Accounting and Audit",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "bean-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "bean-partners",
+  "name": "Bean Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "bellwether": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "bellwether",
+  "name": "Bellwether",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "berenberg": {
+  "careers_url": "https://www.berenberg.de/en/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "berenberg",
+  "name": "Berenberg",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://careers.berenberg.com/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "bgf": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "bgf",
+  "name": "BGF",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "blackstone": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "blackstone",
+  "name": "Blackstone",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "bmo-capital-markets": {
+  "careers_url": "https://jobs.bmo.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "bmo-capital-markets",
+  "name": "BMO Capital Markets",
+  "note": "",
+  "params": {
+   "host": "jobs.bmo.com",
+   "locale": "global/en"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "phenom"
+ },
+ "bnp-paribas": {
+  "careers_url": "https://group.bnpparibas/en/careers/all-job-offers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "bnp-paribas",
+  "name": "BNP Paribas",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://group.bnpparibas/en/careers/all-job-offers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "bregal-milestone": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "bregal-milestone",
+  "name": "Bregal Milestone",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "btg-pactual": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "btg-pactual",
+  "name": "BTG Pactual",
+  "params": {
+   "board": "btgpactual"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "greenhouse"
+ },
+ "btig": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "btig",
+  "name": "BTIG",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "campbell-lutyens": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "campbell-lutyens",
+  "name": "Campbell Lutyens",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "canaccord-genuity": {
+  "careers_url": "https://www.canaccordgenuity.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "canaccord-genuity",
+  "name": "Canaccord Genuity",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.canaccordgenuity.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "capital-d": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "capital-d",
+  "name": "Capital D",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "capvest": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "capvest",
+  "name": "CapVest",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "cdandr": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "cdandr",
+  "name": "CD&R",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "centerview-partners": {
+  "careers_url": "https://www.centerviewpartners.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "centerview-partners",
+  "name": "Centerview Partners",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.centerviewpartners.com/careers"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "cibc": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "cibc",
+  "name": "CIBC",
+  "params": {
+   "account": "cibc"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "cicc": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "cicc",
+  "name": "CICC",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "citi": {
+  "careers_url": "https://jobs.citi.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "citi",
+  "name": "Citi",
+  "note": "",
+  "params": {
+   "host": "citi.wd5.myworkdayjobs.com",
+   "site": "2",
+   "tenant": "citi"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "citic-clsa": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "citic-clsa",
+  "name": "CITIC CLSA",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "clairfield": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "clairfield",
+  "name": "Clairfield",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Investment Banking",
+  "segment": "IB",
+  "system": null
+ },
+ "clearwater": {
+  "careers_url": "https://www.clearwaterinternational.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "clearwater",
+  "name": "Clearwater",
+  "note": "",
+  "params": {
+   "company": "clearwater",
+   "host": "clearwater.jobs.personio.de"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "personio"
+ },
+ "climate-investment": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "climate-investment",
+  "name": "Climate Investment",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "collingwood": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "collingwood",
+  "name": "Collingwood",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "commbank": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "commbank",
+  "name": "CommBank",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "commerzbank": {
+  "careers_url": "https://www.commerzbank.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "commerzbank",
+  "name": "Commerzbank",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.commerzbank.de/group/xyz/index.html"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "compound-equity-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "compound-equity-group",
+  "name": "Compound Equity Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "connect-corporate-finance": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "connect-corporate-finance",
+  "name": "Connect Corporate Finance",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "cooper-parry": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "cooper-parry",
+  "name": "Cooper Parry",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Investment Banking",
+  "segment": "IB",
+  "system": null
+ },
+ "credit-agricole": {
+  "careers_url": "https://jobs.ca-cib.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "credit-agricole",
+  "name": "Crédit Agricole",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://jobs.ca-cib.com/accueil.aspx?LCID=1036"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "crowe": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "crowe",
+  "name": "Crowe",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Accounting and Audit",
+  "segment": "IB",
+  "system": null
+ },
+ "cusana-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "cusana-capital",
+  "name": "Cusana Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "cygnum-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "cygnum-capital",
+  "name": "Cygnum Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "dc-advisory": {
+  "careers_url": "https://www.dcadvisory.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "dc-advisory",
+  "name": "DC Advisory",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.dcadvisory.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "dealglobe": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "dealglobe",
+  "name": "DealGlobe",
+  "params": {
+   "account": "dealglobe"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "deloitte": {
+  "careers_url": "https://www.deloitte.com/uk/en/careers/students.html",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "deloitte",
+  "name": "Deloitte",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.deloitte.com/uk/en/careers/students.html"
+  },
+  "sector": "Big 4",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "deutsche-bank": {
+  "careers_url": "https://careers.db.com/students-graduates/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "deutsche-bank",
+  "name": "Deutsche Bank",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://careers.db.com/students-graduates/#/graduate/"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "eastdil-secured": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "eastdil-secured",
+  "name": "Eastdil Secured",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "edgewater-strategy-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "edgewater-strategy-group",
+  "name": "Edgewater Strategy Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "eqt": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "eqt",
+  "name": "EQT",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "equiteq": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "equiteq",
+  "name": "Equiteq",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "equitix": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "equitix",
+  "name": "Equitix",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "ethical-capital-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "ethical-capital-partners",
+  "name": "Ethical Capital Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "eurazeo": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "eurazeo",
+  "name": "Eurazeo",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "evercore": {
+  "careers_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "evercore",
+  "name": "Evercore",
+  "note": "",
+  "params": {
+   "company": "ni"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "smartrecruiters"
+ },
+ "expedition-growth-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "expedition-growth-capital",
+  "name": "Expedition Growth Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "ey": {
+  "careers_url": "https://www.ey.com/en_uk/careers/students",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ey",
+  "name": "EY",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.ey.com/en_uk/careers/students"
+  },
+  "sector": "Big 4",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "ey-parthenon": {
+  "careers_url": "https://www.ey.com/en_uk/careers/students",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ey-parthenon",
+  "name": "EY-Parthenon",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.ey.com/en_uk/careers/students"
+  },
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "fenchurch-advisory": {
+  "careers_url": "https://www.fenchurchadvisory.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "fenchurch-advisory",
+  "name": "Fenchurch Advisory",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://fenchurchadvisory.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "forvis-mazars": {
+  "careers_url": "https://www.forvismazars.com/uk/en/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "forvis-mazars",
+  "name": "Forvis Mazars",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.forvismazars.com/uk/en/careers"
+  },
+  "sector": "Miscellaneous",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "frp-advisory": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "frp-advisory",
+  "name": "FRP Advisory",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "ft-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "ft-partners",
+  "name": "FT Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "IB",
+  "system": null
+ },
+ "fti-consulting": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "fti-consulting",
+  "name": "FTI Consulting",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": null
+ },
+ "galaxy": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "galaxy",
+  "name": "Galaxy",
+  "params": {
+   "board": "galaxy"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "greenhouse"
+ },
+ "general-atlantic": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "general-atlantic",
+  "name": "General Atlantic",
+  "params": {
+   "board": "generalatlantic"
+  },
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": "greenhouse"
+ },
+ "gerald-edelman": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "gerald-edelman",
+  "name": "Gerald Edelman",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "gleacher-shacklock": {
+  "careers_url": "https://www.gleachershacklock.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "gleacher-shacklock",
+  "name": "Gleacher Shacklock",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://investors.pwpartners.com/news-releases/news-release-details/perella-weinberg-acquire-gleacher-shacklock-leading-independent"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "global-infrastructure-advisors": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "global-infrastructure-advisors",
+  "name": "Global Infrastructure Advisors",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "gneiss-energy": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "gneiss-energy",
+  "name": "Gneiss Energy",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "goldman-sachs": {
+  "careers_url": "https://higher.gs.com/campus",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "goldman-sachs",
+  "name": "Goldman Sachs",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://higher.gs.com/campus"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "goodbody": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "goodbody",
+  "name": "Goodbody",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "gp-bullhound": {
+  "careers_url": "https://www.gpbullhound.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "gp-bullhound",
+  "name": "GP Bullhound",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.gpbullhound.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "grant-thornton": {
+  "careers_url": "https://www.grantthornton.co.uk/careers/early-careers-job-search/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "grant-thornton",
+  "name": "Grant Thornton",
+  "note": "",
+  "params": {
+   "host": "ukgrantt.wd3.myworkdayjobs.com",
+   "site": "TraineeCareersGrantThornton",
+   "tenant": "ukgrantt"
+  },
+  "sector": "Accounting and Audit",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "greenhill": {
+  "careers_url": "https://www.greenhill.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "greenhill",
+  "name": "Greenhill",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.mizuhogroup.com/americas/banking"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "guggenheim-partners": {
+  "careers_url": "https://www.guggenheimpartners.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "guggenheim-partners",
+  "name": "Guggenheim Partners",
+  "note": "",
+  "params": {
+   "host": "guggenheiminvestment.wd5.myworkdayjobs.com",
+   "site": "External",
+   "tenant": "guggenheiminvestment"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "hamilton-lane": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "hamilton-lane",
+  "name": "Hamilton Lane",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "handelsbanken": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "handelsbanken",
+  "name": "Handelsbanken",
+  "params": {
+   "account": "handelsbanken"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "harbourvest": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "harbourvest",
+  "name": "HarbourVest",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "harris-williams": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "harris-williams",
+  "name": "Harris Williams",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "hayfin-capital-management": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "hayfin-capital-management",
+  "name": "Hayfin Capital Management",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "headford-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "headford-group",
+  "name": "Headford Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "heligan-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "heligan-group",
+  "name": "Heligan Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "hive-capital-advisory": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "hive-capital-advisory",
+  "name": "Hive Capital Advisory",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "houlihan-lokey": {
+  "careers_url": "https://hl.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "houlihan-lokey",
+  "name": "Houlihan Lokey",
+  "note": "",
+  "params": {
+   "host": "hl.wd1.myworkdayjobs.com",
+   "site": "Campus",
+   "tenant": "hl"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "howden": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "howden",
+  "name": "Howden",
+  "params": {
+   "account": "howden"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "hsbc": {
+  "careers_url": "https://www.hsbc.com/careers/students-and-graduates",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "hsbc",
+  "name": "HSBC",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.hsbc.com/careers/students-and-graduates"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "icg": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "icg",
+  "name": "ICG",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "ik-partners": {
+  "careers_url": "https://ikpartners.recruitee.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ik-partners",
+  "name": "IK Partners",
+  "note": "",
+  "params": {
+   "company": "ikpartners"
+  },
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": "recruitee"
+ },
+ "infrared-capital-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "infrared-capital-partners",
+  "name": "InfraRed Capital Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "ing": {
+  "careers_url": "https://careers.ing.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ing",
+  "name": "ING",
+  "note": "",
+  "params": {
+   "host": "careers.ing.com"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "radancy"
+ },
+ "insurance-advisory-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "insurance-advisory-partners",
+  "name": "Insurance Advisory Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "interpath-advisory": {
+  "careers_url": "https://www.interpathadvisory.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "interpath-advisory",
+  "name": "Interpath Advisory",
+  "note": "",
+  "params": {
+   "account": "interpath-advisory"
+  },
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "intriva": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "intriva",
+  "name": "Intriva",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "investec": {
+  "careers_url": "https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "investec",
+  "name": "Investec",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "j-p-morgan": {
+  "careers_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "j-p-morgan",
+  "name": "J.P. Morgan",
+  "note": "",
+  "params": {
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "oracle"
+ },
+ "jefferies": {
+  "careers_url": "https://www.jefferies.com/careers/campus/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "jefferies",
+  "name": "Jefferies",
+  "note": "",
+  "params": {
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "oleeo"
+ },
+ "kkr": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "kkr",
+  "name": "KKR",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "kline-hill-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "kline-hill-partners",
+  "name": "Kline Hill Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "kpmg": {
+  "careers_url": "https://kpmgcareers.co.uk/graduate/deal-advisory",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "kpmg",
+  "name": "KPMG",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.kpmgcareers.co.uk/graduate/deal-advisory"
+  },
+  "sector": "Big 4",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "kr8-advisory": {
+  "careers_url": "https://www.kr8advisory.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "kr8-advisory",
+  "name": "KR8 Advisory",
+  "note": "browser failed: Error",
+  "params": {
+   "url": "https://www.kr8advisory.com/careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "kroll": {
+  "careers_url": "https://www.kroll.com/en/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "kroll",
+  "name": "Kroll",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.kroll.com/en/careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "lazard": {
+  "careers_url": "https://www.lazard.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "lazard",
+  "name": "Lazard",
+  "note": "",
+  "params": {
+   "host": "icbpjb.fa.ocs.oraclecloud.com",
+   "site": "LazardProfessionalCareers"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "oracle"
+ },
+ "leerink-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "leerink-partners",
+  "name": "Leerink Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "lgt-capital-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "lgt-capital-partners",
+  "name": "LGT Capital Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "lincoln-international": {
+  "careers_url": "https://www.lincolninternational.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "lincoln-international",
+  "name": "Lincoln International",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.lincolninternational.com/careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "liontree": {
+  "careers_url": "https://www.liontree.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "liontree",
+  "name": "LionTree",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://liontree.com/careers"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "lloyds-banking-group": {
+  "careers_url": "https://www.lloydsbankinggrouptalent.com/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "lloyds-banking-group",
+  "name": "Lloyds Banking Group",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.lloydsbankinggrouptalent.com/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "loizou-and-co": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "loizou-and-co",
+  "name": "Loizou & Co",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "longspur-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "longspur-capital",
+  "name": "Longspur Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "macquarie-group": {
+  "careers_url": "https://recruitment.macquarie.com/en_US/careers/SearchJobs",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "macquarie-group",
+  "name": "Macquarie Group",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://recruitment.macquarie.com/en_US/careers/SearchJobs"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "mizuho": {
+  "careers_url": "https://www.mizuhogroup.com/emea/careers/graduates",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "mizuho",
+  "name": "Mizuho",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.mizuhogroup.com/emea/careers/graduates"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "mki-global-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "mki-global-partners",
+  "name": "MKI Global Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "moelis-and-co": {
+  "careers_url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/adv/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "moelis-and-co",
+  "name": "Moelis & Co",
+  "note": "",
+  "params": {
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/adv/"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "oleeo"
+ },
+ "moore-kingston-smith": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "moore-kingston-smith",
+  "name": "Moore Kingston Smith",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Accounting and Audit",
+  "segment": "IB",
+  "system": null
+ },
+ "morgan-stanley": {
+  "careers_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "note": "browser failed: Error",
+  "params": {
+   "url": "https://www.morganstanley.com/people-opportunities/students-graduates"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "mufg": {
+  "careers_url": "https://www.mufgemea.com/careers/graduates/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "mufg",
+  "name": "MUFG",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.mufgemea.com/careers/graduates/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "national-bank-of-canada": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "national-bank-of-canada",
+  "name": "National Bank of Canada",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "natixis": {
+  "careers_url": "https://www.natixis.com/en/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "natixis",
+  "name": "Natixis",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://natixis.groupebpce.com/page-404/"
+  },
+  "sector": "Buy-Side",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "natwest-markets": {
+  "careers_url": "https://jobs.natwestgroup.com/pages/early-careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "natwest-markets",
+  "name": "NatWest Markets",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://jobs.natwestgroup.com/pages/early-careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "nomura": {
+  "careers_url": "https://www.nomura.com/europe/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "nomura",
+  "name": "Nomura",
+  "note": "",
+  "params": {
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/2/adv/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "oleeo"
+ },
+ "nordic-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "nordic-capital",
+  "name": "Nordic Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "octopus-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "octopus-capital",
+  "name": "Octopus Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "opus-corporate-finance": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "opus-corporate-finance",
+  "name": "Opus Corporate Finance",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Investment Banking",
+  "segment": "IB",
+  "system": null
+ },
+ "pai-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "pai-partners",
+  "name": "PAI Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "panmure-liberum": {
+  "careers_url": "https://www.panmureliberum.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "panmure-liberum",
+  "name": "Panmure Liberum",
+  "note": "",
+  "params": {
+   "company": "panmure"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "bamboohr"
+ },
+ "partners-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "partners-group",
+  "name": "Partners Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "pathway-capital-management": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "pathway-capital-management",
+  "name": "Pathway Capital Management",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "peel-hunt": {
+  "careers_url": "https://careersat.peelhunt.com/jobs",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "peel-hunt",
+  "name": "Peel Hunt",
+  "note": "",
+  "params": {
+   "feed": "https://www.teamtailor.com/jobs.rss"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "rss"
+ },
+ "pemberton-asset-management": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "pemberton-asset-management",
+  "name": "Pemberton Asset Management",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "perella-weinberg-partners": {
+  "careers_url": "https://pwpartners.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "perella-weinberg-partners",
+  "name": "Perella Weinberg Partners",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://pwpartners.com/careers/"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "pharus": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "pharus",
+  "name": "Pharus",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "piper-sandler": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "piper-sandler",
+  "name": "Piper Sandler",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "pjt-partners": {
+  "careers_url": "https://www.pjtpartners.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "pjt-partners",
+  "name": "PJT Partners",
+  "note": "",
+  "params": {
+   "host": "pjtpartners.wd1.myworkdayjobs.com",
+   "site": "Careers",
+   "tenant": "pjtpartners"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "pkf-smith-cooper": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "pkf-smith-cooper",
+  "name": "PKF Smith Cooper",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "pwc": {
+  "careers_url": "https://www.pwc.co.uk/careers/early-careers.html",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "pwc",
+  "name": "PwC",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.pwc.co.uk/careers/early-careers.html"
+  },
+  "sector": "Big 4",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "qatalyst-partners": {
+  "careers_url": "https://www.qatalyst.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "qatalyst-partners",
+  "name": "Qatalyst Partners",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://qatalyst.com/careers"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "quantuma": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "quantuma",
+  "name": "Quantuma",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "raine-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "raine-group",
+  "name": "Raine Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": null
+ },
+ "raymond-james": {
+  "careers_url": "https://www.raymondjames.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "raymond-james",
+  "name": "Raymond James",
+  "note": "browser failed: Error",
+  "params": {
+   "url": "https://www.raymondjames.com/careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "rbc-capital-markets": {
+  "careers_url": "https://jobs.rbc.com/ca/en/students",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "rbc-capital-markets",
+  "name": "RBC Capital Markets",
+  "note": "",
+  "params": {
+   "host": "jobs.rbc.com",
+   "locale": "ca/en"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "phenom"
+ },
+ "rede-partners": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "rede-partners",
+  "name": "Rede Partners",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "revaia": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "revaia",
+  "name": "Revaia",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "rothschild-and-co": {
+  "careers_url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "rothschild-and-co",
+  "name": "Rothschild & Co",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/"
+  },
+  "sector": "Elite Boutique",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "rsm": {
+  "careers_url": "https://www.rsmuk.com/careers/early-careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "rsm",
+  "name": "RSM",
+  "note": "",
+  "params": {
+   "url": "https://rsm-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/"
+  },
+  "sector": "Accounting and Audit",
+  "segment": "IB",
+  "system": "oleeo"
+ },
+ "rsm-uk": {
+  "careers_url": "https://www.rsmuk.com/careers/early-careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "rsm-uk",
+  "name": "RSM UK",
+  "note": "",
+  "params": {
+   "url": "https://rsm-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/"
+  },
+  "sector": "Middle/Back Office",
+  "segment": "IB",
+  "system": "oleeo"
+ },
+ "sagard": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "sagard",
+  "name": "Sagard",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "santander": {
+  "careers_url": "https://www.santandercib.com/about-us/talent-culture/graduates-young-talent",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "santander",
+  "name": "Santander",
+  "note": "",
+  "params": {
+   "host": "santander.wd3.myworkdayjobs.com",
+   "site": "SantanderCareers",
+   "tenant": "santander"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "scotiabank": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "scotiabank",
+  "name": "Scotiabank",
+  "params": {
+   "account": "scotiabank"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "silverpeak": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "silverpeak",
+  "name": "Silverpeak",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Investment Banking",
+  "segment": "IB",
+  "system": null
+ },
+ "sixth-street": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "sixth-street",
+  "name": "Sixth Street",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Asset Management",
+  "segment": "PE",
+  "system": null
+ },
+ "skagen-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "skagen-capital",
+  "name": "Skagen Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "smbc": {
+  "careers_url": "https://www.smbcgroup.com/emea/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "smbc",
+  "name": "SMBC",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.smbcgroup.com/emea/careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "societe-generale": {
+  "careers_url": "https://careers.societegenerale.com/en/job-offers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "societe-generale",
+  "name": "Société Générale",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://careers.societegenerale.com/en/job-offers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "standard-bank": {
+  "checked": "2026-11-07",
+  "how": "name guess",
+  "id": "standard-bank",
+  "name": "Standard Bank",
+  "params": {
+   "account": "standard-bank"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workable"
+ },
+ "standard-chartered": {
+  "careers_url": "https://www.sc.com/en/careers/students-graduates/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "standard-chartered",
+  "name": "Standard Chartered",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.sc.com/en/careers/students-graduates/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "stephens": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "stephens",
+  "name": "Stephens",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "stepstone-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "stepstone-group",
+  "name": "StepStone Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "stifel": {
+  "careers_url": "https://www.stifel.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "stifel",
+  "name": "Stifel",
+  "note": "",
+  "params": {
+   "host": "careers-stifel.icims.com"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "icims"
+ },
+ "stj-advisors": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "stj-advisors",
+  "name": "STJ Advisors",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "stout": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "stout",
+  "name": "Stout",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "td-securities": {
+  "careers_url": "https://jobs.td.com/en-CA/campus-jobs/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "td-securities",
+  "name": "TD Securities",
+  "note": "",
+  "params": {
+   "host": "td.wd3.myworkdayjobs.com",
+   "site": "TD_Bank_Careers",
+   "tenant": "td"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "workday"
+ },
+ "teneo": {
+  "careers_url": "https://www.teneo.com/careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "teneo",
+  "name": "Teneo",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.teneo.com/careers/open-positions/"
+  },
+  "sector": "Consulting",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "tenzing": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "tenzing",
+  "name": "Tenzing",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "the-carlyle-group": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "the-carlyle-group",
+  "name": "The Carlyle Group",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "tikehau-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "tikehau-capital",
+  "name": "Tikehau Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "triton": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "triton",
+  "name": "Triton",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Asset Management",
+  "segment": "PE",
+  "system": null
+ },
+ "ubs": {
+  "careers_url": "https://www.ubs.com/global/en/careers/early-careers.html",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "ubs",
+  "name": "UBS",
+  "note": "",
+  "params": {
+   "host": "www.ubs.com"
+  },
+  "sector": "Bulge Bracket",
+  "segment": "IB",
+  "system": "radancy"
+ },
+ "venero-capital-advisors": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "venero-capital-advisors",
+  "name": "Venero Capital Advisors",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ },
+ "warburg-pincus": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "warburg-pincus",
+  "name": "Warburg Pincus",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Buy-Side",
+  "segment": "PE",
+  "system": null
+ },
+ "wells-fargo": {
+  "careers_url": "https://www.wellsfargojobs.com/en/early-careers/",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "wells-fargo",
+  "name": "Wells Fargo",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.wellsfargojobs.com/en/early-careers/"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "william-blair": {
+  "careers_url": "https://www.williamblair.com/careers",
+  "checked": "2026-11-07",
+  "how": "careers page",
+  "id": "william-blair",
+  "name": "William Blair",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.williamblair.com/careers"
+  },
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": "browser"
+ },
+ "zeus-capital": {
+  "checked": "2026-11-07",
+  "how": "not found",
+  "id": "zeus-capital",
+  "name": "Zeus Capital",
+  "note": "needs a careers page link in data/seeds.json",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "system": null
+ }
+}
