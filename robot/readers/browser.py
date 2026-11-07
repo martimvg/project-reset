@@ -7,7 +7,7 @@ import re
 import threading
 from urllib.parse import urljoin
 
-from ..filters import EARLY
+from ..filters import EARLY, NOT_A_JOB, is_job_link
 from ..http import USER_AGENT, Blocked
 from ..models import Job
 
@@ -59,8 +59,10 @@ def browser(p, http):
             continue
         if link_hint and link_hint not in href:
             continue
-        if not link_hint and not EARLY.search(text):
+        if not link_hint and (not EARLY.search(text) or NOT_A_JOB.search(text) or not is_job_link(text)):
             continue
         full = urljoin(url, href)
+        if not link_hint and re.search(r"/(insights?|news|blog|articles?|events?|media|press)/", full, re.I):
+            continue
         out.setdefault(full, Job(title=re.sub(r"\s+", " ", text), url=full))
     return list(out.values())

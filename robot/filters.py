@@ -14,12 +14,13 @@ LEVELS = {
 
 SENIOR = re.compile(
     r"\b(vice president|vp\b|director|managing director|\bmd\b|head of|principal|senior|lead\b|manager|partner\b|experienced|"
-    r"associate director|executive director|chief)\b",
+    r"associate director|executive director|chief|summer associate|mba|apprentice\w*)\b",
     re.I,
 )
 EARLY = re.compile(
-    r"intern|internship|summer analyst|graduate|spring week|insight|off[- ]?cycle|placement|work experience|"
-    r"early careers?|campus|apprentice|analyst program|analyst programme|new analyst|entry[- ]level|student|"
+    r"\bintern(s|ship|ships)?\b|summer analyst|graduate|spring week|spring insight|insight (day|week|programme|program|event)|"
+    r"off[- ]?cycle|placement|work experience|"
+    r"early careers?|campus|analyst program|analyst programme|new analyst|entry[- ]level|student|"
     r"\b20(2[6-9])\b.*\banalyst\b|\banalyst\b.*\b20(2[6-9])\b",
     re.I,
 )
@@ -27,11 +28,50 @@ LONDON = re.compile(r"\blondon\b|\bcanary wharf\b|\bcity of london\b", re.I)
 UK_ONLY = re.compile(r"^(uk|united kingdom|great britain|england|gb)$", re.I)
 
 
+# Jobs at banks that are not investment banking / private equity (scope: advisory and financing).
+OFF_SCOPE = re.compile(
+    r"technolog|software|engineer|developer|\bdata\b|cyber|\bIT\b|digital|\bAI\b|machine learning|quant|"
+    r"operations|\bops\b|sales|trading|trader|(?<!capital )\bmarkets\b|research|wealth|private bank|asset management|"
+    r"audit|assurance|\btax\b|risk|compliance|legal|human resources|\bHR\b|marketing|procurement|"
+    r"treasury|payments|retail|branch|customer|actuar|pension|insurance|consulting|accountan",
+    re.I,
+)
+# Words that only appear on articles and menus, never on job adverts.
+NOT_A_JOB = re.compile(r"^(insights?|news|blog|events?|our people|meet|read more|learn more|life at|faq|how we hire|"
+                       r"diversity|stories|podcast|report)\b|\b(insights?|article|webinar|podcast|newsletter|report \d{4})$", re.I)
+OTHER_CITY = re.compile(
+    r"new york|\bnyc\b|hong kong|singapore|dubai|abu dhabi|riyadh|doha|houston|chicago|boston|san francisco|los angeles|"
+    r"washington|toronto|montreal|sydney|melbourne|mumbai|bangalore|bengaluru|tokyo|shanghai|beijing|paris|frankfurt|"
+    r"madrid|milan|amsterdam|zurich|geneva|luxembourg|stockholm|dublin|edinburgh|glasgow|aberdeen|manchester|birmingham|"
+    r"leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|liverpool|milton keynes|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b",
+    re.I,
+)
+
+
+# A link on a careers web page counts as a job only if it names something specific:
+# a year, an analyst role or a deal team. "Graduates" or "Early careers" are menu links.
+JOB_LINK = re.compile(
+    r"\b20(2[6-9])\b|analyst|investment bank|corporate finance|financial advisory|\bm&a\b|mergers|private equity|"
+    r"capital markets|leveraged finance|restructuring|spring (week|insight)|insight (week|programme|program|day)|off[- ]?cycle",
+    re.I,
+)
+NOT_A_PAGE_FOR_ONE_JOB = re.compile(r"faqs?\b|application process|how to apply|compare|view all|overview", re.I)
+
+
+def is_job_link(text: str) -> bool:
+    return bool(JOB_LINK.search(text)) and not NOT_A_PAGE_FOR_ONE_JOB.search(text) and len(text.split()) >= 3
+
+
 def is_entry_level(title: str) -> bool:
-    if not EARLY.search(title):
+    if not EARLY.search(title) or NOT_A_JOB.search(title.strip()):
         return False
     # "Graduate Associate" is fine; "Senior Associate" is not.
     return not SENIOR.search(title)
+
+
+def in_scope(title: str) -> bool:
+    """Investment banking / private equity work, not other jobs at the same firm."""
+    return not OFF_SCOPE.search(title)
 
 
 def is_london(location: str, title: str = "") -> bool | None:
@@ -39,6 +79,8 @@ def is_london(location: str, title: str = "") -> bool | None:
     text = f"{location} {title}".strip()
     if LONDON.search(text):
         return True
+    if OTHER_CITY.search(text):
+        return False
     loc = location.strip()
     if not loc:
         return None

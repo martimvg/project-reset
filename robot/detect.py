@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 # (system, pattern over URL or HTML, function turning the match into settings)
 URL_RULES = [
-    ("workday", r"https?://(?P<host>(?P<tenant>[\w-]+)\.wd\d+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?(?P<site>[\w-]+)",
+    ("workday", r"https?://(?P<host>(?P<tenant>[\w-]+)\.wd\d+\.myworkdayjobs\.com)/(?:[a-zA-Z]{2}-[a-zA-Z]{2}/)?(?P<site>(?![a-zA-Z]{2}-[a-zA-Z]{2}\b)[\w-]+)",
      lambda m: {"host": m["host"], "tenant": m["tenant"], "site": m["site"]}),
     ("oracle", r"https?://(?P<host>[\w.-]+\.oraclecloud\.com)/hcmUI/CandidateExperience/[\w-]+/sites/(?P<site>[\w-]+)",
      lambda m: {"host": m["host"], "site": m["site"]}),
@@ -17,14 +17,14 @@ URL_RULES = [
     ("lever", r"https?://jobs\.(?P<eu>eu\.)?lever\.co/(?P<site>[\w-]+)",
      lambda m: {"site": m["site"], "eu": bool(m["eu"])}),
     ("ashby", r"https?://jobs\.ashbyhq\.com/(?P<board>[\w.-]+)", lambda m: {"board": m["board"]}),
-    ("smartrecruiters", r"https?://(?:jobs|careers)\.smartrecruiters\.com/(?P<company>[\w-]+)",
+    ("smartrecruiters", r"https?://(?:jobs|careers)\.smartrecruiters\.com/(?!ni/|oneclick)(?P<company>[\w-]+)",
      lambda m: {"company": m["company"]}),
     ("workable", r"https?://apply\.workable\.com/(?P<account>[\w-]+)", lambda m: {"account": m["account"]}),
     ("recruitee", r"https?://(?P<company>[\w-]+)\.recruitee\.com", lambda m: {"company": m["company"]}),
     ("pinpoint", r"https?://(?P<company>[\w-]+)\.pinpointhq\.com", lambda m: {"company": m["company"]}),
     ("bamboohr", r"https?://(?P<company>[\w-]+)\.bamboohr\.com", lambda m: {"company": m["company"]}),
     ("personio", r"https?://(?P<host>(?P<company>[\w-]+)\.jobs\.personio\.(?:de|com))", lambda m: {"host": m["host"], "company": m["company"]}),
-    ("teamtailor", r"https?://(?P<host>[\w-]+\.teamtailor\.com)", lambda m: {"feed": f"https://{m['host']}/jobs.rss"}),
+    ("teamtailor", r"https?://(?P<host>(?!www\.)[\w-]+\.teamtailor\.com)", lambda m: {"feed": f"https://{m['host']}/jobs.rss"}),
     ("eightfold", r"https?://(?P<host>[\w-]+\.eightfold\.ai)/careers\?[^\"'\s]*domain=(?P<domain>[\w.-]+)",
      lambda m: {"host": m["host"], "domain": m["domain"]}),
     ("icims", r"https?://(?P<host>[\w-]+\.icims\.com)", lambda m: {"host": m["host"]}),

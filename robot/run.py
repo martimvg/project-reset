@@ -14,7 +14,7 @@ import traceback
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .filters import is_entry_level, is_london, programme_type
+from .filters import in_scope, is_entry_level, is_london, programme_type
 from .http import Blocked, Http
 from .readers import READERS
 
@@ -51,6 +51,8 @@ def main() -> int:
     if only:
         sources = {k: v for k, v in sources.items() if k in only.split(",")}
     openings = load("openings.json", {})
+    if not only:  # forget roles from firms that are no longer tracked
+        openings = {k: v for k, v in openings.items() if v["company_id"] in sources}
     health = load("health.json", {})
     http = Http(min_gap=0.3)
 
@@ -82,7 +84,7 @@ def main() -> int:
         seen_now = set()
         kept = 0
         for job in jobs:
-            if not job.title or not job.url or not is_entry_level(job.title):
+            if not job.title or not job.url or not is_entry_level(job.title) or not in_scope(job.title):
                 continue
             london = is_london(job.location, job.title)
             if london is False:

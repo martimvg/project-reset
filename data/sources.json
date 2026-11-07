@@ -1,16 +1,4 @@
 {
- "abn-amro": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "abn-amro",
-  "name": "ABN AMRO",
-  "params": {
-   "account": "abn-amro"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
- },
  "access-capital-partners": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -189,22 +177,6 @@
   "segment": "IB",
   "system": null
  },
- "bank-of-america": {
-  "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "bank-of-america",
-  "name": "Bank of America",
-  "note": "",
-  "params": {
-   "host": "ghr.wd1.myworkdayjobs.com",
-   "site": "en-us",
-   "tenant": "ghr"
-  },
-  "sector": "Bulge Bracket",
-  "segment": "IB",
-  "system": "workday"
- },
  "barclays": {
   "careers_url": "https://search.jobs.barclays/",
   "checked": "2026-11-07",
@@ -220,18 +192,6 @@
   "sector": "Bulge Bracket",
   "segment": "IB",
   "system": "workday"
- },
- "bbva": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "bbva",
-  "name": "BBVA",
-  "params": {
-   "account": "bbva"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
  },
  "bda-partners": {
   "checked": "2026-11-07",
@@ -440,18 +400,6 @@
   "segment": "IB",
   "system": "browser"
  },
- "cibc": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "cibc",
-  "name": "CIBC",
-  "params": {
-   "account": "cibc"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
- },
  "cicc": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -645,18 +593,6 @@
   "segment": "IB",
   "system": "browser"
  },
- "dealglobe": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "dealglobe",
-  "name": "DealGlobe",
-  "params": {
-   "account": "dealglobe"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
- },
  "deloitte": {
   "careers_url": "https://www.deloitte.com/uk/en/careers/students.html",
   "checked": "2026-11-07",
@@ -755,20 +691,6 @@
   "segment": "PE",
   "system": null
  },
- "evercore": {
-  "careers_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "evercore",
-  "name": "Evercore",
-  "note": "",
-  "params": {
-   "company": "ni"
-  },
-  "sector": "Elite Boutique",
-  "segment": "IB",
-  "system": "smartrecruiters"
- },
  "expedition-growth-capital": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -790,20 +712,6 @@
    "url": "https://www.ey.com/en_uk/careers/students"
   },
   "sector": "Big 4",
-  "segment": "IB",
-  "system": "browser"
- },
- "ey-parthenon": {
-  "careers_url": "https://www.ey.com/en_uk/careers/students",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "ey-parthenon",
-  "name": "EY-Parthenon",
-  "note": "no known hiring system found; reading the page in the browser",
-  "params": {
-   "url": "https://www.ey.com/en_uk/careers/students"
-  },
-  "sector": "Consulting",
   "segment": "IB",
   "system": "browser"
  },
@@ -1027,18 +935,6 @@
   "segment": "PE",
   "system": null
  },
- "handelsbanken": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "handelsbanken",
-  "name": "Handelsbanken",
-  "params": {
-   "account": "handelsbanken"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
- },
  "harbourvest": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -1114,18 +1010,6 @@
   "sector": "Middle Market",
   "segment": "IB",
   "system": "workday"
- },
- "howden": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "howden",
-  "name": "Howden",
-  "params": {
-   "account": "howden"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
  },
  "hsbc": {
   "careers_url": "https://www.hsbc.com/careers/students-and-graduates",
@@ -1641,20 +1525,6 @@
   "segment": "PE",
   "system": null
  },
- "peel-hunt": {
-  "careers_url": "https://careersat.peelhunt.com/jobs",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "peel-hunt",
-  "name": "Peel Hunt",
-  "note": "",
-  "params": {
-   "feed": "https://www.teamtailor.com/jobs.rss"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "rss"
- },
  "pemberton-asset-management": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -1850,20 +1720,6 @@
   "segment": "IB",
   "system": "oleeo"
  },
- "rsm-uk": {
-  "careers_url": "https://www.rsmuk.com/careers/early-careers",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "rsm-uk",
-  "name": "RSM UK",
-  "note": "",
-  "params": {
-   "url": "https://rsm-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/"
-  },
-  "sector": "Middle/Back Office",
-  "segment": "IB",
-  "system": "oleeo"
- },
  "sagard": {
   "checked": "2026-11-07",
   "how": "not found",
@@ -1889,18 +1745,6 @@
   "sector": "Middle Market",
   "segment": "IB",
   "system": "workday"
- },
- "scotiabank": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "scotiabank",
-  "name": "Scotiabank",
-  "params": {
-   "account": "scotiabank"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
  },
  "silverpeak": {
   "checked": "2026-11-07",
@@ -1959,18 +1803,6 @@
   "sector": "Middle Market",
   "segment": "IB",
   "system": "browser"
- },
- "standard-bank": {
-  "checked": "2026-11-07",
-  "how": "name guess",
-  "id": "standard-bank",
-  "name": "Standard Bank",
-  "params": {
-   "account": "standard-bank"
-  },
-  "sector": "Middle Market",
-  "segment": "IB",
-  "system": "workable"
  },
  "standard-chartered": {
   "careers_url": "https://www.sc.com/en/careers/students-graduates/",
@@ -2109,20 +1941,6 @@
   "sector": "Asset Management",
   "segment": "PE",
   "system": null
- },
- "ubs": {
-  "careers_url": "https://www.ubs.com/global/en/careers/early-careers.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
-  "id": "ubs",
-  "name": "UBS",
-  "note": "",
-  "params": {
-   "host": "www.ubs.com"
-  },
-  "sector": "Bulge Bracket",
-  "segment": "IB",
-  "system": "radancy"
  },
  "venero-capital-advisors": {
   "checked": "2026-11-07",
