@@ -47,7 +47,7 @@ jobs:
       - name: Read every careers site
         env:
           ONLY: ${{ inputs.only }}
-        run: python -m robot.run
+        run: timeout 15m python -m robot.run
       - name: Save results
         if: always()
         run: |

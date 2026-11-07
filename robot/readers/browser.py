@@ -11,7 +11,7 @@ from ..filters import EARLY
 from ..http import USER_AGENT, Blocked
 from ..models import Job
 
-_lock = threading.Lock()
+_lock = threading.RLock()  # re-entrant: browser() holds it while _browser() starts Chrome
 _state: dict = {}
 
 

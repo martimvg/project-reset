@@ -184,6 +184,11 @@ def write_report(sources: dict) -> None:
     (DATA / "discovery_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def save(sources: dict) -> None:
+    (DATA / "sources.json").write_text(json.dumps(sources, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    write_report(sources)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="re-check companies already discovered")
@@ -221,6 +226,7 @@ def main() -> None:
                 continue
             sources[result["id"]] = result
             print(f"  {result['name']}: {result.get('system') or '-'} ({result['how']})", flush=True)
+    save(sources)  # keep what we have before the slower browser step
     for result in later:
         if time.monotonic() - started > budget:
             print(f"  {result['name']}: left for the next run (time budget)", flush=True)
@@ -236,8 +242,7 @@ def main() -> None:
         sources[result["id"]] = result
         print(f"  {result['name']}: {system} (careers page, browser)", flush=True)
     print(f"Finished in {round((time.monotonic() - started) / 60, 1)} minutes", flush=True)
-    (DATA / "sources.json").write_text(json.dumps(sources, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
-    write_report(sources)
+    save(sources)
     try:
         from .readers.browser import close
         close()

@@ -41,7 +41,7 @@ jobs:
           SCOPE="${{ github.event_name == 'schedule' && 'all' || inputs.scope || 'missing' }}"
           if [ "$SCOPE" = "all" ]; then ARGS="--all"; fi
           if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only ${{ inputs.only }}"; fi
-          python -m robot.discover $ARGS
+          timeout 20m python -m robot.discover $ARGS || echo "Stopped by the time limit; partial results kept"
           cat data/discovery_report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Save results
         if: always()
