@@ -1,24 +1,22 @@
 # Discovery report (2026-11-07)
 
-184 companies. 86 have a source; 98 still need a careers link.
+182 companies. 85 have a source; 97 still need a careers link.
 
 | Hiring system | Companies |
 | --- | --- |
-| none | 98 |
+| none | 97 |
 | browser | 47 |
+| workable | 10 |
 | workday | 9 |
-| workable | 9 |
 | oleeo | 5 |
 | greenhouse | 4 |
-| oracle | 2 |
-| radancy | 2 |
 | phenom | 2 |
-| icims | 1 |
-| rss | 1 |
-| bamboohr | 1 |
-| recruitee | 1 |
-| smartrecruiters | 1 |
+| radancy | 2 |
+| oracle | 2 |
 | personio | 1 |
+| recruitee | 1 |
+| bamboohr | 1 |
+| icims | 1 |
 
 ## Needs a careers page link
 
@@ -60,7 +58,6 @@
 - Longspur Capital (Middle Market)
 - MKI Global Partners (Middle Market)
 - Moore Kingston Smith (Accounting and Audit)
-- National Bank of Canada (Middle Market)
 - Opus Corporate Finance (Investment Banking)
 - PKF Smith Cooper (Middle Market)
 - Pharus (Middle Market)
@@ -126,50 +123,50 @@
 
 ## Read with the browser fallback
 
-- Morgan Stanley: https://www.morganstanley.com/people-opportunities/students-graduates browser failed: Error
-- Goldman Sachs: https://higher.gs.com/campus no known hiring system found; reading the page in the browser
-- Deutsche Bank: https://careers.db.com/students-graduates/#/graduate/ no known hiring system found; reading the page in the browser
-- Centerview Partners: https://www.centerviewpartners.com/careers no known hiring system found; reading the page in the browser
-- Greenhill: https://www.mizuhogroup.com/americas/banking no known hiring system found; reading the page in the browser
+- Alantra: https://www.alantra.com/careers/ no known hiring system found; reading the page in the browser
+- Alvarez & Marsal: https://www.alvarezandmarsal.com/careers no known hiring system found; reading the page in the browser
 - Ardea Partners: https://www.ardeapartners.com/ no known hiring system found; reading the page in the browser
-- Perella Weinberg Partners: https://pwpartners.com/careers/ no known hiring system found; reading the page in the browser
-- Rothschild & Co: https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ no known hiring system found; reading the page in the browser
-- LionTree: https://liontree.com/careers no known hiring system found; reading the page in the browser
-- Qatalyst Partners: https://qatalyst.com/careers no known hiring system found; reading the page in the browser
-- Lloyds Banking Group: https://www.lloydsbankinggrouptalent.com/ no known hiring system found; reading the page in the browser
-- Crédit Agricole: https://jobs.ca-cib.com/accueil.aspx?LCID=1036 no known hiring system found; reading the page in the browser
-- NatWest Markets: https://jobs.natwestgroup.com/pages/early-careers no known hiring system found; reading the page in the browser
-- MUFG: https://www.mufgemea.com/careers/graduates/ no known hiring system found; reading the page in the browser
-- Macquarie Group: https://recruitment.macquarie.com/en_US/careers/SearchJobs no known hiring system found; reading the page in the browser
-- DC Advisory: https://www.dcadvisory.com/careers/ no known hiring system found; reading the page in the browser
-- Standard Chartered: https://www.sc.com/en/careers/students-graduates/ no known hiring system found; reading the page in the browser
-- Gleacher Shacklock: https://investors.pwpartners.com/news-releases/news-release-details/perella-weinberg-acquire-gleacher-shacklock-leading-independent no known hiring system found; reading the page in the browser
-- Raymond James: https://www.raymondjames.com/careers browser failed: Error
-- GP Bullhound: https://www.gpbullhound.com/careers/ no known hiring system found; reading the page in the browser
+- Baird: https://www.bairdcareers.com/ no known hiring system found; reading the page in the browser
+- BDO Global: https://www.bdo.co.uk/en-gb/careers/students-and-graduates no known hiring system found; reading the page in the browser
 - Berenberg: https://careers.berenberg.com/ no known hiring system found; reading the page in the browser
+- BNP Paribas: https://group.bnpparibas/en/careers/all-job-offers no known hiring system found; reading the page in the browser
+- Canaccord Genuity: https://www.canaccordgenuity.com/careers/ no known hiring system found; reading the page in the browser
+- Centerview Partners: https://www.centerviewpartners.com/careers no known hiring system found; reading the page in the browser
+- Commerzbank: https://www.commerzbank.de/group/xyz/index.html no known hiring system found; reading the page in the browser
+- Crédit Agricole: https://jobs.ca-cib.com/accueil.aspx?LCID=1036 no known hiring system found; reading the page in the browser
+- DC Advisory: https://www.dcadvisory.com/careers/ no known hiring system found; reading the page in the browser
+- Deloitte: https://www.deloitte.com/uk/en/careers/students.html no known hiring system found; reading the page in the browser
+- Deutsche Bank: https://careers.db.com/students-graduates/#/graduate/ no known hiring system found; reading the page in the browser
+- EY: https://www.ey.com/en_uk/careers/students no known hiring system found; reading the page in the browser
+- Fenchurch Advisory: https://fenchurchadvisory.com/careers/ no known hiring system found; reading the page in the browser
+- Forvis Mazars: https://www.forvismazars.com/uk/en/careers no known hiring system found; reading the page in the browser
+- Gleacher Shacklock: https://investors.pwpartners.com/news-releases/news-release-details/perella-weinberg-acquire-gleacher-shacklock-leading-independent no known hiring system found; reading the page in the browser
+- Goldman Sachs: https://higher.gs.com/campus no known hiring system found; reading the page in the browser
+- GP Bullhound: https://www.gpbullhound.com/careers/ no known hiring system found; reading the page in the browser
+- Greenhill: https://www.mizuhogroup.com/americas/banking no known hiring system found; reading the page in the browser
+- HSBC: https://www.hsbc.com/careers/students-and-graduates no known hiring system found; reading the page in the browser
+- Investec: https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html no known hiring system found; reading the page in the browser
+- KPMG: https://www.kpmgcareers.co.uk/graduate/deal-advisory no known hiring system found; reading the page in the browser
 - KR8 Advisory: https://www.kr8advisory.com/careers browser failed: Error
 - Kroll: https://www.kroll.com/en/careers no known hiring system found; reading the page in the browser
-- Investec: https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html no known hiring system found; reading the page in the browser
-- HSBC: https://www.hsbc.com/careers/students-and-graduates no known hiring system found; reading the page in the browser
 - Lincoln International: https://www.lincolninternational.com/careers/ no known hiring system found; reading the page in the browser
+- LionTree: https://liontree.com/careers no known hiring system found; reading the page in the browser
+- Lloyds Banking Group: https://www.lloydsbankinggrouptalent.com/ no known hiring system found; reading the page in the browser
+- Macquarie Group: https://recruitment.macquarie.com/en_US/careers/SearchJobs no known hiring system found; reading the page in the browser
 - Mizuho: https://www.mizuhogroup.com/emea/careers/graduates no known hiring system found; reading the page in the browser
-- Société Générale: https://careers.societegenerale.com/en/job-offers no known hiring system found; reading the page in the browser
-- Baird: https://www.bairdcareers.com/ no known hiring system found; reading the page in the browser
-- Alantra: https://www.alantra.com/careers/ no known hiring system found; reading the page in the browser
-- William Blair: https://www.williamblair.com/careers no known hiring system found; reading the page in the browser
-- Fenchurch Advisory: https://fenchurchadvisory.com/careers/ no known hiring system found; reading the page in the browser
-- Wells Fargo: https://www.wellsfargojobs.com/en/early-careers/ no known hiring system found; reading the page in the browser
-- BNP Paribas: https://group.bnpparibas/en/careers/all-job-offers no known hiring system found; reading the page in the browser
-- SMBC: https://www.smbcgroup.com/emea/careers no known hiring system found; reading the page in the browser
-- EY: https://www.ey.com/en_uk/careers/students no known hiring system found; reading the page in the browser
-- PwC: https://www.pwc.co.uk/careers/early-careers.html no known hiring system found; reading the page in the browser
-- KPMG: https://www.kpmgcareers.co.uk/graduate/deal-advisory no known hiring system found; reading the page in the browser
-- Deloitte: https://www.deloitte.com/uk/en/careers/students.html no known hiring system found; reading the page in the browser
-- EY-Parthenon: https://www.ey.com/en_uk/careers/students no known hiring system found; reading the page in the browser
-- Alvarez & Marsal: https://www.alvarezandmarsal.com/careers no known hiring system found; reading the page in the browser
-- Teneo: https://www.teneo.com/careers/open-positions/ no known hiring system found; reading the page in the browser
-- BDO Global: https://www.bdo.co.uk/en-gb/careers/students-and-graduates no known hiring system found; reading the page in the browser
-- Forvis Mazars: https://www.forvismazars.com/uk/en/careers no known hiring system found; reading the page in the browser
+- Morgan Stanley: https://www.morganstanley.com/people-opportunities/students-graduates browser failed: Error
+- MUFG: https://www.mufgemea.com/careers/graduates/ no known hiring system found; reading the page in the browser
 - Natixis: https://natixis.groupebpce.com/page-404/ no known hiring system found; reading the page in the browser
-- Commerzbank: https://www.commerzbank.de/group/xyz/index.html no known hiring system found; reading the page in the browser
-- Canaccord Genuity: https://www.canaccordgenuity.com/careers/ no known hiring system found; reading the page in the browser
+- NatWest Markets: https://jobs.natwestgroup.com/pages/early-careers no known hiring system found; reading the page in the browser
+- Perella Weinberg Partners: https://pwpartners.com/careers/ no known hiring system found; reading the page in the browser
+- PwC: https://www.pwc.co.uk/careers/early-careers.html no known hiring system found; reading the page in the browser
+- Qatalyst Partners: https://qatalyst.com/careers no known hiring system found; reading the page in the browser
+- Raymond James: https://www.raymondjames.com/careers browser failed: Error
+- Rothschild & Co: https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ no known hiring system found; reading the page in the browser
+- SMBC: https://www.smbcgroup.com/emea/careers no known hiring system found; reading the page in the browser
+- Société Générale: https://careers.societegenerale.com/en/job-offers no known hiring system found; reading the page in the browser
+- Standard Chartered: https://www.sc.com/en/careers/students-graduates/ no known hiring system found; reading the page in the browser
+- Teneo: https://www.teneo.com/careers/open-positions/ no known hiring system found; reading the page in the browser
+- Wells Fargo: https://www.wellsfargojobs.com/en/early-careers/ no known hiring system found; reading the page in the browser
+- William Blair: https://www.williamblair.com/careers no known hiring system found; reading the page in the browser
+- Peel Hunt: https://careersat.peelhunt.com/jobs no known hiring system found; reading the page in the browser
