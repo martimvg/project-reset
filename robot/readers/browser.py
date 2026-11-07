@@ -42,7 +42,8 @@ def browser(p, http):
     with _lock:  # called from the main thread only (see run.py)
         page = _browser().new_page(user_agent=USER_AGENT)
         try:
-            page.goto(url, wait_until="networkidle", timeout=45000)
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(4000)
             for _ in range(3):  # load lazy lists
                 page.mouse.wheel(0, 4000)
                 page.wait_for_timeout(800)

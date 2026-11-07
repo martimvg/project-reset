@@ -106,7 +106,8 @@ def rendered_html(url: str) -> tuple[str, str]:
     with _lock:
         page = _browser().new_page(user_agent=USER_AGENT)
         try:
-            page.goto(url, wait_until="networkidle", timeout=45000)
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_timeout(4000)
             return page.url, page.content()
         finally:
             page.close()
