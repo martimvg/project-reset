@@ -58,12 +58,17 @@ JOB_LINK = re.compile(
 NOT_A_PAGE_FOR_ONE_JOB = re.compile(r"faqs?\b|application process|how to apply|compare|view all|overview", re.I)
 
 
+# Recruiting events (coffee chats, campus visits) are not roles you apply to.
+EVENT = re.compile(r"coffee chats?|campus visit|open house|info(rmation)? session|networking|\bhbcu\b|veteran|webinar|"
+                   r"dartmouth|georgetown|\bduke\b|harvard|wharton|menlo park", re.I)
+
+
 def is_job_link(text: str) -> bool:
     return bool(JOB_LINK.search(text)) and not NOT_A_PAGE_FOR_ONE_JOB.search(text) and len(text.split()) >= 3
 
 
 def is_entry_level(title: str) -> bool:
-    if not EARLY.search(title) or NOT_A_JOB.search(title.strip()):
+    if not EARLY.search(title) or NOT_A_JOB.search(title.strip()) or EVENT.search(title):
         return False
     # "Graduate Associate" is fine; "Senior Associate" is not.
     return not SENIOR.search(title)
