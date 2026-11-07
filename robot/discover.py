@@ -17,7 +17,9 @@ import argparse
 import csv
 import datetime as dt
 import json
+import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -198,22 +200,42 @@ def main() -> None:
             and (not args.only or c["id"] in args.only.split(","))
             and (not args.segment or c["segment"] == args.segment)]
     print(f"Discovering {len(todo)} of {len(companies)} companies", flush=True)
-    http = Http(min_gap=1.0)
+    http = Http(min_gap=0.3)
+    started = time.monotonic()
+    budget = float(os.environ.get("BUDGET_MINUTES", "12")) * 60
     # Plain web requests run in parallel; the screenless browser only works on
     # one thread, so pages that need it are handled afterwards, one by one.
+    # Anything not reached within the time budget is picked up by the next run.
+    def one(c):
+        if time.monotonic() - started > budget * 0.6:
+            return None
+        return discover_one(c, seeds, overrides, http)
+
     later = []
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        for result in pool.map(lambda c: discover_one(c, seeds, overrides, http), todo):
+    with ThreadPoolExecutor(max_workers=24) as pool:
+        for result in pool.map(one, todo):
+            if result is None:
+                continue
             if result.pop("needs_browser", False):
                 later.append(result)
                 continue
             sources[result["id"]] = result
             print(f"  {result['name']}: {result.get('system') or '-'} ({result['how']})", flush=True)
     for result in later:
-        system, params, note = from_seed(result["careers_url"], http, allow_browser=True)
-        result.update({"system": system or None, "params": params, "note": note})
+        if time.monotonic() - started > budget:
+            print(f"  {result['name']}: left for the next run (time budget)", flush=True)
+            continue
+        try:
+            final, html = rendered_html(result["careers_url"])
+            found = detect(final, html)
+            system, params = found if found else ("browser", {"url": final})
+            note = "" if found else "no known hiring system found; reading the page in the browser"
+        except Exception as e:  # noqa: BLE001
+            system, params, note = "browser", {"url": result["careers_url"]}, f"browser failed: {e.__class__.__name__}"
+        result.update({"system": system, "params": params, "note": note})
         sources[result["id"]] = result
-        print(f"  {result['name']}: {result.get('system') or '-'} (careers page, browser)", flush=True)
+        print(f"  {result['name']}: {system} (careers page, browser)", flush=True)
+    print(f"Finished in {round((time.monotonic() - started) / 60, 1)} minutes", flush=True)
     (DATA / "sources.json").write_text(json.dumps(sources, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     write_report(sources)
     try:

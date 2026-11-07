@@ -52,7 +52,7 @@ def main() -> int:
         sources = {k: v for k, v in sources.items() if k in only.split(",")}
     openings = load("openings.json", {})
     health = load("health.json", {})
-    http = Http(min_gap=1.0)
+    http = Http(min_gap=0.3)
 
     new_roles, newly_broken = [], []
     # Plain web requests run in parallel; browser-based sources run one by one
@@ -61,7 +61,11 @@ def main() -> int:
     in_browser = [s for s in sources.values() if s["system"] == "browser"]
     with ThreadPoolExecutor(max_workers=int(os.environ.get("WORKERS", "8"))) as pool:
         results = list(pool.map(lambda s: read_source(s, http), plain))
-    results += [read_source(s, http) for s in in_browser]
+    deadline = time.monotonic() + float(os.environ.get("BROWSER_MINUTES", "6")) * 60
+    for s in in_browser:  # browser pages are slow: cap their total time per run
+        if time.monotonic() > deadline:
+            break
+        results.append(read_source(s, http))
 
     for src, jobs, error, seconds in results:
         cid = src["id"]
