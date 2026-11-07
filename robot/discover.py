@@ -30,8 +30,9 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 
 def load_companies() -> list[dict]:
+    """Companies in scope: investment banking (IB) and private equity (PE)."""
     with open(DATA / "companies.csv", newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        return [c for c in csv.DictReader(f) if c.get("segment")]
 
 
 def load_json(name: str, default):
@@ -135,7 +136,7 @@ def from_seed(url: str, http: Http) -> tuple[str, dict, str]:
 
 def discover_one(company: dict, seeds: dict, overrides: dict, http: Http) -> dict:
     cid = company["id"]
-    entry = {"id": cid, "name": company["name"], "sector": company["sector"], "ib_focus": company["ib_focus"],
+    entry = {"id": cid, "name": company["name"], "sector": company["sector"], "segment": company["segment"],
              "checked": dt.date.today().isoformat()}
     if cid in overrides:
         return {**entry, **overrides[cid], "how": "set by hand"}
@@ -168,7 +169,7 @@ def write_report(sources: dict) -> None:
              "| Hiring system | Companies |", "| --- | --- |"]
     lines += [f"| {k} | {v} |" for k, v in sorted(by_system.items(), key=lambda kv: -kv[1])]
     lines += ["", "## Needs a careers page link", ""]
-    lines += [f"- {s['name']} ({s['sector']})" for s in sorted(missing, key=lambda s: (s['ib_focus'] != 'yes', s['name']))]
+    lines += [f"- {s['name']} ({s['sector']})" for s in sorted(missing, key=lambda s: (s['segment'], s['name']))]
     lines += ["", "## Matched by name guess: please confirm", ""]
     lines += [f"- {s['name']}: {s['system']} `{s['params']}`" for s in unconfirmed]
     lines += ["", "## Read with the browser fallback", ""]
@@ -180,7 +181,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="re-check companies already discovered")
     ap.add_argument("--only", help="comma-separated company ids")
-    ap.add_argument("--ib-only", action="store_true", help="only investment banking companies")
+    ap.add_argument("--segment", help="IB or PE only")
     args = ap.parse_args()
 
     companies = load_companies()
@@ -190,7 +191,7 @@ def main() -> None:
     todo = [c for c in companies
             if (args.all or c["id"] not in sources or not sources[c["id"]].get("system") or c["id"] in overrides)
             and (not args.only or c["id"] in args.only.split(","))
-            and (not args.ib_only or c["ib_focus"] == "yes")]
+            and (not args.segment or c["segment"] == args.segment)]
     print(f"Discovering {len(todo)} of {len(companies)} companies")
     http = Http(min_gap=1.0)
     with ThreadPoolExecutor(max_workers=6) as pool:

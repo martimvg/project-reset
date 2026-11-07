@@ -6,6 +6,9 @@ on:
     - cron: "*/15 7-19 * * 1-5"
     - cron: "0 0-6,20-23 * * 1-5"
     - cron: "0 * * * 0,6"
+  workflow_run:
+    workflows: ["Discover careers sites"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       only:

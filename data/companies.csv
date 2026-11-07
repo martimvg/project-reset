@@ -1,830 +1,830 @@
-id,name,sector,ib_focus
-alphasights,AlphaSights,Miscellaneous,no
-shell,Shell,Miscellaneous,no
-amplifyme,AmplifyME,Miscellaneous,no
-wincent,Wincent,Miscellaneous,no
-citi,Citi,Bulge Bracket,yes
-morgan-stanley,Morgan Stanley,Bulge Bracket,yes
-j-p-morgan,J.P. Morgan,Bulge Bracket,yes
-barclays,Barclays,Bulge Bracket,yes
-goldman-sachs,Goldman Sachs,Bulge Bracket,yes
-deutsche-bank,Deutsche Bank,Bulge Bracket,yes
-ubs,UBS,Bulge Bracket,yes
-bank-of-america,Bank of America,Bulge Bracket,yes
-centerview-partners,Centerview Partners,Elite Boutique,yes
-moelis-and-co,Moelis & Co,Elite Boutique,yes
-lazard,Lazard,Elite Boutique,yes
-evercore,Evercore,Elite Boutique,yes
-greenhill,Greenhill,Elite Boutique,yes
-pjt-partners,PJT Partners,Elite Boutique,yes
-ardea-partners,Ardea Partners,Elite Boutique,yes
-raine-group,Raine Group,Elite Boutique,yes
-perella-weinberg-partners,Perella Weinberg Partners,Elite Boutique,yes
-rothschild-and-co,Rothschild & Co,Elite Boutique,yes
-liontree,LionTree,Elite Boutique,yes
-qatalyst-partners,Qatalyst Partners,Elite Boutique,yes
-lloyds-banking-group,Lloyds Banking Group,Middle Market,yes
-stj-advisors,STJ Advisors,Middle Market,yes
-bbva,BBVA,Middle Market,yes
-credit-agricole,Crédit Agricole,Middle Market,yes
-rbc-capital-markets,RBC Capital Markets,Middle Market,yes
-jefferies,Jefferies,Middle Market,yes
-scotiabank,Scotiabank,Middle Market,yes
-standard-bank,Standard Bank,Middle Market,yes
-natwest-markets,NatWest Markets,Middle Market,yes
-mufg,MUFG,Middle Market,yes
-macquarie-group,Macquarie Group,Middle Market,yes
-dc-advisory,DC Advisory,Middle Market,yes
-nomura,Nomura,Middle Market,yes
-standard-chartered,Standard Chartered,Middle Market,yes
-santander,Santander,Middle Market,yes
-gleacher-shacklock,Gleacher Shacklock,Middle Market,yes
-raymond-james,Raymond James,Middle Market,yes
-rede-partners,Rede Partners,Middle Market,yes
-dealglobe,DealGlobe,Middle Market,yes
-piper-sandler,Piper Sandler,Middle Market,yes
-pharus,Pharus,Middle Market,yes
-quantuma,Quantuma,Middle Market,yes
-skagen-capital,Skagen Capital,Middle Market,yes
-allia-candc,Allia C&C,Middle Market,yes
-flowdesk,Flowdesk,Middle Market,yes
-mki-global-partners,MKI Global Partners,Middle Market,yes
-citic-clsa,CITIC CLSA,Middle Market,yes
-gp-bullhound,GP Bullhound,Middle Market,yes
-global-infrastructure-advisors,Global Infrastructure Advisors,Middle Market,yes
-leerink-partners,Leerink Partners,Middle Market,yes
-insurance-advisory-partners,Insurance Advisory Partners,Middle Market,yes
-loizou-and-co,Loizou & Co,Middle Market,yes
-stifel,Stifel,Middle Market,yes
-gneiss-energy,Gneiss Energy,Middle Market,yes
-stout,Stout,Middle Market,yes
-houlihan-lokey,Houlihan Lokey,Middle Market,yes
-btg-pactual,BTG Pactual,Middle Market,yes
-cygnum-capital,Cygnum Capital,Middle Market,yes
-berenberg,Berenberg,Middle Market,yes
-handelsbanken,Handelsbanken,Middle Market,yes
-galaxy,Galaxy,Middle Market,yes
-zeus-capital,Zeus Capital,Middle Market,yes
-pkf-smith-cooper,PKF Smith Cooper,Middle Market,yes
-abn-amro,ABN AMRO,Middle Market,yes
-btig,BTIG,Middle Market,yes
-national-bank-of-canada,National Bank of Canada,Middle Market,yes
-kr8-advisory,KR8 Advisory,Middle Market,yes
-bmo-capital-markets,BMO Capital Markets,Middle Market,yes
-collingwood,Collingwood,Middle Market,yes
-kroll,Kroll,Middle Market,yes
-peel-hunt,Peel Hunt,Middle Market,yes
-investec,Investec,Middle Market,yes
-equiteq,Equiteq,Middle Market,yes
-hsbc,HSBC,Middle Market,yes
-longspur-capital,Longspur Capital,Middle Market,yes
-td-securities,TD Securities,Middle Market,yes
-campbell-lutyens,Campbell Lutyens,Middle Market,yes
-cibc,CIBC,Middle Market,yes
-panmure-liberum,Panmure Liberum,Middle Market,yes
-howden,Howden,Middle Market,yes
-lincoln-international,Lincoln International,Middle Market,yes
-mizuho,Mizuho,Middle Market,yes
-societe-generale,Société Générale,Middle Market,yes
-baird,Baird,Middle Market,yes
-harris-williams,Harris Williams,Middle Market,yes
-alantra,Alantra,Middle Market,yes
-eastdil-secured,Eastdil Secured,Middle Market,yes
-william-blair,William Blair,Middle Market,yes
-fenchurch-advisory,Fenchurch Advisory,Middle Market,yes
-wells-fargo,Wells Fargo,Middle Market,yes
-guggenheim-partners,Guggenheim Partners,Middle Market,yes
-bnp-paribas,BNP Paribas,Middle Market,yes
-smbc,SMBC,Middle Market,yes
-eqt,EQT,Buy-Side,no
-tudor-group,Tudor Group,Buy-Side,no
-cambridge-associates,Cambridge Associates,Buy-Side,no
-castleton-commodities-international,Castleton Commodities International,Buy-Side,no
-stepstone-group,StepStone Group,Buy-Side,no
-ccaventus,Ccaventus,Buy-Side,no
-harrison-street,Harrison Street,Buy-Side,no
-capstone,Capstone,Buy-Side,no
-balyasny-asset-management,Balyasny Asset Management,Buy-Side,no
-verition-fund-management,Verition Fund Management,Buy-Side,no
-brevan-howard,Brevan Howard,Buy-Side,no
-graham-capital-management,Graham Capital Management,Buy-Side,no
-millennium-management,Millennium Management,Buy-Side,no
-squarepoint-capital,Squarepoint Capital,Buy-Side,no
-gic,GIC,Buy-Side,no
-capula-investment-management,Capula Investment Management,Buy-Side,no
-oak-hill-advisors,Oak Hill Advisors,Buy-Side,no
-general-atlantic,General Atlantic,Buy-Side,no
-man-group,Man Group,Buy-Side,no
-future-planet-capital,Future Planet Capital,Buy-Side,no
-w-p-carey,W. P. Carey,Buy-Side,no
-exoduspoint,ExodusPoint,Buy-Side,no
-brio-real-estate,Brio Real Estate,Buy-Side,no
-lasalle,LaSalle,Buy-Side,no
-rokos-capital-management,Rokos Capital Management,Buy-Side,no
-iqt,IQT,Buy-Side,no
-welltower,Welltower,Buy-Side,no
-ethical-capital-partners,Ethical Capital Partners,Buy-Side,no
-hayfin-capital-management,Hayfin Capital Management,Buy-Side,no
-equitix,Equitix,Buy-Side,no
-burford-capital,Burford Capital,Buy-Side,no
-cdandr,CD&R,Buy-Side,no
-caxton-associates,Caxton Associates,Buy-Side,no
-bgf,BGF,Buy-Side,no
-sona-asset-management,Sona Asset Management,Buy-Side,no
-lmr-partners,LMR Partners,Buy-Side,no
-compound-equity-group,Compound Equity Group,Buy-Side,no
-orbis,Orbis,Buy-Side,no
-neuberger-berman,Neuberger Berman,Buy-Side,no
-westgrove,Westgrove,Buy-Side,no
-alvine-capital,Alvine Capital,Buy-Side,no
-pictet-asset-management,Pictet Asset Management,Buy-Side,no
-global-gate,Global Gate,Buy-Side,no
-point72,Point72,Buy-Side,no
-the-dot-group,The Dot Group,Buy-Side,no
-greystar,Greystar,Buy-Side,no
-climate-investment,Climate Investment,Buy-Side,no
-intriva,Intriva,Buy-Side,no
-hamilton-lane,Hamilton Lane,Buy-Side,no
-orchard-global,Orchard Global,Buy-Side,no
-oxford-properties-group,Oxford Properties Group,Buy-Side,no
-schonfeld,Schonfeld,Buy-Side,no
-kline-hill-partners,Kline Hill Partners,Buy-Side,no
-affinius-capital,Affinius Capital,Buy-Side,no
-blackstone,Blackstone,Buy-Side,no
-temasek,Temasek,Buy-Side,no
-infrared-capital-partners,InfraRed Capital Partners,Buy-Side,no
-ares-management,Ares Management,Buy-Side,no
-patrizia,Patrizia,Buy-Side,no
-atlas-holdings,Atlas Holdings,Buy-Side,no
-d-e-shaw,D.E. Shaw,Buy-Side,no
-citadel,Citadel,Buy-Side,no
-mandg,M&G,Asset Management,no
-corient,Corient,Asset Management,no
-fidelity-international,Fidelity International,Asset Management,no
-pimco,PIMCO,Asset Management,no
-bny-mellon,BNY Mellon,Asset Management,no
-principal-asset-management,Principal Asset Management,Asset Management,no
-british-land,British Land,Asset Management,no
-alliancebernstein,AllianceBernstein,Asset Management,no
-arbuthnot-latham,Arbuthnot Latham,Asset Management,no
-altana-wealth,Altana Wealth,Asset Management,no
-aberdeen-group,Aberdeen Group,Asset Management,no
-soros-fund-management,Soros Fund Management,Asset Management,no
-first-wealth,First Wealth,Asset Management,no
-columbia-threadneedle-investments,Columbia Threadneedle Investments,Asset Management,no
-jll,JLL,Asset Management,no
-cabot-properties,Cabot Properties,Asset Management,no
-leo-crown-estates,Leo-Crown Estates,Asset Management,no
-vanguard,Vanguard,Asset Management,no
-mfs,MFS,Asset Management,no
-dimensional-fund-advisors,Dimensional Fund Advisors,Asset Management,no
-legal-and-general,Legal & General,Asset Management,no
-australiansuper,AustralianSuper,Asset Management,no
-chatham-financial,Chatham Financial,Asset Management,no
-blackfinch-group,Blackfinch Group,Asset Management,no
-7im,7IM,Asset Management,no
-nuveen,Nuveen,Asset Management,no
-julius-baer,Julius Baer,Asset Management,no
-northern-trust,Northern Trust,Asset Management,no
-caledonia-investments,Caledonia Investments,Asset Management,no
-dws,DWS,Asset Management,no
-atlana-wealth,Atlana Wealth,Asset Management,no
-weatherbys-private-bank,Weatherbys Private Bank,Asset Management,no
-sixth-street,Sixth Street,Asset Management,no
-pgim,PGIM,Asset Management,no
-lazard-asset-management,Lazard Asset Management,Asset Management,no
-norges-bank,Norges Bank,Asset Management,no
-aluna-partners,Aluna Partners,Asset Management,no
-capital-group,Capital Group,Asset Management,no
-barings,Barings,Asset Management,no
-schroders,Schroders,Asset Management,no
-franklin-templeton,Franklin Templeton,Asset Management,no
-redburn,Redburn,Asset Management,no
-walter-scott,Walter Scott,Asset Management,no
-hines,Hines,Asset Management,no
-blackrock,BlackRock,Asset Management,no
-fidelity-investments,Fidelity Investments,Asset Management,no
-ey,EY,Big 4,yes
-pwc,PwC,Big 4,yes
-kpmg,KPMG,Big 4,yes
-deloitte,Deloitte,Big 4,yes
-charles-river-associates,Charles River Associates,Consulting,no
-pa-consulting,PA Consulting,Consulting,no
-fti-consulting,FTI Consulting,Consulting,no
-zs,ZS,Consulting,no
-ey-parthenon,EY-Parthenon,Consulting,no
-ocandc,OC&C,Consulting,no
-roland-berger,Roland Berger,Consulting,no
-l-e-k-consulting,L.E.K. Consulting,Consulting,no
-oliver-wyman,Oliver Wyman,Consulting,no
-mckinsey-and-company,McKinsey & Company,Consulting,no
-nera,NERA,Consulting,no
-ankura,Ankura,Consulting,no
-alvarez-and-marsal,Alvarez & Marsal,Consulting,no
-compass-lexecon,Compass Lexecon,Consulting,no
-knight-frank,Knight Frank,Consulting,no
-oxera,Oxera,Consulting,no
-baringa,Baringa,Consulting,no
-teneo,Teneo,Consulting,no
-analysys-mason,Analysys Mason,Consulting,no
-putnam,Putnam,Consulting,no
-alpha-fmc,Alpha FMC,Consulting,no
-capgemini,Capgemini,Consulting,no
-fide-partners,Fide Partners,Consulting,no
-cfo-insights,CFO Insights,Consulting,no
-retail-insights,Retail Insights,Consulting,no
-turner-and-townsend,Turner & Townsend,Consulting,no
-guidehouse,Guidehouse,Consulting,no
-korn-ferry,Korn Ferry,Consulting,no
-newton,Newton,Consulting,no
-plural-strategy,Plural Strategy,Consulting,no
-bcg,BCG,Consulting,no
-wood-mackenzie,Wood Mackenzie,Consulting,no
-simon-kucher,Simon-Kucher,Consulting,no
-gep,GEP,Consulting,no
-nextwave-consulting,NextWave Consulting,Consulting,no
-colliers,Colliers,Consulting,no
-bain-and-company,Bain & Company,Consulting,no
-interpath-advisory,Interpath Advisory,Consulting,no
-near-future,Near Future,Consulting,no
-platinum-peak-holdings-ltd,Platinum Peak Holdings Ltd,Consulting,no
-proxima,Proxima,Consulting,no
-inverto,Inverto,Consulting,no
-brg,BRG,Consulting,no
-rystad-energy,Rystad Energy,Consulting,no
-accuracy,Accuracy,Consulting,no
-inizio-ignite,Inizio Ignite,Consulting,no
-liquidnet,Liquidnet,Trading and Quant,no
-graviton,Graviton,Trading and Quant,no
-jain-global,Jain Global,Trading and Quant,no
-flow-traders,Flow Traders,Trading and Quant,no
-synthesis,Synthesis,Trading and Quant,no
-qube-rt,Qube RT,Trading and Quant,no
-marshall-wace,Marshall Wace,Trading and Quant,no
-tower-research-capital,Tower Research Capital,Trading and Quant,no
-blocktech,BlockTech,Trading and Quant,no
-g-research,G-Research,Trading and Quant,no
-optiver,Optiver,Trading and Quant,no
-xantium,Xantium,Trading and Quant,no
-isam,iSAM,Trading and Quant,no
-dv-trading,DV Trading,Trading and Quant,no
-hudson-river-trading,Hudson River Trading,Trading and Quant,no
-jane-street,Jane Street,Trading and Quant,no
-chicago-trading-company,Chicago Trading Company,Trading and Quant,no
-susquehanna-international-group,Susquehanna International Group,Trading and Quant,no
-da-vinci-trading,Da Vinci Trading,Trading and Quant,no
-drw,DRW,Trading and Quant,no
-jump-trading,Jump Trading,Trading and Quant,no
-gsa-capital,GSA Capital,Trading and Quant,no
-virtu-financial,Virtu Financial,Trading and Quant,no
-citadel-securities,Citadel Securities,Trading and Quant,no
-aquatic-capital-management,Aquatic Capital Management,Trading and Quant,no
-xtx-markets,XTX Markets,Trading and Quant,no
-wintermute,Wintermute,Trading and Quant,no
-quadrature,Quadrature,Trading and Quant,no
-stonex,StoneX,Trading and Quant,no
-bastion-trading,Bastion Trading,Trading and Quant,no
-dare,Dare,Trading and Quant,no
-state-street,State Street,Trading and Quant,no
-bmll,BMLL,Trading and Quant,no
-genesis-quant-capital,Genesis Quant Capital,Trading and Quant,no
-aspect-capital,Aspect Capital,Trading and Quant,no
-marketaxess,MarketAxess,Trading and Quant,no
-silvertide,SilverTide,Trading and Quant,no
-maven-securities,Maven Securities,Trading and Quant,no
-ripple,Ripple,Trading and Quant,no
-imc-trading,IMC Trading,Trading and Quant,no
-teza-technologies,Teza Technologies,Trading and Quant,no
-clarksons,Clarksons,Trading and Quant,no
-cboe-global-markets,Cboe Global Markets,Trading and Quant,no
-gunvor,Gunvor,Trading and Quant,no
-e-on,E.ON,Trading and Quant,no
-superbet,Superbet,Trading and Quant,no
-bp,bp,Trading and Quant,no
-mako-trading,Mako Trading,Trading and Quant,no
-equinor,Equinor,Trading and Quant,no
-rwe,RWE,Trading and Quant,no
-xy-capital,XY Capital,Trading and Quant,no
-quantbot-technologies,Quantbot Technologies,Trading and Quant,no
-edf-trading,EDF Trading,Trading and Quant,no
-carter-jonas,Carter Jonas,Real Estate,no
-grosvenor,Grosvenor,Real Estate,no
-cushman-and-wakefield,Cushman & Wakefield,Real Estate,no
-savills,Savills,Real Estate,no
-canary-wharf-group,Canary Wharf Group,Real Estate,no
-cbre,CBRE,Real Estate,no
-aon,Aon,Pensions and Insurance,no
-arch-insurance-international,Arch Insurance International,Pensions and Insurance,no
-aegon,Aegon,Pensions and Insurance,no
-isio,Isio,Pensions and Insurance,no
-rothesay,Rothesay,Pensions and Insurance,no
-wtw,WTW,Pensions and Insurance,no
-mercer,Mercer,Pensions and Insurance,no
-royal-london,Royal London,Pensions and Insurance,no
-first-actuarial,First Actuarial,Pensions and Insurance,no
-munich-re,Munich Re,Pensions and Insurance,no
-axa,AXA,Pensions and Insurance,no
-tide-insurance,Tide Insurance,Pensions and Insurance,no
-allied-world,Allied World,Pensions and Insurance,no
-cfc,CFC,Pensions and Insurance,no
-barnett-waddingham,Barnett Waddingham,Pensions and Insurance,no
-everest,Everest,Pensions and Insurance,no
-hdi-global,HDI Global,Pensions and Insurance,no
-tokio-marine-kiln,Tokio Marine Kiln,Pensions and Insurance,no
-convex-insurance,Convex Insurance,Pensions and Insurance,no
-just,Just,Pensions and Insurance,no
-nfu-mutual,NFU Mutual,Pensions and Insurance,no
-swiss-re,Swiss Re,Pensions and Insurance,no
-pension-insurance-corporation,Pension Insurance Corporation,Pensions and Insurance,no
-canada-life,Canada Life,Pensions and Insurance,no
-ryan-specialty,Ryan Specialty,Pensions and Insurance,no
-aventum-group,Aventum Group,Pensions and Insurance,no
-markel,Markel,Pensions and Insurance,no
-enstar-group,Enstar Group,Pensions and Insurance,no
-lockton,Lockton,Pensions and Insurance,no
-hamilton-insurance-group,Hamilton Insurance Group,Pensions and Insurance,no
-lcp,LCP,Pensions and Insurance,no
-hymans-robertson,Hymans Robertson,Pensions and Insurance,no
-aig,AIG,Pensions and Insurance,no
-zurich-insurance,Zurich Insurance,Pensions and Insurance,no
-sandw,S&W,Accounting and Audit,no
-bdo-global,BDO Global,Accounting and Audit,no
-grant-thornton,Grant Thornton,Accounting and Audit,no
-gartner,Gartner,Accounting and Audit,no
-gpfs,GPFS,Accounting and Audit,no
-azets,Azets,Accounting and Audit,no
-pandg,P&G,Accounting and Audit,no
-pkf-littlejohn,PKF Littlejohn,Accounting and Audit,no
-eq,EQ,Accounting and Audit,no
-midland-heart,Midland Heart,Accounting and Audit,no
-rsm,RSM,Accounting and Audit,no
-ct-accountants-advisers,CT: Accountants Advisers,Accounting and Audit,no
-saffery,Saffery,Accounting and Audit,no
-menzies,Menzies,Accounting and Audit,no
-audit-scotland,Audit Scotland,Accounting and Audit,no
-charities-aid-foundation,Charities Aid Foundation,Accounting and Audit,no
-ryan,Ryan,Accounting and Audit,no
-marsh-mclennan,Marsh McLennan,Accounting and Audit,no
-aab-group,AAB Group,Accounting and Audit,no
-johnston-carmichael,Johnston Carmichael,Accounting and Audit,no
-hasbro,Hasbro,Miscellaneous,no
-financial-conduct-authority,Financial Conduct Authority,Miscellaneous,no
-tp-icap,TP ICAP,Miscellaneous,no
-institute-of-fiscal-studies,Institute of Fiscal Studies,Miscellaneous,no
-ice,ICE,Miscellaneous,no
-sse,SSE,Miscellaneous,no
-amazon,Amazon,Miscellaneous,no
-lendable,Lendable,Miscellaneous,no
-revolut,Revolut,Miscellaneous,no
-apple,Apple,Miscellaneous,no
-tiktok,TikTok,Miscellaneous,no
-google,Google,Miscellaneous,no
-tencent,Tencent,Miscellaneous,no
-bae-systems,BAE Systems,Miscellaneous,no
-tesco,Tesco,Miscellaneous,no
-lenovo,Lenovo,Miscellaneous,no
-centrica,Centrica,Miscellaneous,no
-government-economic-service,Government Economic Service,Miscellaneous,no
-moody-s,Moody's,Miscellaneous,no
-liberty-global,Liberty Global,Miscellaneous,no
-sky,Sky,Miscellaneous,no
-ncr-atleos,NCR Atleos,Miscellaneous,no
-the-wall-street-journal,The Wall Street Journal,Miscellaneous,no
-tradeweb,Tradeweb,Miscellaneous,no
-network-rail,Network Rail,Miscellaneous,no
-coinbase,Coinbase,Miscellaneous,no
-private-equity-insights,Private Equity Insights,Miscellaneous,no
-bank-of-england,Bank of England,Miscellaneous,no
-british-airways,British Airways,Miscellaneous,no
-wechat-pay,WeChat Pay,Miscellaneous,no
-severn-trent,Severn Trent,Miscellaneous,no
-sandp-global,S&P Global,Miscellaneous,no
-allianz-insurance,Allianz Insurance,Miscellaneous,no
-astrazeneca,AstraZeneca,Miscellaneous,no
-baker-hughes,Baker Hughes,Miscellaneous,no
-ebrd,EBRD,Miscellaneous,no
-dow-jones,Dow Jones,Miscellaneous,no
-copper-co,Copper.co,Miscellaneous,no
-factset,FactSet,Miscellaneous,no
-bloomberg,Bloomberg,Miscellaneous,no
-blockchain-com,Blockchain.com,Miscellaneous,no
-uber,Uber,Miscellaneous,no
-british-business-bank,British Business Bank,Miscellaneous,no
-forvis-mazars,Forvis Mazars,Miscellaneous,no
-saltgate,Saltgate,Miscellaneous,no
-natrium-capital,Natrium Capital,Miscellaneous,no
-l-oreal,L'Oréal,Miscellaneous,no
-oracle,Oracle,Miscellaneous,no
-arkle-finance,Arkle Finance,Miscellaneous,no
-nationwide,Nationwide,Miscellaneous,no
-citco,Citco,Miscellaneous,no
-hiscox,Hiscox,Miscellaneous,no
-ithaca-energy,Ithaca Energy,Miscellaneous,no
-glg,GLG,Miscellaneous,no
-waters-corporation,Waters Corporation,Miscellaneous,no
-macro-hive,Macro Hive,Miscellaneous,no
-general-electric,General Electric,Miscellaneous,no
-aj-bell,AJ Bell,Miscellaneous,no
-visa,Visa,Miscellaneous,no
-frontier-economics,Frontier Economics,Miscellaneous,no
-london-stock-exchange-group,London Stock Exchange Group,Miscellaneous,no
-american-express,American Express,Miscellaneous,no
-capital-one,Capital One,Miscellaneous,no
-glencore,Glencore,Trading and Quant,no
-apr-actuarial-solutions,APR Actuarial Solutions,Pensions and Insurance,no
-allstate,Allstate,Miscellaneous,no
-octopus-energy,Octopus Energy,Buy-Side,no
-fasanara,Fasanara,Buy-Side,no
-capvest,CapVest,Buy-Side,no
-ardian,Ardian,Buy-Side,no
-j-s-suisse,J.S. Suisse,Buy-Side,no
-eurazeo,Eurazeo,Buy-Side,no
-pai-partners,PAI Partners,Buy-Side,no
-augusta-and-co,Augusta & Co,Buy-Side,no
-astorg,Astorg,Buy-Side,no
-ft-partners,FT Partners,Buy-Side,no
-partners-group,Partners Group,Buy-Side,no
-bda-partners,BDA Partners,Buy-Side,no
-alba-infra-partners,Alba Infra Partners,Buy-Side,no
-capital-d,Capital D,Buy-Side,no
-nordic-capital,Nordic Capital,Buy-Side,no
-wizecap,WizeCap,Buy-Side,no
-bregal-milestone,Bregal Milestone,Buy-Side,no
-tikehau-capital,Tikehau Capital,Buy-Side,no
-ik-partners,IK Partners,Buy-Side,no
-revaia,Revaia,Buy-Side,no
-redalpine,redalpine,Buy-Side,no
-exxonmobil,ExxonMobil,Miscellaneous,no
-the-carlyle-group,The Carlyle Group,Buy-Side,no
-aries-global,Aries Global,Buy-Side,no
-iwoca,iwoca,Buy-Side,no
-kkr,KKR,Buy-Side,no
-resilience-global-capital-partners,Resilience Global Capital Partners,Buy-Side,no
-midas-atlantic-partners,Midas Atlantic Partners,Buy-Side,no
-natixis,Natixis,Buy-Side,no
-global-founders-capital,Global Founders Capital,Buy-Side,no
-blackwood-capital,Blackwood Capital,Buy-Side,no
-t-capital,T.Capital,Buy-Side,no
-access-capital-partners,Access Capital Partners,Buy-Side,no
-dn-capital,DN Capital,Buy-Side,no
-cairneagle,Cairneagle,Buy-Side,no
-heptagon-capital,Heptagon Capital,Buy-Side,no
-cooper-parry,Cooper Parry,Investment Banking,yes
-clairfield,Clairfield,Investment Banking,yes
-mace,Mace,Investment Banking,yes
-xps-group,XPS Group,Investment Banking,yes
-balurca-advisory,Balurca Advisory,Investment Banking,yes
-opus-corporate-finance,Opus Corporate Finance,Investment Banking,yes
-silverpeak,Silverpeak,Investment Banking,yes
-adm,ADM,Sales & Trading,no
-spreadex,Spreadex,Sales & Trading,no
-engelhart,Engelhart,Sales & Trading,no
-verisk,Verisk,Middle/Back Office,no
-rsm-uk,RSM UK,Middle/Back Office,no
-mercuria,Mercuria,Middle/Back Office,no
-hampshire-trust-bank,Hampshire Trust Bank,Middle/Back Office,no
-triodos-bank,Triodos Bank,Middle/Back Office,no
-paragon-banking-group,Paragon Banking Group,Middle/Back Office,no
-wilmington-trust,Wilmington Trust,Asset Management,no
-wellington-management,Wellington Management,Asset Management,no
-hilton,Hilton,Asset Management,no
-dsw-ventures,DSW Ventures,Asset Management,no
-triton,Triton,Asset Management,no
-allianz-global-investors,Allianz Global Investors,Asset Management,no
-axa-investment-managers,AXA Investment Managers,Asset Management,no
-quilter,Quilter,Asset Management,no
-national-wealth-fund,National Wealth Fund,Asset Management,no
-davy,Davy,Asset Management,no
-benefit-street-partners,Benefit Street Partners,Asset Management,no
-adas,ADAS,Consulting,no
-accenture,Accenture,Consulting,no
-4c-associates,4C Associates,Consulting,no
-north-highland,North Highland,Consulting,no
-spence-and-partners,Spence & Partners,Pensions and Insurance,no
-benefact-group,Benefact Group,Pensions and Insurance,no
-pension-protection-fund,Pension Protection Fund,Pensions and Insurance,no
-liberty-mutual,Liberty Mutual,Pensions and Insurance,no
-pacific-life-re,Pacific Life Re,Pensions and Insurance,no
-bupa,Bupa,Pensions and Insurance,no
-pem,PEM,Accounting and Audit,no
-srlv,SRLV,Accounting and Audit,no
-haysmac,HaysMac,Accounting and Audit,no
-the-walt-disney-company,The Walt Disney Company,Accounting and Audit,no
-travelport,Travelport,Accounting and Audit,no
-cnh-industrial,CNH Industrial,Accounting and Audit,no
-dains-accountants,Dains Accountants,Accounting and Audit,no
-price-bailey,Price Bailey,Accounting and Audit,no
-kenvue,Kenvue,Accounting and Audit,no
-bishop-fleming,Bishop Fleming,Accounting and Audit,no
-lockheed-martin,Lockheed Martin,Miscellaneous,no
-oxford-economics,Oxford Economics,Miscellaneous,no
-siemens-energy,Siemens Energy,Miscellaneous,no
-neso,NESO,Miscellaneous,no
-pfizer,Pfizer,Miscellaneous,no
-ups,UPS,Miscellaneous,no
-mbda,MBDA,Miscellaneous,no
-balfour-beatty,Balfour Beatty,Miscellaneous,no
-odicci,Odicci,Miscellaneous,no
-vwfs,VWFS,Miscellaneous,no
-almac-group,Almac Group,Miscellaneous,no
-bmw,BMW,Miscellaneous,no
-cpl-life-sciences,Cpl Life Sciences,Miscellaneous,no
-cummins,Cummins,Miscellaneous,no
-hazlewoods,Hazlewoods,Miscellaneous,no
-admiral-group,Admiral Group,Miscellaneous,no
-kia,KIA,Miscellaneous,no
-johnson-and-johnson,Johnson & Johnson,Miscellaneous,no
-nbcuniversal,NBCUniversal,Miscellaneous,no
-cambridge-econometrics,Cambridge Econometrics,Miscellaneous,no
-pernod-ricard,Pernod Ricard,Miscellaneous,no
-united-utilities,United Utilities,Miscellaneous,no
-adobe,Adobe,Miscellaneous,no
-edf-energy,EDF Energy,Miscellaneous,no
-leicestershire-police,Leicestershire Police,Miscellaneous,no
-danaher,Danaher,Miscellaneous,no
-basf,BASF,Miscellaneous,no
-caterpillar,Caterpillar,Miscellaneous,no
-tata-consultancy-services,Tata Consultancy Services,Miscellaneous,no
-clarify,Clarify,Miscellaneous,no
-tarmac,Tarmac,Miscellaneous,no
-softcat,Softcat,Miscellaneous,no
-muller,Müller,Miscellaneous,no
-immunocore,Immunocore,Miscellaneous,no
-sap,SAP,Miscellaneous,no
-volvo-car-financial-services,Volvo Car Financial Services,Miscellaneous,no
-kraft-heinz,Kraft Heinz,Miscellaneous,no
-south-wales-police,South Wales Police,Miscellaneous,no
-virgin-media-o2,Virgin Media O2,Miscellaneous,no
-cme-group,CME Group,Miscellaneous,no
-scania-financial-services,Scania Financial Services,Miscellaneous,no
-valsoft-corporation,Valsoft Corporation,Miscellaneous,no
-terex,Terex,Miscellaneous,no
-fdm-group,FDM Group,Miscellaneous,no
-boeing,Boeing,Miscellaneous,no
-coca-cola,Coca Cola,Miscellaneous,no
-boehringer-ingelheim,Boehringer Ingelheim,Miscellaneous,no
-rtx,RTX,Miscellaneous,no
-morrisons,Morrisons,Miscellaneous,no
-bentley,Bentley,Miscellaneous,no
-next-plc,Next plc,Miscellaneous,no
-tjx,TJX,Miscellaneous,no
-mclaren,McLaren,Miscellaneous,no
-unilever,Unilever,Miscellaneous,no
-travelers,Travelers,Miscellaneous,no
-bending-spoons,Bending Spoons,Miscellaneous,no
-connect-corporate-finance,Connect Corporate Finance,Middle Market,yes
-commbank,CommBank,Middle Market,yes
-cicc,CICC,Middle Market,yes
-aib,AIB,Middle Market,yes
-hive-capital-advisory,Hive Capital Advisory,Middle Market,yes
-goodbody,Goodbody,Middle Market,yes
-buro-happold,Buro Happold,Middle Market,yes
-bean-partners,Bean Partners,Middle Market,yes
-commerzbank,Commerzbank,Middle Market,yes
-clearwater,Clearwater,Middle Market,yes
-edgewater-strategy-group,Edgewater Strategy Group,Middle Market,yes
-frp-advisory,FRP Advisory,Middle Market,yes
-canaccord-genuity,Canaccord Genuity,Middle Market,yes
-venero-capital-advisors,Venero Capital Advisors,Middle Market,yes
-heligan-group,Heligan Group,Middle Market,yes
-ing,ING,Middle Market,yes
-arkap-and-co,arKap & Co,Middle Market,yes
-headford-group,Headford Group,Middle Market,yes
-gerald-edelman,Gerald Edelman,Middle Market,yes
-bellwether,Bellwether,Middle Market,yes
-stephens,Stephens,Middle Market,yes
-icg,ICG,Buy-Side,no
-blenheim-chalcot,Blenheim Chalcot,Buy-Side,no
-octopus-capital,Octopus Capital,Buy-Side,no
-octopus-real-estate,Octopus Real Estate,Buy-Side,no
-harbourvest,HarbourVest,Buy-Side,no
-uncapped,Uncapped,Buy-Side,no
-techcredit-partners,TechCredit Partners,Buy-Side,no
-perch-group,Perch Group,Buy-Side,no
-lgt-capital-partners,LGT Capital Partners,Buy-Side,no
-pathway-capital-management,Pathway Capital Management,Buy-Side,no
-signal-ventures,Signal Ventures,Buy-Side,no
-solarel,Solarel,Buy-Side,no
-hummingbird,Hummingbird,Buy-Side,no
-expedition-growth-capital,Expedition Growth Capital,Buy-Side,no
-mavenswood-investments,MavensWood Investments,Buy-Side,no
-shojin,Shojin,Buy-Side,no
-tenzing,Tenzing,Buy-Side,no
-pemberton-asset-management,Pemberton Asset Management,Buy-Side,no
-svv,SVV,Buy-Side,no
-cusana-capital,Cusana Capital,Buy-Side,no
-tower-peak-partners,Tower Peak Partners,Buy-Side,no
-sagard,Sagard,Buy-Side,no
-warburg-pincus,Warburg Pincus,Buy-Side,no
-circeus,Circeus,Buy-Side,no
-st-james-s-place,St James's Place,Asset Management,no
-insight-investment,Insight Investment,Asset Management,no
-m7-real-estate,M7 Real Estate,Asset Management,no
-evelyn-partners,Evelyn Partners,Asset Management,no
-skybound-wealth-management,Skybound Wealth Management,Asset Management,no
-british-international-investment,British International Investment,Asset Management,no
-watkins-jones-group,Watkins Jones Group,Asset Management,no
-avison-young,Avison Young,Asset Management,no
-russell-investments,Russell Investments,Asset Management,no
-gib-asset-management,GIB Asset Management,Asset Management,no
-access-bank,Access Bank,Asset Management,no
-aviva-investors,Aviva Investors,Asset Management,no
-aequitas-research,Aequitas Research,Asset Management,no
-artmax,Artmax,Asset Management,no
-cpp-investments,CPP Investments,Asset Management,no
-loomis-sayles,Loomis Sayles,Asset Management,no
-efg-international,EFG International,Asset Management,no
-momentum-group,Momentum Group,Asset Management,no
-vencap,VenCap,Asset Management,no
-best-star-real-estate,Best Star Real Estate,Asset Management,no
-devere-group,deVere Group,Asset Management,no
-ruffer,Ruffer,Asset Management,no
-janus-henderson,Janus Henderson,Asset Management,no
-baillie-gifford,Baillie Gifford,Asset Management,no
-rathbones,Rathbones,Asset Management,no
-globe-life-sciences,Globe Life Sciences,Consulting,no
-capco,Capco,Consulting,no
-elixirr,Elixirr,Consulting,no
-veeva,Veeva,Consulting,no
-strategyand,Strategy&,Consulting,no
-advancy,Advancy,Consulting,no
-actica-consulting,Actica Consulting,Consulting,no
-berkeley-research-group,Berkeley Research Group,Consulting,no
-newmark,Newmark,Consulting,no
-cartesian,Cartesian,Consulting,no
-pmsi,PMSI,Consulting,no
-cil-management-consultants,CIL Management Consultants,Consulting,no
-alixpartners,AlixPartners,Consulting,no
-secretariat,Secretariat,Consulting,no
-impact-consulting,Impact Consulting,Consulting,no
-collinson-grant,Collinson Grant,Consulting,no
-hatch,Hatch,Consulting,no
-afry-capital,AFRY Capital,Consulting,no
-alchemmy,Alchemmy,Consulting,no
-carnall-farrar,Carnall Farrar,Consulting,no
-kae,KAE,Consulting,no
-kaiser-associates,Kaiser Associates,Consulting,no
-management-solutions,Management Solutions,Consulting,no
-oaklin,Oaklin,Consulting,no
-kearney,Kearney,Consulting,no
-novatus-global,Novatus Global,Consulting,no
-volcore,Volcore,Trading and Quant,no
-3red-partners,3Red Partners,Trading and Quant,no
-headlands-technologies,Headlands Technologies,Trading and Quant,no
-five-rings,Five Rings,Trading and Quant,no
-onyx-capital-group,Onyx Capital Group,Trading and Quant,no
-javelin-global-commodities,Javelin Global Commodities,Trading and Quant,no
-blackship-capital,BlackShip Capital,Trading and Quant,no
-petroineos,Petroineos,Trading and Quant,no
-b2c2,B2C2,Trading and Quant,no
-smartestenergy,SmartestEnergy,Trading and Quant,no
-britannia-global-markets,Britannia Global Markets,Trading and Quant,no
-tradition,Tradition,Trading and Quant,no
-lighthouse-collective-capital,Lighthouse Collective Capital,Trading and Quant,no
-pareto-securities,Pareto Securities,Trading and Quant,no
-strathum-capital,Strathum Capital,Trading and Quant,no
-kappa-lab,Kappa Lab,Trading and Quant,no
-torq-commodities,Torq Commodities,Trading and Quant,no
-rsted,Ørsted,Trading and Quant,no
-keyrock,Keyrock,Trading and Quant,no
-aerfin,AerFin,Trading and Quant,no
-colchester-global-investors,Colchester Global Investors,Trading and Quant,no
-ec-markets,EC Markets,Trading and Quant,no
-binance,Binance,Trading and Quant,no
-direct-business-group,Direct Business Group,Trading and Quant,no
-gsr-markets,GSR Markets,Trading and Quant,no
-phoenix-group,Phoenix Group,Trading and Quant,no
-welsh-power,Welsh Power,Trading and Quant,no
-vitol,Vitol,Trading and Quant,no
-jjj-capital-management,JJJ Capital Management,Trading and Quant,no
-icbc-standard-bank,ICBC Standard Bank,Trading and Quant,no
-levl,Levl,Trading and Quant,no
-braemar,Braemar,Trading and Quant,no
-amius,Amius,Trading and Quant,no
-queueco,Queueco,Trading and Quant,no
-centrica-energy,Centrica Energy,Trading and Quant,no
-akuna-capital,Akuna Capital,Trading and Quant,no
-outlook-energy,Outlook Energy,Trading and Quant,no
-radix-trading,Radix Trading,Trading and Quant,no
-old-mission,Old Mission,Trading and Quant,no
-mustard-systems,Mustard Systems,Trading and Quant,no
-raven,Raven,Trading and Quant,no
-redevco,Redevco,Real Estate,no
-situsamc,SitusAMC,Real Estate,no
-castleforge,Castleforge,Real Estate,no
-dexters,Dexters,Real Estate,no
-gen-re,Gen Re,Pensions and Insurance,no
-acrisure,Acrisure,Pensions and Insurance,no
-gallagher,Gallagher,Pensions and Insurance,no
-canopius,Canopius,Pensions and Insurance,no
-hsc-insurance-group,HSC Insurance Group,Pensions and Insurance,no
-markerstudy-group,Markerstudy Group,Pensions and Insurance,no
-lppi,LPPI,Pensions and Insurance,no
-chubb,Chubb,Pensions and Insurance,no
-ms-amlin,MS Amlin,Pensions and Insurance,no
-monument-re-group,Monument Re Group,Pensions and Insurance,no
-scottish-friendly,Scottish Friendly,Pensions and Insurance,no
-brit-insurance,Brit Insurance,Pensions and Insurance,no
-punter-southall,Punter Southall,Pensions and Insurance,no
-beazley,Beazley,Pensions and Insurance,no
-aspect,Aspect,Pensions and Insurance,no
-jmg-group,JMG Group,Pensions and Insurance,no
-lancashire-insurance-group,Lancashire Insurance Group,Pensions and Insurance,no
-volante-global,Volante Global,Pensions and Insurance,no
-everywhen,Everywhen,Pensions and Insurance,no
-siriuspoint,SiriusPoint,Pensions and Insurance,no
-argenta-group,Argenta Group,Pensions and Insurance,no
-chaucer-group,Chaucer Group,Pensions and Insurance,no
-direct-line-group,Direct Line Group,Pensions and Insurance,no
-antares,Antares,Pensions and Insurance,no
-border-to-coast,Border to Coast,Pensions and Insurance,no
-apollo-ibott,Apollo ibott,Pensions and Insurance,no
-armstrong-watson,Armstrong Watson,Accounting and Audit,no
-mercer-and-hole,Mercer & Hole,Accounting and Audit,no
-mha,MHA,Accounting and Audit,no
-langham-hall,Langham Hall,Accounting and Audit,no
-moore-kingston-smith,Moore Kingston Smith,Accounting and Audit,no
-alter-domus,Alter Domus,Accounting and Audit,no
-msd,MSD,Accounting and Audit,no
-hmrc,HMRC,Accounting and Audit,no
-pkf-francis-clark,PKF Francis Clark,Accounting and Audit,no
-ensors,Ensors,Accounting and Audit,no
-arnold-clark,Arnold Clark,Accounting and Audit,no
-heidelberg-materials,Heidelberg Materials,Accounting and Audit,no
-park-place-technologies,Park Place Technologies,Accounting and Audit,no
-crowe,Crowe,Accounting and Audit,no
-national-audit-office,National Audit Office,Accounting and Audit,no
-m-a-partners,M+A Partners,Accounting and Audit,no
-vodafone,Vodafone,Miscellaneous,no
-shawbrook,Shawbrook,Miscellaneous,no
-awe,AWE,Miscellaneous,no
-woozle-research,Woozle Research,Miscellaneous,no
-mni,MNI,Miscellaneous,no
-vela-software,Vela Software,Miscellaneous,no
-babcock-international,Babcock International,Miscellaneous,no
-aston-martin,Aston Martin,Miscellaneous,no
-zopa,Zopa,Miscellaneous,no
-blueground,Blueground,Miscellaneous,no
-frazer-nash-consultancy,Frazer-Nash Consultancy,Miscellaneous,no
-global-payments,Global Payments,Miscellaneous,no
-laing-o-rourke,Laing O'Rourke,Miscellaneous,no
-mondelez-international,Mondelēz International,Miscellaneous,no
-pegasus-group,Pegasus Group,Miscellaneous,no
-whitbread,Whitbread,Miscellaneous,no
-epic-investment-partners,EPIC Investment Partners,Miscellaneous,no
-national-highways,National Highways,Miscellaneous,no
-ayvens,Ayvens,Miscellaneous,no
-newday,NewDay,Miscellaneous,no
-sportrader,Sportrader,Miscellaneous,no
-transport-for-london,Transport for London,Miscellaneous,no
-yorkshire-water,Yorkshire Water,Miscellaneous,no
-titanbay,Titanbay,Miscellaneous,no
-experian,Experian,Miscellaneous,no
-harbour-energy,Harbour Energy,Miscellaneous,no
-onerway,Onerway,Miscellaneous,no
-vixio,Vixio,Miscellaneous,no
-altair-ltd,Altair Ltd,Miscellaneous,no
-creditsights,CreditSights,Miscellaneous,no
-fitch-ratings,Fitch Ratings,Miscellaneous,no
-kingfisher,Kingfisher,Miscellaneous,no
-premium-credit,Premium Credit,Miscellaneous,no
-the-very-group,The Very Group,Miscellaneous,no
-kier,Kier,Miscellaneous,no
-koch,Koch,Miscellaneous,no
-gocardless,GoCardless,Miscellaneous,no
-ryanair,Ryanair,Miscellaneous,no
-thermo-fisher,Thermo Fisher,Miscellaneous,no
-pepsico,PepsiCo,Miscellaneous,no
-thecityuk,TheCityUK,Miscellaneous,no
-wealthmax-financial-advisers,Wealthmax Financial Advisers,Miscellaneous,no
-aveva,AVEVA,Miscellaneous,no
-abbvie,Abbvie,Miscellaneous,no
-clear-street,Clear Street,Miscellaneous,no
-firstbank,FirstBank,Miscellaneous,no
-sweco,Sweco,Miscellaneous,no
-united-trust-bank,United Trust Bank,Miscellaneous,no
-youlend,YouLend,Miscellaneous,no
-sanctuary-group,Sanctuary Group,Miscellaneous,no
-equifax,Equifax,Miscellaneous,no
-treasuryspring,TreasurySpring,Miscellaneous,no
-xtb-online-investing,XTB online investing,Miscellaneous,no
-aej-consulting,AEJ Consulting,Miscellaneous,no
-relx,RELX,Miscellaneous,no
-compare-the-market,Compare The Market,Miscellaneous,no
-latham-and-watkins,Latham & Watkins,Miscellaneous,no
-begbies-traynor-group,Begbies Traynor Group,Miscellaneous,no
-we-do-group,We Do Group,Miscellaneous,no
-ion,ION,Miscellaneous,no
-gateley,Gateley,Miscellaneous,no
-gold-bullion-partners,Gold Bullion Partners,Miscellaneous,no
-foxtons,Foxtons,Miscellaneous,no
-royal-caribbean-group,Royal Caribbean Group,Miscellaneous,no
-eet,EET,Miscellaneous,no
-trading-212,Trading 212,Miscellaneous,no
-financial-times,Financial Times,Miscellaneous,no
-marex,Marex,Miscellaneous,no
-mcdonald-s,McDonald's,Miscellaneous,no
-bank-of-china,Bank of China,Miscellaneous,no
-monzo,Monzo,Miscellaneous,no
-bank-of-ireland,Bank of Ireland,Miscellaneous,no
-johnson-matthey,Johnson Matthey,Miscellaneous,no
+id,name,sector,segment
+alphasights,AlphaSights,Miscellaneous,
+shell,Shell,Miscellaneous,
+amplifyme,AmplifyME,Miscellaneous,
+wincent,Wincent,Miscellaneous,
+citi,Citi,Bulge Bracket,IB
+morgan-stanley,Morgan Stanley,Bulge Bracket,IB
+j-p-morgan,J.P. Morgan,Bulge Bracket,IB
+barclays,Barclays,Bulge Bracket,IB
+goldman-sachs,Goldman Sachs,Bulge Bracket,IB
+deutsche-bank,Deutsche Bank,Bulge Bracket,IB
+ubs,UBS,Bulge Bracket,IB
+bank-of-america,Bank of America,Bulge Bracket,IB
+centerview-partners,Centerview Partners,Elite Boutique,IB
+moelis-and-co,Moelis & Co,Elite Boutique,IB
+lazard,Lazard,Elite Boutique,IB
+evercore,Evercore,Elite Boutique,IB
+greenhill,Greenhill,Elite Boutique,IB
+pjt-partners,PJT Partners,Elite Boutique,IB
+ardea-partners,Ardea Partners,Elite Boutique,IB
+raine-group,Raine Group,Elite Boutique,IB
+perella-weinberg-partners,Perella Weinberg Partners,Elite Boutique,IB
+rothschild-and-co,Rothschild & Co,Elite Boutique,IB
+liontree,LionTree,Elite Boutique,IB
+qatalyst-partners,Qatalyst Partners,Elite Boutique,IB
+lloyds-banking-group,Lloyds Banking Group,Middle Market,IB
+stj-advisors,STJ Advisors,Middle Market,IB
+bbva,BBVA,Middle Market,IB
+credit-agricole,Crédit Agricole,Middle Market,IB
+rbc-capital-markets,RBC Capital Markets,Middle Market,IB
+jefferies,Jefferies,Middle Market,IB
+scotiabank,Scotiabank,Middle Market,IB
+standard-bank,Standard Bank,Middle Market,IB
+natwest-markets,NatWest Markets,Middle Market,IB
+mufg,MUFG,Middle Market,IB
+macquarie-group,Macquarie Group,Middle Market,IB
+dc-advisory,DC Advisory,Middle Market,IB
+nomura,Nomura,Middle Market,IB
+standard-chartered,Standard Chartered,Middle Market,IB
+santander,Santander,Middle Market,IB
+gleacher-shacklock,Gleacher Shacklock,Middle Market,IB
+raymond-james,Raymond James,Middle Market,IB
+rede-partners,Rede Partners,Middle Market,IB
+dealglobe,DealGlobe,Middle Market,IB
+piper-sandler,Piper Sandler,Middle Market,IB
+pharus,Pharus,Middle Market,IB
+quantuma,Quantuma,Middle Market,IB
+skagen-capital,Skagen Capital,Middle Market,IB
+allia-candc,Allia C&C,Middle Market,IB
+flowdesk,Flowdesk,Middle Market,
+mki-global-partners,MKI Global Partners,Middle Market,IB
+citic-clsa,CITIC CLSA,Middle Market,IB
+gp-bullhound,GP Bullhound,Middle Market,IB
+global-infrastructure-advisors,Global Infrastructure Advisors,Middle Market,IB
+leerink-partners,Leerink Partners,Middle Market,IB
+insurance-advisory-partners,Insurance Advisory Partners,Middle Market,IB
+loizou-and-co,Loizou & Co,Middle Market,IB
+stifel,Stifel,Middle Market,IB
+gneiss-energy,Gneiss Energy,Middle Market,IB
+stout,Stout,Middle Market,IB
+houlihan-lokey,Houlihan Lokey,Middle Market,IB
+btg-pactual,BTG Pactual,Middle Market,IB
+cygnum-capital,Cygnum Capital,Middle Market,IB
+berenberg,Berenberg,Middle Market,IB
+handelsbanken,Handelsbanken,Middle Market,IB
+galaxy,Galaxy,Middle Market,IB
+zeus-capital,Zeus Capital,Middle Market,IB
+pkf-smith-cooper,PKF Smith Cooper,Middle Market,IB
+abn-amro,ABN AMRO,Middle Market,IB
+btig,BTIG,Middle Market,IB
+national-bank-of-canada,National Bank of Canada,Middle Market,IB
+kr8-advisory,KR8 Advisory,Middle Market,IB
+bmo-capital-markets,BMO Capital Markets,Middle Market,IB
+collingwood,Collingwood,Middle Market,IB
+kroll,Kroll,Middle Market,IB
+peel-hunt,Peel Hunt,Middle Market,IB
+investec,Investec,Middle Market,IB
+equiteq,Equiteq,Middle Market,IB
+hsbc,HSBC,Middle Market,IB
+longspur-capital,Longspur Capital,Middle Market,IB
+td-securities,TD Securities,Middle Market,IB
+campbell-lutyens,Campbell Lutyens,Middle Market,IB
+cibc,CIBC,Middle Market,IB
+panmure-liberum,Panmure Liberum,Middle Market,IB
+howden,Howden,Middle Market,IB
+lincoln-international,Lincoln International,Middle Market,IB
+mizuho,Mizuho,Middle Market,IB
+societe-generale,Société Générale,Middle Market,IB
+baird,Baird,Middle Market,IB
+harris-williams,Harris Williams,Middle Market,IB
+alantra,Alantra,Middle Market,IB
+eastdil-secured,Eastdil Secured,Middle Market,IB
+william-blair,William Blair,Middle Market,IB
+fenchurch-advisory,Fenchurch Advisory,Middle Market,IB
+wells-fargo,Wells Fargo,Middle Market,IB
+guggenheim-partners,Guggenheim Partners,Middle Market,IB
+bnp-paribas,BNP Paribas,Middle Market,IB
+smbc,SMBC,Middle Market,IB
+eqt,EQT,Buy-Side,PE
+tudor-group,Tudor Group,Buy-Side,
+cambridge-associates,Cambridge Associates,Buy-Side,
+castleton-commodities-international,Castleton Commodities International,Buy-Side,
+stepstone-group,StepStone Group,Buy-Side,PE
+ccaventus,Ccaventus,Buy-Side,
+harrison-street,Harrison Street,Buy-Side,
+capstone,Capstone,Buy-Side,
+balyasny-asset-management,Balyasny Asset Management,Buy-Side,
+verition-fund-management,Verition Fund Management,Buy-Side,
+brevan-howard,Brevan Howard,Buy-Side,
+graham-capital-management,Graham Capital Management,Buy-Side,
+millennium-management,Millennium Management,Buy-Side,
+squarepoint-capital,Squarepoint Capital,Buy-Side,
+gic,GIC,Buy-Side,
+capula-investment-management,Capula Investment Management,Buy-Side,
+oak-hill-advisors,Oak Hill Advisors,Buy-Side,
+general-atlantic,General Atlantic,Buy-Side,PE
+man-group,Man Group,Buy-Side,
+future-planet-capital,Future Planet Capital,Buy-Side,
+w-p-carey,W. P. Carey,Buy-Side,
+exoduspoint,ExodusPoint,Buy-Side,
+brio-real-estate,Brio Real Estate,Buy-Side,
+lasalle,LaSalle,Buy-Side,
+rokos-capital-management,Rokos Capital Management,Buy-Side,
+iqt,IQT,Buy-Side,
+welltower,Welltower,Buy-Side,
+ethical-capital-partners,Ethical Capital Partners,Buy-Side,PE
+hayfin-capital-management,Hayfin Capital Management,Buy-Side,PE
+equitix,Equitix,Buy-Side,PE
+burford-capital,Burford Capital,Buy-Side,
+cdandr,CD&R,Buy-Side,PE
+caxton-associates,Caxton Associates,Buy-Side,
+bgf,BGF,Buy-Side,PE
+sona-asset-management,Sona Asset Management,Buy-Side,
+lmr-partners,LMR Partners,Buy-Side,
+compound-equity-group,Compound Equity Group,Buy-Side,PE
+orbis,Orbis,Buy-Side,
+neuberger-berman,Neuberger Berman,Buy-Side,
+westgrove,Westgrove,Buy-Side,
+alvine-capital,Alvine Capital,Buy-Side,
+pictet-asset-management,Pictet Asset Management,Buy-Side,
+global-gate,Global Gate,Buy-Side,
+point72,Point72,Buy-Side,
+the-dot-group,The Dot Group,Buy-Side,
+greystar,Greystar,Buy-Side,
+climate-investment,Climate Investment,Buy-Side,PE
+intriva,Intriva,Buy-Side,PE
+hamilton-lane,Hamilton Lane,Buy-Side,PE
+orchard-global,Orchard Global,Buy-Side,
+oxford-properties-group,Oxford Properties Group,Buy-Side,
+schonfeld,Schonfeld,Buy-Side,
+kline-hill-partners,Kline Hill Partners,Buy-Side,PE
+affinius-capital,Affinius Capital,Buy-Side,
+blackstone,Blackstone,Buy-Side,PE
+temasek,Temasek,Buy-Side,
+infrared-capital-partners,InfraRed Capital Partners,Buy-Side,PE
+ares-management,Ares Management,Buy-Side,PE
+patrizia,Patrizia,Buy-Side,
+atlas-holdings,Atlas Holdings,Buy-Side,PE
+d-e-shaw,D.E. Shaw,Buy-Side,
+citadel,Citadel,Buy-Side,
+mandg,M&G,Asset Management,
+corient,Corient,Asset Management,
+fidelity-international,Fidelity International,Asset Management,
+pimco,PIMCO,Asset Management,
+bny-mellon,BNY Mellon,Asset Management,
+principal-asset-management,Principal Asset Management,Asset Management,
+british-land,British Land,Asset Management,
+alliancebernstein,AllianceBernstein,Asset Management,
+arbuthnot-latham,Arbuthnot Latham,Asset Management,
+altana-wealth,Altana Wealth,Asset Management,
+aberdeen-group,Aberdeen Group,Asset Management,
+soros-fund-management,Soros Fund Management,Asset Management,
+first-wealth,First Wealth,Asset Management,
+columbia-threadneedle-investments,Columbia Threadneedle Investments,Asset Management,
+jll,JLL,Asset Management,
+cabot-properties,Cabot Properties,Asset Management,
+leo-crown-estates,Leo-Crown Estates,Asset Management,
+vanguard,Vanguard,Asset Management,
+mfs,MFS,Asset Management,
+dimensional-fund-advisors,Dimensional Fund Advisors,Asset Management,
+legal-and-general,Legal & General,Asset Management,
+australiansuper,AustralianSuper,Asset Management,
+chatham-financial,Chatham Financial,Asset Management,
+blackfinch-group,Blackfinch Group,Asset Management,
+7im,7IM,Asset Management,
+nuveen,Nuveen,Asset Management,
+julius-baer,Julius Baer,Asset Management,
+northern-trust,Northern Trust,Asset Management,
+caledonia-investments,Caledonia Investments,Asset Management,
+dws,DWS,Asset Management,
+atlana-wealth,Atlana Wealth,Asset Management,
+weatherbys-private-bank,Weatherbys Private Bank,Asset Management,
+sixth-street,Sixth Street,Asset Management,PE
+pgim,PGIM,Asset Management,
+lazard-asset-management,Lazard Asset Management,Asset Management,
+norges-bank,Norges Bank,Asset Management,
+aluna-partners,Aluna Partners,Asset Management,
+capital-group,Capital Group,Asset Management,
+barings,Barings,Asset Management,
+schroders,Schroders,Asset Management,
+franklin-templeton,Franklin Templeton,Asset Management,
+redburn,Redburn,Asset Management,
+walter-scott,Walter Scott,Asset Management,
+hines,Hines,Asset Management,
+blackrock,BlackRock,Asset Management,
+fidelity-investments,Fidelity Investments,Asset Management,
+ey,EY,Big 4,IB
+pwc,PwC,Big 4,IB
+kpmg,KPMG,Big 4,IB
+deloitte,Deloitte,Big 4,IB
+charles-river-associates,Charles River Associates,Consulting,
+pa-consulting,PA Consulting,Consulting,
+fti-consulting,FTI Consulting,Consulting,IB
+zs,ZS,Consulting,
+ey-parthenon,EY-Parthenon,Consulting,IB
+ocandc,OC&C,Consulting,
+roland-berger,Roland Berger,Consulting,
+l-e-k-consulting,L.E.K. Consulting,Consulting,
+oliver-wyman,Oliver Wyman,Consulting,
+mckinsey-and-company,McKinsey & Company,Consulting,
+nera,NERA,Consulting,
+ankura,Ankura,Consulting,
+alvarez-and-marsal,Alvarez & Marsal,Consulting,IB
+compass-lexecon,Compass Lexecon,Consulting,
+knight-frank,Knight Frank,Consulting,
+oxera,Oxera,Consulting,
+baringa,Baringa,Consulting,
+teneo,Teneo,Consulting,IB
+analysys-mason,Analysys Mason,Consulting,
+putnam,Putnam,Consulting,
+alpha-fmc,Alpha FMC,Consulting,
+capgemini,Capgemini,Consulting,
+fide-partners,Fide Partners,Consulting,
+cfo-insights,CFO Insights,Consulting,
+retail-insights,Retail Insights,Consulting,
+turner-and-townsend,Turner & Townsend,Consulting,
+guidehouse,Guidehouse,Consulting,
+korn-ferry,Korn Ferry,Consulting,
+newton,Newton,Consulting,
+plural-strategy,Plural Strategy,Consulting,
+bcg,BCG,Consulting,
+wood-mackenzie,Wood Mackenzie,Consulting,
+simon-kucher,Simon-Kucher,Consulting,
+gep,GEP,Consulting,
+nextwave-consulting,NextWave Consulting,Consulting,
+colliers,Colliers,Consulting,
+bain-and-company,Bain & Company,Consulting,
+interpath-advisory,Interpath Advisory,Consulting,IB
+near-future,Near Future,Consulting,
+platinum-peak-holdings-ltd,Platinum Peak Holdings Ltd,Consulting,
+proxima,Proxima,Consulting,
+inverto,Inverto,Consulting,
+brg,BRG,Consulting,
+rystad-energy,Rystad Energy,Consulting,
+accuracy,Accuracy,Consulting,
+inizio-ignite,Inizio Ignite,Consulting,
+liquidnet,Liquidnet,Trading and Quant,
+graviton,Graviton,Trading and Quant,
+jain-global,Jain Global,Trading and Quant,
+flow-traders,Flow Traders,Trading and Quant,
+synthesis,Synthesis,Trading and Quant,
+qube-rt,Qube RT,Trading and Quant,
+marshall-wace,Marshall Wace,Trading and Quant,
+tower-research-capital,Tower Research Capital,Trading and Quant,
+blocktech,BlockTech,Trading and Quant,
+g-research,G-Research,Trading and Quant,
+optiver,Optiver,Trading and Quant,
+xantium,Xantium,Trading and Quant,
+isam,iSAM,Trading and Quant,
+dv-trading,DV Trading,Trading and Quant,
+hudson-river-trading,Hudson River Trading,Trading and Quant,
+jane-street,Jane Street,Trading and Quant,
+chicago-trading-company,Chicago Trading Company,Trading and Quant,
+susquehanna-international-group,Susquehanna International Group,Trading and Quant,
+da-vinci-trading,Da Vinci Trading,Trading and Quant,
+drw,DRW,Trading and Quant,
+jump-trading,Jump Trading,Trading and Quant,
+gsa-capital,GSA Capital,Trading and Quant,
+virtu-financial,Virtu Financial,Trading and Quant,
+citadel-securities,Citadel Securities,Trading and Quant,
+aquatic-capital-management,Aquatic Capital Management,Trading and Quant,
+xtx-markets,XTX Markets,Trading and Quant,
+wintermute,Wintermute,Trading and Quant,
+quadrature,Quadrature,Trading and Quant,
+stonex,StoneX,Trading and Quant,
+bastion-trading,Bastion Trading,Trading and Quant,
+dare,Dare,Trading and Quant,
+state-street,State Street,Trading and Quant,
+bmll,BMLL,Trading and Quant,
+genesis-quant-capital,Genesis Quant Capital,Trading and Quant,
+aspect-capital,Aspect Capital,Trading and Quant,
+marketaxess,MarketAxess,Trading and Quant,
+silvertide,SilverTide,Trading and Quant,
+maven-securities,Maven Securities,Trading and Quant,
+ripple,Ripple,Trading and Quant,
+imc-trading,IMC Trading,Trading and Quant,
+teza-technologies,Teza Technologies,Trading and Quant,
+clarksons,Clarksons,Trading and Quant,
+cboe-global-markets,Cboe Global Markets,Trading and Quant,
+gunvor,Gunvor,Trading and Quant,
+e-on,E.ON,Trading and Quant,
+superbet,Superbet,Trading and Quant,
+bp,bp,Trading and Quant,
+mako-trading,Mako Trading,Trading and Quant,
+equinor,Equinor,Trading and Quant,
+rwe,RWE,Trading and Quant,
+xy-capital,XY Capital,Trading and Quant,
+quantbot-technologies,Quantbot Technologies,Trading and Quant,
+edf-trading,EDF Trading,Trading and Quant,
+carter-jonas,Carter Jonas,Real Estate,
+grosvenor,Grosvenor,Real Estate,
+cushman-and-wakefield,Cushman & Wakefield,Real Estate,
+savills,Savills,Real Estate,
+canary-wharf-group,Canary Wharf Group,Real Estate,
+cbre,CBRE,Real Estate,
+aon,Aon,Pensions and Insurance,
+arch-insurance-international,Arch Insurance International,Pensions and Insurance,
+aegon,Aegon,Pensions and Insurance,
+isio,Isio,Pensions and Insurance,
+rothesay,Rothesay,Pensions and Insurance,
+wtw,WTW,Pensions and Insurance,
+mercer,Mercer,Pensions and Insurance,
+royal-london,Royal London,Pensions and Insurance,
+first-actuarial,First Actuarial,Pensions and Insurance,
+munich-re,Munich Re,Pensions and Insurance,
+axa,AXA,Pensions and Insurance,
+tide-insurance,Tide Insurance,Pensions and Insurance,
+allied-world,Allied World,Pensions and Insurance,
+cfc,CFC,Pensions and Insurance,
+barnett-waddingham,Barnett Waddingham,Pensions and Insurance,
+everest,Everest,Pensions and Insurance,
+hdi-global,HDI Global,Pensions and Insurance,
+tokio-marine-kiln,Tokio Marine Kiln,Pensions and Insurance,
+convex-insurance,Convex Insurance,Pensions and Insurance,
+just,Just,Pensions and Insurance,
+nfu-mutual,NFU Mutual,Pensions and Insurance,
+swiss-re,Swiss Re,Pensions and Insurance,
+pension-insurance-corporation,Pension Insurance Corporation,Pensions and Insurance,
+canada-life,Canada Life,Pensions and Insurance,
+ryan-specialty,Ryan Specialty,Pensions and Insurance,
+aventum-group,Aventum Group,Pensions and Insurance,
+markel,Markel,Pensions and Insurance,
+enstar-group,Enstar Group,Pensions and Insurance,
+lockton,Lockton,Pensions and Insurance,
+hamilton-insurance-group,Hamilton Insurance Group,Pensions and Insurance,
+lcp,LCP,Pensions and Insurance,
+hymans-robertson,Hymans Robertson,Pensions and Insurance,
+aig,AIG,Pensions and Insurance,
+zurich-insurance,Zurich Insurance,Pensions and Insurance,
+sandw,S&W,Accounting and Audit,
+bdo-global,BDO Global,Accounting and Audit,IB
+grant-thornton,Grant Thornton,Accounting and Audit,IB
+gartner,Gartner,Accounting and Audit,
+gpfs,GPFS,Accounting and Audit,
+azets,Azets,Accounting and Audit,
+pandg,P&G,Accounting and Audit,
+pkf-littlejohn,PKF Littlejohn,Accounting and Audit,
+eq,EQ,Accounting and Audit,
+midland-heart,Midland Heart,Accounting and Audit,
+rsm,RSM,Accounting and Audit,IB
+ct-accountants-advisers,CT: Accountants Advisers,Accounting and Audit,
+saffery,Saffery,Accounting and Audit,
+menzies,Menzies,Accounting and Audit,
+audit-scotland,Audit Scotland,Accounting and Audit,
+charities-aid-foundation,Charities Aid Foundation,Accounting and Audit,
+ryan,Ryan,Accounting and Audit,
+marsh-mclennan,Marsh McLennan,Accounting and Audit,
+aab-group,AAB Group,Accounting and Audit,
+johnston-carmichael,Johnston Carmichael,Accounting and Audit,
+hasbro,Hasbro,Miscellaneous,
+financial-conduct-authority,Financial Conduct Authority,Miscellaneous,
+tp-icap,TP ICAP,Miscellaneous,
+institute-of-fiscal-studies,Institute of Fiscal Studies,Miscellaneous,
+ice,ICE,Miscellaneous,
+sse,SSE,Miscellaneous,
+amazon,Amazon,Miscellaneous,
+lendable,Lendable,Miscellaneous,
+revolut,Revolut,Miscellaneous,
+apple,Apple,Miscellaneous,
+tiktok,TikTok,Miscellaneous,
+google,Google,Miscellaneous,
+tencent,Tencent,Miscellaneous,
+bae-systems,BAE Systems,Miscellaneous,
+tesco,Tesco,Miscellaneous,
+lenovo,Lenovo,Miscellaneous,
+centrica,Centrica,Miscellaneous,
+government-economic-service,Government Economic Service,Miscellaneous,
+moody-s,Moody's,Miscellaneous,
+liberty-global,Liberty Global,Miscellaneous,
+sky,Sky,Miscellaneous,
+ncr-atleos,NCR Atleos,Miscellaneous,
+the-wall-street-journal,The Wall Street Journal,Miscellaneous,
+tradeweb,Tradeweb,Miscellaneous,
+network-rail,Network Rail,Miscellaneous,
+coinbase,Coinbase,Miscellaneous,
+private-equity-insights,Private Equity Insights,Miscellaneous,
+bank-of-england,Bank of England,Miscellaneous,
+british-airways,British Airways,Miscellaneous,
+wechat-pay,WeChat Pay,Miscellaneous,
+severn-trent,Severn Trent,Miscellaneous,
+sandp-global,S&P Global,Miscellaneous,
+allianz-insurance,Allianz Insurance,Miscellaneous,
+astrazeneca,AstraZeneca,Miscellaneous,
+baker-hughes,Baker Hughes,Miscellaneous,
+ebrd,EBRD,Miscellaneous,
+dow-jones,Dow Jones,Miscellaneous,
+copper-co,Copper.co,Miscellaneous,
+factset,FactSet,Miscellaneous,
+bloomberg,Bloomberg,Miscellaneous,
+blockchain-com,Blockchain.com,Miscellaneous,
+uber,Uber,Miscellaneous,
+british-business-bank,British Business Bank,Miscellaneous,
+forvis-mazars,Forvis Mazars,Miscellaneous,IB
+saltgate,Saltgate,Miscellaneous,
+natrium-capital,Natrium Capital,Miscellaneous,
+l-oreal,L'Oréal,Miscellaneous,
+oracle,Oracle,Miscellaneous,
+arkle-finance,Arkle Finance,Miscellaneous,
+nationwide,Nationwide,Miscellaneous,
+citco,Citco,Miscellaneous,
+hiscox,Hiscox,Miscellaneous,
+ithaca-energy,Ithaca Energy,Miscellaneous,
+glg,GLG,Miscellaneous,
+waters-corporation,Waters Corporation,Miscellaneous,
+macro-hive,Macro Hive,Miscellaneous,
+general-electric,General Electric,Miscellaneous,
+aj-bell,AJ Bell,Miscellaneous,
+visa,Visa,Miscellaneous,
+frontier-economics,Frontier Economics,Miscellaneous,
+london-stock-exchange-group,London Stock Exchange Group,Miscellaneous,
+american-express,American Express,Miscellaneous,
+capital-one,Capital One,Miscellaneous,
+glencore,Glencore,Trading and Quant,
+apr-actuarial-solutions,APR Actuarial Solutions,Pensions and Insurance,
+allstate,Allstate,Miscellaneous,
+octopus-energy,Octopus Energy,Buy-Side,
+fasanara,Fasanara,Buy-Side,
+capvest,CapVest,Buy-Side,PE
+ardian,Ardian,Buy-Side,PE
+j-s-suisse,J.S. Suisse,Buy-Side,
+eurazeo,Eurazeo,Buy-Side,PE
+pai-partners,PAI Partners,Buy-Side,PE
+augusta-and-co,Augusta & Co,Buy-Side,IB
+astorg,Astorg,Buy-Side,PE
+ft-partners,FT Partners,Buy-Side,IB
+partners-group,Partners Group,Buy-Side,PE
+bda-partners,BDA Partners,Buy-Side,IB
+alba-infra-partners,Alba Infra Partners,Buy-Side,PE
+capital-d,Capital D,Buy-Side,PE
+nordic-capital,Nordic Capital,Buy-Side,PE
+wizecap,WizeCap,Buy-Side,
+bregal-milestone,Bregal Milestone,Buy-Side,PE
+tikehau-capital,Tikehau Capital,Buy-Side,PE
+ik-partners,IK Partners,Buy-Side,PE
+revaia,Revaia,Buy-Side,PE
+redalpine,redalpine,Buy-Side,
+exxonmobil,ExxonMobil,Miscellaneous,
+the-carlyle-group,The Carlyle Group,Buy-Side,PE
+aries-global,Aries Global,Buy-Side,
+iwoca,iwoca,Buy-Side,
+kkr,KKR,Buy-Side,PE
+resilience-global-capital-partners,Resilience Global Capital Partners,Buy-Side,
+midas-atlantic-partners,Midas Atlantic Partners,Buy-Side,
+natixis,Natixis,Buy-Side,IB
+global-founders-capital,Global Founders Capital,Buy-Side,
+blackwood-capital,Blackwood Capital,Buy-Side,
+t-capital,T.Capital,Buy-Side,
+access-capital-partners,Access Capital Partners,Buy-Side,PE
+dn-capital,DN Capital,Buy-Side,
+cairneagle,Cairneagle,Buy-Side,
+heptagon-capital,Heptagon Capital,Buy-Side,
+cooper-parry,Cooper Parry,Investment Banking,IB
+clairfield,Clairfield,Investment Banking,IB
+mace,Mace,Investment Banking,
+xps-group,XPS Group,Investment Banking,
+balurca-advisory,Balurca Advisory,Investment Banking,IB
+opus-corporate-finance,Opus Corporate Finance,Investment Banking,IB
+silverpeak,Silverpeak,Investment Banking,IB
+adm,ADM,Sales & Trading,
+spreadex,Spreadex,Sales & Trading,
+engelhart,Engelhart,Sales & Trading,
+verisk,Verisk,Middle/Back Office,
+rsm-uk,RSM UK,Middle/Back Office,IB
+mercuria,Mercuria,Middle/Back Office,
+hampshire-trust-bank,Hampshire Trust Bank,Middle/Back Office,
+triodos-bank,Triodos Bank,Middle/Back Office,
+paragon-banking-group,Paragon Banking Group,Middle/Back Office,
+wilmington-trust,Wilmington Trust,Asset Management,
+wellington-management,Wellington Management,Asset Management,
+hilton,Hilton,Asset Management,
+dsw-ventures,DSW Ventures,Asset Management,
+triton,Triton,Asset Management,PE
+allianz-global-investors,Allianz Global Investors,Asset Management,
+axa-investment-managers,AXA Investment Managers,Asset Management,
+quilter,Quilter,Asset Management,
+national-wealth-fund,National Wealth Fund,Asset Management,
+davy,Davy,Asset Management,
+benefit-street-partners,Benefit Street Partners,Asset Management,
+adas,ADAS,Consulting,
+accenture,Accenture,Consulting,
+4c-associates,4C Associates,Consulting,
+north-highland,North Highland,Consulting,
+spence-and-partners,Spence & Partners,Pensions and Insurance,
+benefact-group,Benefact Group,Pensions and Insurance,
+pension-protection-fund,Pension Protection Fund,Pensions and Insurance,
+liberty-mutual,Liberty Mutual,Pensions and Insurance,
+pacific-life-re,Pacific Life Re,Pensions and Insurance,
+bupa,Bupa,Pensions and Insurance,
+pem,PEM,Accounting and Audit,
+srlv,SRLV,Accounting and Audit,
+haysmac,HaysMac,Accounting and Audit,
+the-walt-disney-company,The Walt Disney Company,Accounting and Audit,
+travelport,Travelport,Accounting and Audit,
+cnh-industrial,CNH Industrial,Accounting and Audit,
+dains-accountants,Dains Accountants,Accounting and Audit,
+price-bailey,Price Bailey,Accounting and Audit,
+kenvue,Kenvue,Accounting and Audit,
+bishop-fleming,Bishop Fleming,Accounting and Audit,
+lockheed-martin,Lockheed Martin,Miscellaneous,
+oxford-economics,Oxford Economics,Miscellaneous,
+siemens-energy,Siemens Energy,Miscellaneous,
+neso,NESO,Miscellaneous,
+pfizer,Pfizer,Miscellaneous,
+ups,UPS,Miscellaneous,
+mbda,MBDA,Miscellaneous,
+balfour-beatty,Balfour Beatty,Miscellaneous,
+odicci,Odicci,Miscellaneous,
+vwfs,VWFS,Miscellaneous,
+almac-group,Almac Group,Miscellaneous,
+bmw,BMW,Miscellaneous,
+cpl-life-sciences,Cpl Life Sciences,Miscellaneous,
+cummins,Cummins,Miscellaneous,
+hazlewoods,Hazlewoods,Miscellaneous,
+admiral-group,Admiral Group,Miscellaneous,
+kia,KIA,Miscellaneous,
+johnson-and-johnson,Johnson & Johnson,Miscellaneous,
+nbcuniversal,NBCUniversal,Miscellaneous,
+cambridge-econometrics,Cambridge Econometrics,Miscellaneous,
+pernod-ricard,Pernod Ricard,Miscellaneous,
+united-utilities,United Utilities,Miscellaneous,
+adobe,Adobe,Miscellaneous,
+edf-energy,EDF Energy,Miscellaneous,
+leicestershire-police,Leicestershire Police,Miscellaneous,
+danaher,Danaher,Miscellaneous,
+basf,BASF,Miscellaneous,
+caterpillar,Caterpillar,Miscellaneous,
+tata-consultancy-services,Tata Consultancy Services,Miscellaneous,
+clarify,Clarify,Miscellaneous,
+tarmac,Tarmac,Miscellaneous,
+softcat,Softcat,Miscellaneous,
+muller,Müller,Miscellaneous,
+immunocore,Immunocore,Miscellaneous,
+sap,SAP,Miscellaneous,
+volvo-car-financial-services,Volvo Car Financial Services,Miscellaneous,
+kraft-heinz,Kraft Heinz,Miscellaneous,
+south-wales-police,South Wales Police,Miscellaneous,
+virgin-media-o2,Virgin Media O2,Miscellaneous,
+cme-group,CME Group,Miscellaneous,
+scania-financial-services,Scania Financial Services,Miscellaneous,
+valsoft-corporation,Valsoft Corporation,Miscellaneous,
+terex,Terex,Miscellaneous,
+fdm-group,FDM Group,Miscellaneous,
+boeing,Boeing,Miscellaneous,
+coca-cola,Coca Cola,Miscellaneous,
+boehringer-ingelheim,Boehringer Ingelheim,Miscellaneous,
+rtx,RTX,Miscellaneous,
+morrisons,Morrisons,Miscellaneous,
+bentley,Bentley,Miscellaneous,
+next-plc,Next plc,Miscellaneous,
+tjx,TJX,Miscellaneous,
+mclaren,McLaren,Miscellaneous,
+unilever,Unilever,Miscellaneous,
+travelers,Travelers,Miscellaneous,
+bending-spoons,Bending Spoons,Miscellaneous,
+connect-corporate-finance,Connect Corporate Finance,Middle Market,IB
+commbank,CommBank,Middle Market,IB
+cicc,CICC,Middle Market,IB
+aib,AIB,Middle Market,IB
+hive-capital-advisory,Hive Capital Advisory,Middle Market,IB
+goodbody,Goodbody,Middle Market,IB
+buro-happold,Buro Happold,Middle Market,
+bean-partners,Bean Partners,Middle Market,IB
+commerzbank,Commerzbank,Middle Market,IB
+clearwater,Clearwater,Middle Market,IB
+edgewater-strategy-group,Edgewater Strategy Group,Middle Market,IB
+frp-advisory,FRP Advisory,Middle Market,IB
+canaccord-genuity,Canaccord Genuity,Middle Market,IB
+venero-capital-advisors,Venero Capital Advisors,Middle Market,IB
+heligan-group,Heligan Group,Middle Market,IB
+ing,ING,Middle Market,IB
+arkap-and-co,arKap & Co,Middle Market,IB
+headford-group,Headford Group,Middle Market,IB
+gerald-edelman,Gerald Edelman,Middle Market,IB
+bellwether,Bellwether,Middle Market,IB
+stephens,Stephens,Middle Market,IB
+icg,ICG,Buy-Side,PE
+blenheim-chalcot,Blenheim Chalcot,Buy-Side,
+octopus-capital,Octopus Capital,Buy-Side,PE
+octopus-real-estate,Octopus Real Estate,Buy-Side,
+harbourvest,HarbourVest,Buy-Side,PE
+uncapped,Uncapped,Buy-Side,
+techcredit-partners,TechCredit Partners,Buy-Side,
+perch-group,Perch Group,Buy-Side,
+lgt-capital-partners,LGT Capital Partners,Buy-Side,PE
+pathway-capital-management,Pathway Capital Management,Buy-Side,PE
+signal-ventures,Signal Ventures,Buy-Side,
+solarel,Solarel,Buy-Side,
+hummingbird,Hummingbird,Buy-Side,
+expedition-growth-capital,Expedition Growth Capital,Buy-Side,PE
+mavenswood-investments,MavensWood Investments,Buy-Side,
+shojin,Shojin,Buy-Side,
+tenzing,Tenzing,Buy-Side,PE
+pemberton-asset-management,Pemberton Asset Management,Buy-Side,PE
+svv,SVV,Buy-Side,
+cusana-capital,Cusana Capital,Buy-Side,PE
+tower-peak-partners,Tower Peak Partners,Buy-Side,
+sagard,Sagard,Buy-Side,PE
+warburg-pincus,Warburg Pincus,Buy-Side,PE
+circeus,Circeus,Buy-Side,
+st-james-s-place,St James's Place,Asset Management,
+insight-investment,Insight Investment,Asset Management,
+m7-real-estate,M7 Real Estate,Asset Management,
+evelyn-partners,Evelyn Partners,Asset Management,
+skybound-wealth-management,Skybound Wealth Management,Asset Management,
+british-international-investment,British International Investment,Asset Management,
+watkins-jones-group,Watkins Jones Group,Asset Management,
+avison-young,Avison Young,Asset Management,
+russell-investments,Russell Investments,Asset Management,
+gib-asset-management,GIB Asset Management,Asset Management,
+access-bank,Access Bank,Asset Management,
+aviva-investors,Aviva Investors,Asset Management,
+aequitas-research,Aequitas Research,Asset Management,
+artmax,Artmax,Asset Management,
+cpp-investments,CPP Investments,Asset Management,
+loomis-sayles,Loomis Sayles,Asset Management,
+efg-international,EFG International,Asset Management,
+momentum-group,Momentum Group,Asset Management,
+vencap,VenCap,Asset Management,
+best-star-real-estate,Best Star Real Estate,Asset Management,
+devere-group,deVere Group,Asset Management,
+ruffer,Ruffer,Asset Management,
+janus-henderson,Janus Henderson,Asset Management,
+baillie-gifford,Baillie Gifford,Asset Management,
+rathbones,Rathbones,Asset Management,
+globe-life-sciences,Globe Life Sciences,Consulting,
+capco,Capco,Consulting,
+elixirr,Elixirr,Consulting,
+veeva,Veeva,Consulting,
+strategyand,Strategy&,Consulting,
+advancy,Advancy,Consulting,
+actica-consulting,Actica Consulting,Consulting,
+berkeley-research-group,Berkeley Research Group,Consulting,
+newmark,Newmark,Consulting,
+cartesian,Cartesian,Consulting,
+pmsi,PMSI,Consulting,
+cil-management-consultants,CIL Management Consultants,Consulting,
+alixpartners,AlixPartners,Consulting,IB
+secretariat,Secretariat,Consulting,
+impact-consulting,Impact Consulting,Consulting,
+collinson-grant,Collinson Grant,Consulting,
+hatch,Hatch,Consulting,
+afry-capital,AFRY Capital,Consulting,
+alchemmy,Alchemmy,Consulting,
+carnall-farrar,Carnall Farrar,Consulting,
+kae,KAE,Consulting,
+kaiser-associates,Kaiser Associates,Consulting,
+management-solutions,Management Solutions,Consulting,
+oaklin,Oaklin,Consulting,
+kearney,Kearney,Consulting,
+novatus-global,Novatus Global,Consulting,
+volcore,Volcore,Trading and Quant,
+3red-partners,3Red Partners,Trading and Quant,
+headlands-technologies,Headlands Technologies,Trading and Quant,
+five-rings,Five Rings,Trading and Quant,
+onyx-capital-group,Onyx Capital Group,Trading and Quant,
+javelin-global-commodities,Javelin Global Commodities,Trading and Quant,
+blackship-capital,BlackShip Capital,Trading and Quant,
+petroineos,Petroineos,Trading and Quant,
+b2c2,B2C2,Trading and Quant,
+smartestenergy,SmartestEnergy,Trading and Quant,
+britannia-global-markets,Britannia Global Markets,Trading and Quant,
+tradition,Tradition,Trading and Quant,
+lighthouse-collective-capital,Lighthouse Collective Capital,Trading and Quant,
+pareto-securities,Pareto Securities,Trading and Quant,
+strathum-capital,Strathum Capital,Trading and Quant,
+kappa-lab,Kappa Lab,Trading and Quant,
+torq-commodities,Torq Commodities,Trading and Quant,
+rsted,Ørsted,Trading and Quant,
+keyrock,Keyrock,Trading and Quant,
+aerfin,AerFin,Trading and Quant,
+colchester-global-investors,Colchester Global Investors,Trading and Quant,
+ec-markets,EC Markets,Trading and Quant,
+binance,Binance,Trading and Quant,
+direct-business-group,Direct Business Group,Trading and Quant,
+gsr-markets,GSR Markets,Trading and Quant,
+phoenix-group,Phoenix Group,Trading and Quant,
+welsh-power,Welsh Power,Trading and Quant,
+vitol,Vitol,Trading and Quant,
+jjj-capital-management,JJJ Capital Management,Trading and Quant,
+icbc-standard-bank,ICBC Standard Bank,Trading and Quant,
+levl,Levl,Trading and Quant,
+braemar,Braemar,Trading and Quant,
+amius,Amius,Trading and Quant,
+queueco,Queueco,Trading and Quant,
+centrica-energy,Centrica Energy,Trading and Quant,
+akuna-capital,Akuna Capital,Trading and Quant,
+outlook-energy,Outlook Energy,Trading and Quant,
+radix-trading,Radix Trading,Trading and Quant,
+old-mission,Old Mission,Trading and Quant,
+mustard-systems,Mustard Systems,Trading and Quant,
+raven,Raven,Trading and Quant,
+redevco,Redevco,Real Estate,
+situsamc,SitusAMC,Real Estate,
+castleforge,Castleforge,Real Estate,
+dexters,Dexters,Real Estate,
+gen-re,Gen Re,Pensions and Insurance,
+acrisure,Acrisure,Pensions and Insurance,
+gallagher,Gallagher,Pensions and Insurance,
+canopius,Canopius,Pensions and Insurance,
+hsc-insurance-group,HSC Insurance Group,Pensions and Insurance,
+markerstudy-group,Markerstudy Group,Pensions and Insurance,
+lppi,LPPI,Pensions and Insurance,
+chubb,Chubb,Pensions and Insurance,
+ms-amlin,MS Amlin,Pensions and Insurance,
+monument-re-group,Monument Re Group,Pensions and Insurance,
+scottish-friendly,Scottish Friendly,Pensions and Insurance,
+brit-insurance,Brit Insurance,Pensions and Insurance,
+punter-southall,Punter Southall,Pensions and Insurance,
+beazley,Beazley,Pensions and Insurance,
+aspect,Aspect,Pensions and Insurance,
+jmg-group,JMG Group,Pensions and Insurance,
+lancashire-insurance-group,Lancashire Insurance Group,Pensions and Insurance,
+volante-global,Volante Global,Pensions and Insurance,
+everywhen,Everywhen,Pensions and Insurance,
+siriuspoint,SiriusPoint,Pensions and Insurance,
+argenta-group,Argenta Group,Pensions and Insurance,
+chaucer-group,Chaucer Group,Pensions and Insurance,
+direct-line-group,Direct Line Group,Pensions and Insurance,
+antares,Antares,Pensions and Insurance,
+border-to-coast,Border to Coast,Pensions and Insurance,
+apollo-ibott,Apollo ibott,Pensions and Insurance,
+armstrong-watson,Armstrong Watson,Accounting and Audit,
+mercer-and-hole,Mercer & Hole,Accounting and Audit,
+mha,MHA,Accounting and Audit,
+langham-hall,Langham Hall,Accounting and Audit,
+moore-kingston-smith,Moore Kingston Smith,Accounting and Audit,IB
+alter-domus,Alter Domus,Accounting and Audit,
+msd,MSD,Accounting and Audit,
+hmrc,HMRC,Accounting and Audit,
+pkf-francis-clark,PKF Francis Clark,Accounting and Audit,
+ensors,Ensors,Accounting and Audit,
+arnold-clark,Arnold Clark,Accounting and Audit,
+heidelberg-materials,Heidelberg Materials,Accounting and Audit,
+park-place-technologies,Park Place Technologies,Accounting and Audit,
+crowe,Crowe,Accounting and Audit,IB
+national-audit-office,National Audit Office,Accounting and Audit,
+m-a-partners,M+A Partners,Accounting and Audit,
+vodafone,Vodafone,Miscellaneous,
+shawbrook,Shawbrook,Miscellaneous,
+awe,AWE,Miscellaneous,
+woozle-research,Woozle Research,Miscellaneous,
+mni,MNI,Miscellaneous,
+vela-software,Vela Software,Miscellaneous,
+babcock-international,Babcock International,Miscellaneous,
+aston-martin,Aston Martin,Miscellaneous,
+zopa,Zopa,Miscellaneous,
+blueground,Blueground,Miscellaneous,
+frazer-nash-consultancy,Frazer-Nash Consultancy,Miscellaneous,
+global-payments,Global Payments,Miscellaneous,
+laing-o-rourke,Laing O'Rourke,Miscellaneous,
+mondelez-international,Mondelēz International,Miscellaneous,
+pegasus-group,Pegasus Group,Miscellaneous,
+whitbread,Whitbread,Miscellaneous,
+epic-investment-partners,EPIC Investment Partners,Miscellaneous,
+national-highways,National Highways,Miscellaneous,
+ayvens,Ayvens,Miscellaneous,
+newday,NewDay,Miscellaneous,
+sportrader,Sportrader,Miscellaneous,
+transport-for-london,Transport for London,Miscellaneous,
+yorkshire-water,Yorkshire Water,Miscellaneous,
+titanbay,Titanbay,Miscellaneous,
+experian,Experian,Miscellaneous,
+harbour-energy,Harbour Energy,Miscellaneous,
+onerway,Onerway,Miscellaneous,
+vixio,Vixio,Miscellaneous,
+altair-ltd,Altair Ltd,Miscellaneous,
+creditsights,CreditSights,Miscellaneous,
+fitch-ratings,Fitch Ratings,Miscellaneous,
+kingfisher,Kingfisher,Miscellaneous,
+premium-credit,Premium Credit,Miscellaneous,
+the-very-group,The Very Group,Miscellaneous,
+kier,Kier,Miscellaneous,
+koch,Koch,Miscellaneous,
+gocardless,GoCardless,Miscellaneous,
+ryanair,Ryanair,Miscellaneous,
+thermo-fisher,Thermo Fisher,Miscellaneous,
+pepsico,PepsiCo,Miscellaneous,
+thecityuk,TheCityUK,Miscellaneous,
+wealthmax-financial-advisers,Wealthmax Financial Advisers,Miscellaneous,
+aveva,AVEVA,Miscellaneous,
+abbvie,Abbvie,Miscellaneous,
+clear-street,Clear Street,Miscellaneous,
+firstbank,FirstBank,Miscellaneous,
+sweco,Sweco,Miscellaneous,
+united-trust-bank,United Trust Bank,Miscellaneous,
+youlend,YouLend,Miscellaneous,
+sanctuary-group,Sanctuary Group,Miscellaneous,
+equifax,Equifax,Miscellaneous,
+treasuryspring,TreasurySpring,Miscellaneous,
+xtb-online-investing,XTB online investing,Miscellaneous,
+aej-consulting,AEJ Consulting,Miscellaneous,
+relx,RELX,Miscellaneous,
+compare-the-market,Compare The Market,Miscellaneous,
+latham-and-watkins,Latham & Watkins,Miscellaneous,
+begbies-traynor-group,Begbies Traynor Group,Miscellaneous,
+we-do-group,We Do Group,Miscellaneous,
+ion,ION,Miscellaneous,
+gateley,Gateley,Miscellaneous,
+gold-bullion-partners,Gold Bullion Partners,Miscellaneous,
+foxtons,Foxtons,Miscellaneous,
+royal-caribbean-group,Royal Caribbean Group,Miscellaneous,
+eet,EET,Miscellaneous,
+trading-212,Trading 212,Miscellaneous,
+financial-times,Financial Times,Miscellaneous,
+marex,Marex,Miscellaneous,
+mcdonald-s,McDonald's,Miscellaneous,
+bank-of-china,Bank of China,Miscellaneous,
+monzo,Monzo,Miscellaneous,
+bank-of-ireland,Bank of Ireland,Miscellaneous,
+johnson-matthey,Johnson Matthey,Miscellaneous,

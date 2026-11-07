@@ -4,7 +4,7 @@ A robot that checks company careers sites for entry-level roles in London (sprin
 
 ## How it works
 
-1. **The company list** (`data/companies.csv`): 829 finance employers, each with a sector. 125 are marked as investment banking focus.
+1. **The company list** (`data/companies.csv`): 829 finance employers. The robot only covers the 184 marked IB (investment banking, 138) or PE (private equity, 46) in the `segment` column; the rest are kept for later.
 2. **Discovery** (`robot/discover.py`, run monthly or by hand): for each company, finds its careers site and works out which hiring system it uses. Results go to `data/sources.json`, with a plain-English summary in `data/discovery_report.md`.
 3. **The check** (`robot/run.py`, every 15 minutes on weekdays, hourly otherwise): reads every known source, keeps entry-level London roles, and updates `data/openings.json`. Roles that disappear are marked closed.
 4. **Health** (`data/health.json`): whether each source worked last time. If a source fails three runs in a row, the run is marked as failed and GitHub emails the owner.

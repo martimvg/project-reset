@@ -4,15 +4,18 @@ on:
   workflow_dispatch:
     inputs:
       scope:
-        description: "ib-only, missing (companies without a source) or all"
+        description: "missing (companies without a source) or all"
         required: true
-        default: "ib-only"
+        default: "missing"
       only:
         description: "Optional: company ids, comma-separated"
         required: false
         default: ""
   schedule:
     - cron: "30 3 1 * *"  # first day of each month, re-check everything
+  push:
+    branches: [main]
+    paths: ["data/companies.csv", "data/seeds.json", "data/overrides.json"]
 
 permissions:
   contents: write
@@ -32,8 +35,7 @@ jobs:
       - name: Find each company's hiring system
         run: |
           ARGS=""
-          SCOPE="${{ inputs.scope || 'all' }}"
-          if [ "$SCOPE" = "ib-only" ]; then ARGS="--ib-only"; fi
+          SCOPE="${{ github.event_name == 'schedule' && 'all' || inputs.scope || 'missing' }}"
           if [ "$SCOPE" = "all" ]; then ARGS="--all"; fi
           if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only ${{ inputs.only }}"; fi
           python -m robot.discover $ARGS

@@ -84,7 +84,7 @@ def main() -> int:
             rec = openings.get(key)
             if rec is None:
                 rec = {"company_id": cid, "company": src["name"], "sector": src.get("sector", ""),
-                       "ib_focus": src.get("ib_focus", "no"), "first_seen": now, "system": src["system"]}
+                       "segment": src.get("segment", ""), "first_seen": now, "system": src["system"]}
                 new_roles.append((src["name"], job.title, job.url))
             rec.update({"title": job.title, "url": job.url, "location": job.location or "Not stated",
                         "location_checked": london is True, "programme": programme_type(job.title),
