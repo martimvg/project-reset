@@ -43,7 +43,7 @@ OTHER_CITY = re.compile(
     r"new york|\bnyc\b|hong kong|singapore|dubai|abu dhabi|riyadh|doha|houston|chicago|boston|san francisco|los angeles|"
     r"washington|toronto|montreal|sydney|melbourne|mumbai|bangalore|bengaluru|tokyo|shanghai|beijing|paris|frankfurt|"
     r"madrid|milan|amsterdam|zurich|geneva|luxembourg|stockholm|dublin|edinburgh|glasgow|aberdeen|manchester|birmingham|"
-    r"leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|liverpool|milton keynes|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b",
+    r"leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|liverpool|milton keynes|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.",
     re.I,
 )
 
