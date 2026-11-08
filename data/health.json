@@ -5,7 +5,23 @@
   "failures": 0,
   "last_ok": "2026-11-08",
   "postings_read": 0,
-  "system": "workable"
+  "system": "browser"
+ },
+ "access-capital-partners": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "aib": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
  },
  "alantra": {
   "entry_level_found": 0,
@@ -15,6 +31,11 @@
   "postings_read": 0,
   "system": "browser"
  },
+ "alba-infra-partners": {
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.albainfra.com/careers\nCall log:\n  - navigating to \"https://www.albainfra.com/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
+  "system": "browser"
+ },
  "alixpartners": {
   "entry_level_found": 0,
   "error": "",
@@ -22,6 +43,14 @@
   "last_ok": "2026-11-08",
   "postings_read": 127,
   "system": "greenhouse"
+ },
+ "allia-candc": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
  },
  "alvarez-and-marsal": {
   "entry_level_found": 0,
@@ -39,6 +68,51 @@
   "postings_read": 0,
   "system": "browser"
  },
+ "ardian": {
+  "entry_level_found": 1,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 66,
+  "system": "workday"
+ },
+ "ares-management": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "arkap-and-co": {
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.arkap.co/careers\nCall log:\n  - navigating to \"https://www.arkap.co/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
+  "system": "browser"
+ },
+ "astorg": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "atlas-holdings": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "augusta-and-co": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
  "baird": {
   "entry_level_found": 2,
   "error": "",
@@ -47,31 +121,52 @@
   "postings_read": 3,
   "system": "browser"
  },
- "bank-of-america": {
-  "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
-  "last_ok": "2026-11-08",
-  "postings_read": 281,
-  "system": "workday"
- },
- "barclays": {
-  "entry_level_found": 1,
-  "error": "",
-  "failures": 0,
-  "last_ok": "2026-11-08",
-  "postings_read": 278,
-  "system": "workday"
- },
- "bbva": {
+ "balurca-advisory": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
   "postings_read": 0,
-  "system": "workable"
+  "system": "browser"
+ },
+ "bank-of-america": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 489,
+  "system": "workday"
+ },
+ "barclays": {
+  "entry_level_found": 4,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 381,
+  "system": "workday"
+ },
+ "bbva": {
+  "entry_level_found": 0,
+  "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/es/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+  "failures": 1,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "workday"
  },
  "bdo-global": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "bean-partners": {
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.beanpartners.co.uk/careers\nCall log:\n  - navigating to \"https://www.beanpartners.co.uk/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
+  "system": "browser"
+ },
+ "bellwether": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
@@ -87,15 +182,39 @@
   "postings_read": 1,
   "system": "browser"
  },
+ "bgf": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "blackstone": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
  "bmo-capital-markets": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 38,
+  "postings_read": 47,
   "system": "phenom"
  },
  "bnp-paribas": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "bregal-milestone": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
@@ -111,7 +230,47 @@
   "postings_read": 238,
   "system": "greenhouse"
  },
+ "btig": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "campbell-lutyens": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
  "canaccord-genuity": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "capital-d": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "capvest": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "cdandr": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
@@ -132,16 +291,40 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
+  "postings_read": 50,
+  "system": "workday"
+ },
+ "cicc": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
   "postings_read": 0,
-  "system": "workable"
+  "system": "browser"
  },
  "citi": {
   "entry_level_found": 9,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 596,
+  "postings_read": 1165,
   "system": "workday"
+ },
+ "citic-clsa": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 240,
+  "system": "workday"
+ },
+ "clairfield": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
  },
  "clearwater": {
   "entry_level_found": 0,
@@ -151,7 +334,52 @@
   "postings_read": 6,
   "system": "personio"
  },
+ "climate-investment": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "collingwood": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "commbank": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 96,
+  "system": "workday"
+ },
  "commerzbank": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "compound-equity-group": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "connect-corporate-finance": {
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.connectcf.co.uk/careers\nCall log:\n  - navigating to \"https://www.connectcf.co.uk/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
+  "system": "browser"
+ },
+ "cooper-parry": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
@@ -167,6 +395,30 @@
   "postings_read": 0,
   "system": "browser"
  },
+ "crowe": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "cusana-capital": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "cygnum-capital": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "bamboohr"
+ },
  "dc-advisory": {
   "entry_level_found": 0,
   "error": "",
@@ -177,11 +429,11 @@
  },
  "dealglobe": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.dealglobe.com/careers\nCall log:\n  - navigating to \"https://www.dealglobe.com/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
-  "system": "workable"
+  "system": "browser"
  },
  "deloitte": {
   "entry_level_found": 0,
@@ -199,13 +451,66 @@
   "postings_read": 0,
   "system": "browser"
  },
- "evercore": {
+ "eastdil-secured": {
   "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "eqt": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "equiteq": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "equitix": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "ethical-capital-partners": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "eurazeo": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "browser"
+ },
+ "evercore": {
+  "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
   "postings_read": 10,
   "system": "oleeo"
+ },
+ "expedition-growth-capital": {
+  "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_RESET at https://expeditiongrowth.com/careers\nCall log:\n  - navigating to \"https://expeditiongrowth.com/careers\", waiting until \"domcontentloaded\"",
+  "failures": 1,
+  "system": "browser"
  },
  "ey": {
   "entry_level_found": 0,
@@ -238,6 +543,22 @@
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
+ },
+ "ft-partners": {
+  "entry_level_found": 2,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 22,
+  "system": "greenhouse"
+ },
+ "fti-consulting": {
+  "entry_level_found": 2,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 225,
+  "system": "workday"
  },
  "galaxy": {
   "entry_level_found": 0,
@@ -303,6 +624,14 @@
   "postings_read": 21,
   "system": "workday"
  },
+ "hamilton-lane": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 50,
+  "system": "workday"
+ },
  "handelsbanken": {
   "entry_level_found": 0,
   "error": "",
@@ -310,6 +639,22 @@
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
+ },
+ "harbourvest": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 64,
+  "system": "workday"
+ },
+ "harris-williams": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 12,
+  "system": "workday"
  },
  "houlihan-lokey": {
   "entry_level_found": 1,
@@ -320,12 +665,12 @@
   "system": "workday"
  },
  "howden": {
-  "entry_level_found": 0,
+  "entry_level_found": 4,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 0,
-  "system": "workable"
+  "postings_read": 299,
+  "system": "workday"
  },
  "hsbc": {
   "entry_level_found": 0,
@@ -334,6 +679,14 @@
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
+ },
+ "icg": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 14,
+  "system": "workday"
  },
  "ik-partners": {
   "entry_level_found": 0,
@@ -345,7 +698,7 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 16,
+  "failures": 17,
   "system": "radancy"
  },
  "interpath-advisory": {
@@ -365,11 +718,11 @@
   "system": "browser"
  },
  "j-p-morgan": {
-  "entry_level_found": 0,
+  "entry_level_found": 1,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 647,
+  "postings_read": 2174,
   "system": "oracle"
  },
  "jefferies": {
@@ -408,6 +761,14 @@
   "last_ok": "2026-11-08",
   "postings_read": 98,
   "system": "oracle"
+ },
+ "leerink-partners": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 13,
+  "system": "workday"
  },
  "lincoln-international": {
   "entry_level_found": 0,
@@ -456,6 +817,14 @@
   "last_ok": "2026-11-08",
   "postings_read": 14,
   "system": "oleeo"
+ },
+ "moore-kingston-smith": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 16,
+  "system": "pinpoint"
  },
  "morgan-stanley": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates\nCall log:\n  - navigating to \"https://www.morganstanley.com/people-opportunities/students-graduates\", waiting until \"domcontentloaded\"",
@@ -534,6 +903,14 @@
   "postings_read": 54,
   "system": "workday"
  },
+ "pkf-smith-cooper": {
+  "entry_level_found": 2,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 16,
+  "system": "rss"
+ },
  "pwc": {
   "entry_level_found": 1,
   "error": "",
@@ -550,6 +927,11 @@
   "postings_read": 0,
   "system": "browser"
  },
+ "quantuma": {
+  "error": "xml.etree.ElementTree.ParseError: mismatched tag: line 32, column 4",
+  "failures": 1,
+  "system": "rss"
+ },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
   "failures": 16,
@@ -560,7 +942,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 50,
+  "postings_read": 61,
   "system": "phenom"
  },
  "rothschild-and-co": {
@@ -587,21 +969,34 @@
   "postings_read": 5,
   "system": "oleeo"
  },
+ "sagard": {
+  "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/portagecareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+  "failures": 1,
+  "system": "greenhouse"
+ },
  "santander": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 191,
+  "postings_read": 398,
   "system": "workday"
  },
  "scotiabank": {
   "entry_level_found": 0,
+  "error": "robots.txt asks tools not to read this page",
+  "failures": 1,
+  "last_ok": "2026-11-08",
+  "postings_read": 0,
+  "system": "successfactors"
+ },
+ "sixth-street": {
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 0,
-  "system": "workable"
+  "postings_read": 12,
+  "system": "workday"
  },
  "smbc": {
   "entry_level_found": 0,
@@ -643,12 +1038,20 @@
   "postings_read": 10,
   "system": "icims"
  },
+ "stout": {
+  "entry_level_found": 2,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 4,
+  "system": "workday"
+ },
  "td-securities": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-08",
-  "postings_read": 463,
+  "postings_read": 800,
   "system": "workday"
  },
  "teneo": {
@@ -659,9 +1062,17 @@
   "postings_read": 0,
   "system": "browser"
  },
+ "triton": {
+  "entry_level_found": 0,
+  "error": "",
+  "failures": 0,
+  "last_ok": "2026-11-08",
+  "postings_read": 6,
+  "system": "workday"
+ },
  "ubs": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 16,
+  "failures": 17,
   "system": "radancy"
  },
  "wells-fargo": {
