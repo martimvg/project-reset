@@ -78,12 +78,18 @@
   "system": "greenhouse"
  },
  "allia-candc": {
-  "how": "not found",
+  "careers_url": "https://www.allia.org.uk/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "allia-candc",
   "name": "Allia C&C",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://allia.org.uk/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "alvarez-and-marsal": {
   "careers_url": "https://www.alvarezandmarsal.com/careers",
@@ -336,12 +342,18 @@
   "system": "avature"
  },
  "bgf": {
-  "how": "not found",
+  "careers_url": "https://www.bgf.co.uk/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "bgf",
   "name": "BGF",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.bgf.co.uk/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "blackstone": {
   "careers_url": "https://www.blackstone.com/careers/",
@@ -387,12 +399,18 @@
   "system": "browser"
  },
  "bregal-milestone": {
-  "how": "not found",
+  "careers_url": "https://www.bregalmilestone.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "bregal-milestone",
   "name": "Bregal Milestone",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.bregalmilestone.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "btg-pactual": {
   "checked": "2026-11-07",
@@ -449,12 +467,18 @@
   "system": "browser"
  },
  "capital-d": {
-  "how": "not found",
+  "careers_url": "https://www.capitald.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "capital-d",
   "name": "Capital D",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://capitald.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "capvest": {
   "careers_url": "https://www.capvest.com/careers",
@@ -560,12 +584,18 @@
   "system": "workday"
  },
  "clairfield": {
-  "how": "not found",
+  "careers_url": "https://www.clairfield.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "clairfield",
   "name": "Clairfield",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.clairfield.com/"
+  },
   "sector": "Investment Banking",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "clearwater": {
   "careers_url": "https://www.clearwatercf.com/careers/",
@@ -583,12 +613,18 @@
   "system": "personio"
  },
  "climate-investment": {
-  "how": "not found",
+  "careers_url": "https://climateinvestment.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "climate-investment",
   "name": "Climate Investment",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.climateinvestment.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "collingwood": {
   "careers_url": "https://www.collingwoodadvisory.com/careers",
@@ -635,9 +671,11 @@
   "system": "browser"
  },
  "compound-equity-group": {
+  "checked": "2026-11-08",
   "how": "not found",
   "id": "compound-equity-group",
   "name": "Compound Equity Group",
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Buy-Side",
   "segment": "PE",
   "system": null
@@ -825,12 +863,18 @@
   "system": "browser"
  },
  "equitix": {
-  "how": "not found",
+  "careers_url": "https://www.equitix.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "equitix",
   "name": "Equitix",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://equitix.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "ethical-capital-partners": {
   "careers_url": "https://www.ethicalcapitalpartners.com/careers",
@@ -847,12 +891,18 @@
   "system": "browser"
  },
  "eurazeo": {
-  "how": "not found",
+  "careers_url": "https://www.eurazeo.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "eurazeo",
   "name": "Eurazeo",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.eurazeo.com/fr"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "evercore": {
   "careers_url": "https://www.evercore.com/careers/students-graduates/",
@@ -908,20 +958,34 @@
   "system": "browser"
  },
  "forvis-mazars": {
-  "how": "not found",
+  "careers_url": "https://careers-uk.forvismazars.com/jobs/early-careers",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "forvis-mazars",
   "name": "Forvis Mazars",
+  "note": "",
+  "params": {
+   "host": "forvismazarsuk.wd107.myworkdayjobs.com",
+   "site": "FM_1",
+   "tenant": "forvismazarsuk"
+  },
   "sector": "Miscellaneous",
   "segment": "IB",
-  "system": null
+  "system": "workday"
  },
  "frp-advisory": {
-  "how": "not found",
+  "careers_url": "https://www.frpadvisory.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "frp-advisory",
   "name": "FRP Advisory",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.frpadvisory.com/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "ft-partners": {
   "careers_url": "https://www.ftpartners.com/careers",
@@ -977,12 +1041,18 @@
   "system": "greenhouse"
  },
  "gerald-edelman": {
-  "how": "not found",
+  "careers_url": "https://www.geraldedelman.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "gerald-edelman",
   "name": "Gerald Edelman",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.geraldedelman.com/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "gleacher-shacklock": {
   "careers_url": "https://pwpartners.com/careers/",
@@ -1187,12 +1257,18 @@
   "system": "browser"
  },
  "headford-group": {
-  "how": "not found",
+  "careers_url": "https://www.headfordgroup.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "headford-group",
   "name": "Headford Group",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://headfordgroup.com/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "heligan-group": {
   "careers_url": "https://www.heligangroup.com/careers",
@@ -1346,12 +1422,18 @@
   "system": "workable"
  },
  "intriva": {
-  "how": "not found",
+  "careers_url": "https://www.intriva.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "intriva",
   "name": "Intriva",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.intriva.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "investec": {
   "careers_url": "https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html",
@@ -1456,12 +1538,18 @@
   "system": "browser"
  },
  "kroll": {
-  "how": "not found",
+  "careers_url": "https://careers.kroll.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "kroll",
   "name": "Kroll",
+  "note": "",
+  "params": {
+   "host": "careers.kroll.com"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "radancy"
  },
  "lazard": {
   "careers_url": "https://www.lazard.com/careers/",
@@ -1508,12 +1596,18 @@
   "system": "browser"
  },
  "lincoln-international": {
-  "how": "not found",
+  "careers_url": "https://www.lincolninternational.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "lincoln-international",
   "name": "Lincoln International",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.lincolninternational.com/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "liontree": {
   "careers_url": "https://www.liontree.com/careers",
@@ -1586,12 +1680,18 @@
   "system": "avature"
  },
  "mizuho": {
-  "how": "not found",
+  "careers_url": "https://www.mizuhogroup.com/emea/careers/internship-programme",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "mizuho",
   "name": "Mizuho",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.mizuhogroup.com/emea/careers/internship-programme"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "mki-global-partners": {
   "checked": "2026-11-08",
@@ -1716,12 +1816,18 @@
   "system": "browser"
  },
  "nordic-capital": {
-  "how": "not found",
+  "careers_url": "https://www.nordiccapital.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "nordic-capital",
   "name": "Nordic Capital",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.nordiccapital.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "octopus-capital": {
   "careers_url": "https://octopusinvestments.com/careers/",
@@ -1845,12 +1951,18 @@
   "system": "browser"
  },
  "pharus": {
-  "how": "not found",
+  "careers_url": "https://www.pharus.co.uk/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "pharus",
   "name": "Pharus",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.pharus.co.uk/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "piper-sandler": {
   "checked": "2026-11-08",
@@ -1911,12 +2023,18 @@
   "system": "browser"
  },
  "qatalyst-partners": {
-  "how": "not found",
+  "careers_url": "https://www.qatalyst.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "qatalyst-partners",
   "name": "Qatalyst Partners",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://qatalyst.com/"
+  },
   "sector": "Elite Boutique",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "quantuma": {
   "careers_url": "https://careers.k3advisorygroup.com/quantuma",
@@ -1990,12 +2108,18 @@
   "system": "browser"
  },
  "revaia": {
-  "how": "not found",
+  "careers_url": "https://www.revaia.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "revaia",
   "name": "Revaia",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.revaia.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "rothschild-and-co": {
   "checked": "2026-11-08",
@@ -2127,12 +2251,18 @@
   "system": "browser"
  },
  "societe-generale": {
-  "how": "not found",
+  "careers_url": "https://careers.societegenerale.com/en",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "societe-generale",
   "name": "Société Générale",
+  "note": "",
+  "params": {
+   "url": "https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&amp;src=CWS-1"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "standard-bank": {
   "careers_url": "https://www.standardbank.com/sbg/standard-bank-group/careers",
@@ -2149,12 +2279,18 @@
   "system": "browser"
  },
  "standard-chartered": {
-  "how": "not found",
+  "careers_url": "https://www.sc.com/graduates",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "standard-chartered",
   "name": "Standard Chartered",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.sc.com/en/global-careers/early-careers/"
+  },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": null
+  "system": "browser"
  },
  "stephens": {
   "careers_url": "https://www.stephens.com/careers/",
@@ -2171,12 +2307,18 @@
   "system": "browser"
  },
  "stepstone-group": {
-  "how": "not found",
+  "careers_url": "https://www.stepstonegroup.com/",
+  "checked": "2026-11-08",
+  "how": "careers page",
   "id": "stepstone-group",
   "name": "StepStone Group",
+  "note": "no known hiring system found; reading the page in the browser",
+  "params": {
+   "url": "https://www.stepstonegroup.com/"
+  },
   "sector": "Buy-Side",
   "segment": "PE",
-  "system": null
+  "system": "browser"
  },
  "stifel": {
   "careers_url": "https://www.stifel.com/careers",

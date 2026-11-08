@@ -1,22 +1,22 @@
 # Discovery report (2026-11-08)
 
-182 companies. 164 have a source; 18 still need a careers link.
+182 companies. 163 have a source; 19 still need a careers link.
 
 | Hiring system | Companies |
 | --- | --- |
-| browser | 111 |
-| workday | 25 |
-| none | 18 |
+| browser | 108 |
+| workday | 26 |
+| none | 19 |
 | greenhouse | 6 |
 | oleeo | 3 |
 | rss | 3 |
 | avature | 2 |
 | phenom | 2 |
 | bamboohr | 2 |
+| radancy | 2 |
 | oracle | 2 |
 | personio | 1 |
 | recruitee | 1 |
-| radancy | 1 |
 | workable | 1 |
 | pinpoint | 1 |
 | ashby | 1 |
@@ -41,6 +41,7 @@
 - Silverpeak (Investment Banking)
 - arKap & Co (Middle Market)
 - Alba Infra Partners (Buy-Side)
+- Compound Equity Group (Buy-Side)
 - Cusana Capital (Buy-Side)
 - Expedition Growth Capital (Buy-Side)
 
@@ -53,7 +54,7 @@
 - Access Capital Partners: https://www.access-capital-partners.com/careers no known hiring system found; reading the page in the browser
 - AIB: https://aib.ie/careers no known hiring system found; reading the page in the browser
 - Alantra: https://www.alantra.com/careers/ no known hiring system found; reading the page in the browser
-- Allia C&C: https://allia.org.uk/careers no known hiring system found; reading the page in the browser
+- Allia C&C: https://allia.org.uk/ no known hiring system found; reading the page in the browser
 - Alvarez & Marsal: https://www.alvarezandmarsal.com/careers no known hiring system found; reading the page in the browser
 - Ardea Partners: https://www.ardeapartners.com/ no known hiring system found; reading the page in the browser
 - Ares Management: https://www.aresmgmt.com/careers no known hiring system found; reading the page in the browser
@@ -65,23 +66,22 @@
 - Bank of America:  set by hand from the careers-page probe (2026-11-08)
 - BDO Global: https://www.bdo.co.uk/en-gb/careers/students-and-graduates no known hiring system found; reading the page in the browser
 - Bellwether: https://www.bellwetherpartners.com/careers no known hiring system found; reading the page in the browser
-- BGF: https://careers.bgf.co.uk/ no known hiring system found; reading the page in the browser
+- BGF: https://www.bgf.co.uk/ no known hiring system found; reading the page in the browser
 - Blackstone: https://www.blackstone.com/careers/ no known hiring system found; reading the page in the browser
 - BNP Paribas: https://group.bnpparibas/en/careers/all-job-offers no known hiring system found; reading the page in the browser
-- Bregal Milestone: https://www.bregalmilestone.com/careers/ no known hiring system found; reading the page in the browser
+- Bregal Milestone: https://www.bregalmilestone.com/ no known hiring system found; reading the page in the browser
 - BTIG: https://www.btig.com/careers/ no known hiring system found; reading the page in the browser
 - Campbell Lutyens: https://campbell-lutyens.com/careers no known hiring system found; reading the page in the browser
 - Canaccord Genuity: https://www.canaccordgenuity.com/careers/ no known hiring system found; reading the page in the browser
-- Capital D: https://capitald.com/careers no known hiring system found; reading the page in the browser
+- Capital D: https://capitald.com/ no known hiring system found; reading the page in the browser
 - CapVest: https://www.capvest.com/careers no known hiring system found; reading the page in the browser
 - CD&R: https://www.cdr.com/careers no known hiring system found; reading the page in the browser
 - Centerview Partners: https://www.centerviewpartners.com/careers no known hiring system found; reading the page in the browser
 - CICC: https://en.cicc.com/careers/ no known hiring system found; reading the page in the browser
-- Clairfield: https://www.clairfield.com/careers/ no known hiring system found; reading the page in the browser
-- Climate Investment: https://www.climateinvestment.com/careers/ no known hiring system found; reading the page in the browser
+- Clairfield: https://www.clairfield.com/ no known hiring system found; reading the page in the browser
+- Climate Investment: https://www.climateinvestment.com/ no known hiring system found; reading the page in the browser
 - Collingwood: https://www.collingwoodadvisory.com/careers no known hiring system found; reading the page in the browser
 - Commerzbank: https://www.commerzbank.de/group/xyz/index.html no known hiring system found; reading the page in the browser
-- Compound Equity Group: https://www.compoundequity.com/ no known hiring system found; reading the page in the browser
 - Cooper Parry: https://www.cooperparry.com/careers no known hiring system found; reading the page in the browser
 - Crédit Agricole: https://jobs.ca-cib.com/accueil.aspx?LCID=1036 no known hiring system found; reading the page in the browser
 - Crowe: https://www.crowe.com/uk/careers no known hiring system found; reading the page in the browser
@@ -90,14 +90,13 @@
 - Eastdil Secured: https://www.eastdilsecured.com/careers/ no known hiring system found; reading the page in the browser
 - EQT: https://eqtgroup.com/careers no known hiring system found; reading the page in the browser
 - Equiteq: https://www.equiteq.com/careers no known hiring system found; reading the page in the browser
-- Equitix: https://equitix.com/careers no known hiring system found; reading the page in the browser
+- Equitix: https://equitix.com/ no known hiring system found; reading the page in the browser
 - Ethical Capital Partners: https://www.ethicalcapitalpartners.com/careers no known hiring system found; reading the page in the browser
-- Eurazeo: https://www.eurazeo.com/en/careers no known hiring system found; reading the page in the browser
+- Eurazeo: https://www.eurazeo.com/fr no known hiring system found; reading the page in the browser
 - EY: https://www.ey.com/en_uk/careers/job-search set by hand from the careers-page probe (2026-11-08)
 - Fenchurch Advisory: https://fenchurchadvisory.com/careers/ no known hiring system found; reading the page in the browser
-- Forvis Mazars: https://www.forvismazars.com/uk/en/careers no known hiring system found; reading the page in the browser
-- FRP Advisory: https://www.frpadvisory.com/careers/ no known hiring system found; reading the page in the browser
-- Gerald Edelman: https://www.geraldedelman.com/careers/ no known hiring system found; reading the page in the browser
+- FRP Advisory: https://www.frpadvisory.com/ no known hiring system found; reading the page in the browser
+- Gerald Edelman: https://www.geraldedelman.com/ no known hiring system found; reading the page in the browser
 - Gleacher Shacklock: https://pwpartners.com/careers/ no known hiring system found; reading the page in the browser
 - Gneiss Energy: https://gneiss.energy/ no known hiring system found; reading the page in the browser
 - Goldman Sachs: https://higher.gs.com/results?EXPERIENCE_LEVEL=Campus&LOCATION=London set by hand from the careers-page probe (2026-11-08)
@@ -106,49 +105,48 @@
 - Greenhill: https://www.mizuhogroup.com/emea/careers no known hiring system found; reading the page in the browser
 - Handelsbanken: https://www.handelsbanken.co.uk/en/about-us/careers no known hiring system found; reading the page in the browser
 - Hayfin Capital Management: https://www.hayfin.com/careers no known hiring system found; reading the page in the browser
-- Headford Group: https://headfordgroup.com/careers no known hiring system found; reading the page in the browser
+- Headford Group: https://headfordgroup.com/ no known hiring system found; reading the page in the browser
 - Heligan Group: https://heligangroup.com/careers no known hiring system found; reading the page in the browser
 - HSBC: https://www.hsbc.com/careers/students-and-graduates no known hiring system found; reading the page in the browser
 - InfraRed Capital Partners: https://www.ircp.com/talent/ no known hiring system found; reading the page in the browser
-- Intriva: https://www.intriva.com/careers no known hiring system found; reading the page in the browser
+- Intriva: https://www.intriva.com/ no known hiring system found; reading the page in the browser
 - Investec: https://www.investec.com/en_gb/welcome-to-investec/Careers/graduates.html no known hiring system found; reading the page in the browser
 - Jefferies:  set by hand from the careers-page probe (2026-11-08)
 - KKR: https://www.kkr.com/careers no known hiring system found; reading the page in the browser
 - Kline Hill Partners: https://klinehill.com/careers no known hiring system found; reading the page in the browser
 - KPMG: https://www.kpmgcareers.co.uk/search/vacancies/ set by hand from the careers-page probe (2026-11-08)
 - KR8 Advisory: https://www.kr8advisory.com/careers browser failed: Error
-- Kroll: https://www.kroll.com/en/careers no known hiring system found; reading the page in the browser
 - LGT Capital Partners: https://www.lgtcp.com/career no known hiring system found; reading the page in the browser
-- Lincoln International: https://www.lincolninternational.com/careers/ no known hiring system found; reading the page in the browser
+- Lincoln International: https://www.lincolninternational.com/ no known hiring system found; reading the page in the browser
 - LionTree: https://liontree.com/careers no known hiring system found; reading the page in the browser
 - Lloyds Banking Group:  programme pages found by web search (2026-11-08)
 - Longspur Capital: https://longspur.com/careers/ no known hiring system found; reading the page in the browser
-- Mizuho: https://www.mizuhogroup.com/emea/careers/graduates no known hiring system found; reading the page in the browser
+- Mizuho: https://www.mizuhogroup.com/emea/careers/internship-programme no known hiring system found; reading the page in the browser
 - Morgan Stanley:  set by hand from the careers-page probe (2026-11-08)
 - MUFG: https://www.mufgemea.com/careers/graduates/ no known hiring system found; reading the page in the browser
 - NatWest Markets: https://jobs.natwestgroup.com/pages/early-careers no known hiring system found; reading the page in the browser
 - Nomura:  set by hand from the careers-page probe (2026-11-08)
-- Nordic Capital: https://www.nordiccapital.com/careers/ no known hiring system found; reading the page in the browser
+- Nordic Capital: https://www.nordiccapital.com/ no known hiring system found; reading the page in the browser
 - Octopus Capital: https://octopusinvestments.com/careers/ no known hiring system found; reading the page in the browser
 - PAI Partners: https://www.paipartners.com/careers/ no known hiring system found; reading the page in the browser
 - Partners Group: https://www.partnersgroup.com/en/careers no known hiring system found; reading the page in the browser
 - Pathway Capital Management: https://www.pathwaycapital.com/careers no known hiring system found; reading the page in the browser
 - Perella Weinberg Partners: https://pwpartners.com/careers/ no known hiring system found; reading the page in the browser
-- Pharus: https://www.pharus.co.uk/careers no known hiring system found; reading the page in the browser
+- Pharus: https://www.pharus.co.uk/ no known hiring system found; reading the page in the browser
 - PwC: https://www.pwc.co.uk/careers/early-careers/job-search.html set by hand from the careers-page probe (2026-11-08)
-- Qatalyst Partners: https://qatalyst.com/careers no known hiring system found; reading the page in the browser
+- Qatalyst Partners: https://qatalyst.com/ no known hiring system found; reading the page in the browser
 - Raine Group: https://raine.com/careers/ no known hiring system found; reading the page in the browser
 - Raymond James: https://www.raymondjames.com/careers browser failed: Error
 - Rede Partners: https://www.rede-partners.com/careers no known hiring system found; reading the page in the browser
-- Revaia: https://www.revaia.com/careers/ no known hiring system found; reading the page in the browser
+- Revaia: https://www.revaia.com/ no known hiring system found; reading the page in the browser
 - Rothschild & Co:  programme pages found by web search (2026-11-08)
 - Skagen Capital: https://www.skagencapital.com/careers no known hiring system found; reading the page in the browser
 - SMBC: https://www.smbcgroup.com/emea/careers no known hiring system found; reading the page in the browser
-- Société Générale: https://careers.societegenerale.com/en/job-offers no known hiring system found; reading the page in the browser
+- Société Générale: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&amp;src=CWS-1 
 - Standard Bank: https://www.standardbank.com/sbg/standard-bank-group/careers no known hiring system found; reading the page in the browser
-- Standard Chartered: https://www.sc.com/en/careers/students-graduates/ no known hiring system found; reading the page in the browser
+- Standard Chartered: https://www.sc.com/en/global-careers/early-careers/ no known hiring system found; reading the page in the browser
 - Stephens: https://www.stephens.com/careers no known hiring system found; reading the page in the browser
-- StepStone Group: https://www.stepstonegroup.com/careers/ no known hiring system found; reading the page in the browser
+- StepStone Group: https://www.stepstonegroup.com/ no known hiring system found; reading the page in the browser
 - STJ Advisors: https://www.stjadvisors.com/careers no known hiring system found; reading the page in the browser
 - Teneo: https://www.teneo.com/careers/open-positions/ set by hand from the careers-page probe (2026-11-08)
 - Tenzing: https://tenzing.pe/careers/ no known hiring system found; reading the page in the browser
