@@ -80,7 +80,8 @@ def main() -> None:
                      "location": m.get("location", "London"), "category": m.get("category", "Investment Banking"),
                      "area": area(m["title"]), "level": m["level"], "posted": m.get("posted", ""),
                      "firstSeen": m.get("added", ""), "deadline": closes, "rolling": m.get("rolling", False),
-                     "status": status, "apply": m.get("apply", {"method": "web"}), "manual": True})
+                     "status": status, "apply": m.get("apply", {"method": "web"}), "manual": True,
+                     "unconfirmed": m.get("unconfirmed", False), "foundOn": m.get("found_on", ""), "note": m.get("note", "")})
     seen, unique = set(), []
     for r in sorted(rows, key=lambda r: r["status"] != "open"):  # keep the open copy
         k = (r["firm"], r["title"].lower())

@@ -1,0 +1,822 @@
+<title>Applicant Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: floating glass header with a segmented control; each section is a stack of frosted panels on a pale, softly lit white ground. Light only, by design. */
+:root{
+  --bg:#f3f5f9; --ink:#1d1d1f; --muted:#6e6e73; --faint:#8e8e93; --line:rgba(60,60,67,.13);
+  --glass:rgba(255,255,255,.64); --glass-strong:rgba(255,255,255,.86); --rim:rgba(255,255,255,.9);
+  --accent:#0071e3; --accent-ink:#ffffff; --accent-soft:rgba(0,113,227,.10);
+  --good:#1f8a3b; --good-bg:rgba(52,199,89,.14); --warn:#a65400; --warn-bg:rgba(255,149,0,.15);
+  --bad:#c4001a; --bad-bg:rgba(255,59,48,.12); --info:#3a49b8; --info-bg:rgba(88,86,214,.12); --idle:#6e6e73; --idle-bg:rgba(120,120,128,.12);
+  --glow-a:#dce8ff; --glow-b:#efe6ff; --glow-c:#dff5ee;
+  --shadow:0 1px 0 rgba(255,255,255,.95) inset,0 10px 30px rgba(31,45,80,.07),0 1px 3px rgba(31,45,80,.06);
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Figtree",system-ui,"Segoe UI",sans-serif;
+  --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Figtree",system-ui,sans-serif;
+  --r-lg:22px; --r-md:14px; --r-sm:10px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(42vw 36vw at 8% 4%,var(--glow-a),transparent 70%),radial-gradient(38vw 34vw at 96% 12%,var(--glow-b),transparent 70%),radial-gradient(46vw 40vw at 60% 100%,var(--glow-c),transparent 70%)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.glass{background:var(--glass);-webkit-backdrop-filter:blur(22px) saturate(180%);backdrop-filter:blur(22px) saturate(180%);border:1px solid var(--rim);box-shadow:var(--shadow);border-radius:var(--r-lg)}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;padding-block:12px}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:8px 10px 8px 16px;border-radius:999px}
+.brand{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.brand i{width:22px;height:22px;border-radius:7px;background:linear-gradient(140deg,#4aa3ff,var(--accent) 60%,#5856d6);box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.seg{display:flex;gap:2px;padding:3px;border-radius:999px;background:var(--idle-bg);overflow-x:auto;scrollbar-width:none;max-width:100%}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;color:var(--ink)}
+.seg button[aria-selected="true"],.seg button[aria-pressed="true"]{background:var(--glass-strong);box-shadow:0 1px 3px rgba(0,0,0,.12),0 0 0 .5px rgba(0,0,0,.04)}
+.mode{margin-left:auto;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap;padding-right:6px}
+.mode::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--warn)}
+.mode.live::before{background:var(--good)}
+
+main{display:flex;flex-direction:column;gap:16px;padding-block:6px 48px}
+h1{font-family:var(--display);font-size:clamp(24px,3.2vw,32px);line-height:1.12;letter-spacing:-.025em;margin:0;font-weight:700;text-wrap:balance}
+h2{font-family:var(--display);font-size:18px;letter-spacing:-.015em;margin:0;font-weight:600}
+h3{font-size:13px;margin:0;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.sub{color:var(--muted);margin:4px 0 0;font-size:14px}
+.hint{font-size:13px;color:var(--muted);margin:0}
+.panel{padding:18px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.head{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:flex-end;justify-content:space-between}
+.stats{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin-top:8px}
+.stats b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.btn{border:0;background:var(--glass-strong);box-shadow:0 0 0 1px var(--line),0 1px 2px rgba(0,0,0,.05);padding:8px 15px;border-radius:999px;cursor:pointer;font-weight:500;font-size:14px;white-space:nowrap;text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:6px}
+.btn:hover{box-shadow:0 0 0 1px rgba(60,60,67,.28),0 1px 2px rgba(0,0,0,.05)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);box-shadow:none}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.small{padding:5px 11px;font-size:13px}
+.btn.ghost{background:transparent;box-shadow:none;color:var(--accent);padding-inline:6px}
+.btn.danger{color:var(--bad)}
+.btn:disabled{opacity:.45;cursor:default}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:0;background:var(--glass-strong);box-shadow:0 0 0 1px var(--line);border-radius:999px;padding:6px 12px;font-size:13.5px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip span{font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff;box-shadow:none}
+.chip[aria-pressed="true"] span{color:rgba(255,255,255,.65)}
+.ctl,.field input,.field select,.field textarea{border:0;box-shadow:0 0 0 1px var(--line);border-radius:var(--r-sm);background:var(--glass-strong);padding:8px 11px;font-size:14px;min-width:0}
+.ctl:focus,.field input:focus,.field select:focus,.field textarea:focus{outline:none;box-shadow:0 0 0 2px var(--accent)}
+input[type=search].ctl{flex:1 1 220px;border-radius:999px;padding-inline:15px}
+.panel>input[type=search].ctl{flex:none}
+.toggle{display:inline-flex;gap:7px;align-items:center;font-size:13.5px;color:var(--muted);cursor:pointer}
+.field{display:flex;flex-direction:column;gap:5px;min-width:0}
+.field label{font-size:12.5px;color:var(--muted);font-weight:500}
+.field textarea{min-height:110px;resize:vertical;line-height:1.5}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.form .w2{grid-column:1/-1}
+
+/* tables */
+.scroll{overflow-x:auto;border-radius:var(--r-md)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:12px;font-weight:600;color:var(--muted);padding:10px 10px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--glass-strong)}
+td{padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:hover td{background:rgba(255,255,255,.55)}
+tr.closed td{color:var(--faint)}
+tr.firm td{background:rgba(120,120,128,.04)}
+td .p{font-size:12.5px;color:var(--muted);margin-top:2px}
+td.num,.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.firmname{font-weight:600;white-space:nowrap}
+.t{color:var(--ink);text-decoration:none;font-weight:500}
+.t:hover{color:var(--accent);text-decoration:underline}
+button.t{border:0;background:none;padding:0;text-align:left;cursor:pointer}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.t-idle{color:var(--idle);background:var(--idle-bg)}.t-info{color:var(--info);background:var(--info-bg)}.t-warn{color:var(--warn);background:var(--warn-bg)}
+.t-accent{color:var(--accent);background:var(--accent-soft)}.t-good{color:var(--good);background:var(--good-bg)}.t-bad{color:var(--bad);background:var(--bad-bg)}
+.tag{font-size:11px;font-weight:600;letter-spacing:.02em;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px;white-space:nowrap}
+.tag.new{color:#fff;background:var(--accent)}
+.tag.mail{color:var(--warn);background:var(--warn-bg)}
+.osel{border:0;box-shadow:0 0 0 1px var(--line);border-radius:999px;padding:5px 9px;background:var(--glass-strong);font-size:13px;width:150px}
+.osel.tracked{background:var(--accent-soft);box-shadow:0 0 0 1px var(--accent);color:var(--accent);font-weight:500}
+.acts{display:flex;gap:6px;justify-content:flex-end}
+
+/* progress */
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.kpi{padding:14px 16px}
+.kpi b{display:block;font-family:var(--display);font-size:28px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12.5px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.chart svg{display:block;width:100%;height:auto}
+.chart text{fill:var(--muted);font-size:11px;font-family:var(--font)}
+.chart .lbl{fill:var(--ink);font-size:12px}
+.insights{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.insights li{display:grid;grid-template-columns:8px minmax(0,1fr);gap:10px;font-size:14px}
+.insights li::before{content:"";width:8px;height:8px;border-radius:50%;margin-top:6px;background:var(--accent)}
+.insights li.warn::before{background:var(--warn)}.insights li.good::before{background:var(--good)}
+.todo{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.todo li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start;padding:10px 2px;border-bottom:1px solid var(--line)}
+.todo li:last-child{border-bottom:0}
+.todo input[type=checkbox]{width:18px;height:18px;margin-top:2px;accent-color:var(--accent)}
+.todo .what{font-weight:500}
+.todo .done .what{text-decoration:line-through;color:var(--faint)}
+.due{font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.due.late{color:var(--bad);font-weight:600}.due.soon{color:var(--warn);font-weight:600}
+.empty{padding:18px;border-radius:var(--r-md);background:rgba(255,255,255,.45);box-shadow:0 0 0 1px var(--line) inset;color:var(--muted);font-size:14px}
+
+/* AI + prep */
+.out{min-height:340px;font-size:14px;line-height:1.55;white-space:pre-wrap}
+.notes{font-size:13px;color:var(--muted);white-space:pre-wrap;margin:0}
+.status{font-size:13px;color:var(--muted);min-height:1.2em;margin:0}
+.qlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.q{padding:14px 16px;border-radius:var(--r-md);background:rgba(255,255,255,.55);box-shadow:0 0 0 1px var(--line) inset;display:flex;flex-direction:column;gap:8px}
+.q summary{cursor:pointer;display:flex;gap:10px;align-items:flex-start;list-style:none;font-weight:500}
+.q summary::-webkit-details-marker{display:none}
+.q summary .pill{margin-left:auto}
+.q .guide{font-size:14px;color:var(--ink);background:rgba(255,255,255,.7);border-radius:var(--r-sm);padding:10px 12px;margin:0}
+.q .guide b{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px}
+.fb{font-size:14px;white-space:pre-wrap;background:var(--accent-soft);border-radius:var(--r-sm);padding:10px 12px;margin:0}
+.banner{padding:10px 16px;font-size:13.5px;color:var(--warn)}
+.banner p{margin:0}
+
+dialog.sheet{border:0;padding:0;width:min(640px,calc(100vw - 32px));max-height:calc(100vh - 48px);border-radius:var(--r-lg);background:var(--glass-strong);-webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);box-shadow:0 30px 80px rgba(20,30,60,.25),0 0 0 1px var(--rim);color:var(--ink)}
+dialog.sheet::backdrop{background:rgba(30,35,50,.28);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.sheet-in{padding:22px;display:flex;flex-direction:column;gap:14px}
+.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:14px}
+.steps b{display:block;margin-bottom:3px}
+.mail{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--idle-bg);border-radius:6px;padding:3px 7px;word-break:break-all;user-select:all}
+.actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.err{color:var(--bad);font-size:13px;margin:0;min-height:1em}
+#toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(8px);background:rgba(29,29,31,.92);color:#fff;padding:9px 16px;border-radius:999px;font-size:14px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:20;max-width:calc(100vw - 32px)}
+#toast.show{opacity:1;transform:translateX(-50%)}
+@media (prefers-reduced-motion:reduce){#toast{transition:none}}
+@media (max-width:1000px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:620px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.form{grid-template-columns:minmax(0,1fr)}.bar{border-radius:var(--r-lg)}.mode{margin-left:0}}
+</style>
+
+<header class="top"><div class="wrap"><div class="bar glass">
+  <div class="brand"><i aria-hidden="true"></i>Applicant Desk</div>
+  <nav class="seg" role="tablist" aria-label="Sections">
+    <button role="tab" data-tab="tracker" id="tab-tracker">Tracker</button>
+    <button role="tab" data-tab="progress" id="tab-progress">My progress</button>
+    <button role="tab" data-tab="tailor" id="tab-tailor">CV &amp; letters</button>
+    <button role="tab" data-tab="prep" id="tab-prep">Interview prep</button>
+  </nav>
+  <span id="mode" class="mode">Connecting</span>
+</div></div></header>
+<main id="main" class="wrap"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="sheet" class="sheet" aria-labelledby="sheet-h"><div class="sheet-in" id="sheet-in"></div></dialog>
+
+<script>
+/* ---------- constants ---------- */
+const PROGS=['Summer Internship','Graduate Programme','Off-Cycle Internship','Industrial Placement','Spring Insight','Pre-Uni','Events'];
+const OLD_LEVEL={'Off Cycle Internship':'Off-Cycle Internship','Graduate / Entry Level':'Graduate Programme'};
+const STAGES=['Not started','Applied','Online test','Video interview','Interview','Assessment centre','Offer','Rejected','Withdrawn'];
+const FUNNEL=['Applied','Online test','Video interview','Interview','Assessment centre','Offer'];
+const ACTIVE=['Applied','Online test','Video interview','Interview','Assessment centre'];
+const TONE={'Not started':'idle','Applied':'info','Online test':'warn','Video interview':'warn','Interview':'accent','Assessment centre':'accent','Offer':'good','Rejected':'bad','Withdrawn':'idle'};
+const TASK_TYPES=['Online test','Video interview','Interview prep','Assessment centre','Application','Follow-up','Other'];
+const TABS=['tracker','progress','tailor','prep'];
+const TODAY=new Date(); TODAY.setHours(0,0,0,0);
+
+/* ---------- helpers ---------- */
+const $=id=>document.getElementById(id);
+const pad=n=>String(n).padStart(2,'0');
+const iso=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const addDays=n=>iso(new Date(TODAY.getTime()+n*864e5));
+const parse=s=>s?new Date(String(s).slice(0,10)+'T00:00:00'):null;
+const daysTo=s=>s?Math.round((parse(s)-TODAY)/864e5):null;
+const fmt=s=>s?parse(s).toLocaleDateString('en-GB',{day:'numeric',month:'short'}):'';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const newId=()=>Math.random().toString(36).slice(2,10)+Date.now().toString(36).slice(-5);
+const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim();
+const firmKey=s=>norm(s).replace(/\b(the|and|co|company|cib|group|securities|plc|llp|ltd|capital markets)\b/g,'').trim().split(' ')[0]||norm(s);
+const pill=st=>`<span class="pill t-${TONE[st]||'idle'}">${esc(st)}</span>`;
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('show'),2800)}
+function whenLabel(d){return d<0?Math.abs(d)+'d overdue':d===0?'today':d===1?'tomorrow':'in '+d+'d'}
+
+/* ---------- examples (shown only when not signed in) ---------- */
+const BLANK={company:'',role:'',category:'Investment Banking',level:'Summer Internship',location:'London',stage:'Not started',deadline:'',appliedOn:'',nextStep:'',nextDate:'',link:'',notes:'',jd:'',cvT:'',letterT:'',example:false};
+function exampleApps(){
+  return [
+    {company:'Goldman Sachs',role:'2027 Summer Analyst, Investment Banking',stage:'Video interview',appliedOn:addDays(-21)},
+    {company:'BNP Paribas',role:'2027 Summer Internship, M&A',stage:'Online test',appliedOn:addDays(-9)},
+    {company:'Rothschild & Co',role:'2027 Global Advisory Summer Analyst',stage:'Not started',deadline:addDays(4)},
+    {company:'Evercore',role:'Off-Cycle Internship, Advisory',level:'Off-Cycle Internship',stage:'Applied',appliedOn:addDays(-5)},
+    {company:'Lazard',role:'2027 Spring Insight Programme',level:'Spring Insight',stage:'Interview',appliedOn:addDays(-25)},
+    {company:'Jefferies',role:'2027 IB Summer Internship',stage:'Rejected',appliedOn:addDays(-30)},
+    {company:'Nomura',role:'2027 Coverage & Advisory Summer Internship',stage:'Applied',appliedOn:addDays(-12)},
+    {company:'EQT',role:'2027 Summer Analyst Programme',category:'Private Equity',stage:'Assessment centre',appliedOn:addDays(-40)}
+  ].map((a,i)=>({...BLANK,example:true,created:Date.now()-i*1000,...a,id:'ex-'+i}));
+}
+function exampleTodos(){
+  return [
+    {title:'BNP Paribas online test',type:'Online test',firm:'BNP Paribas',due:addDays(2)},
+    {title:'Goldman Sachs video interview',type:'Video interview',firm:'Goldman Sachs',due:addDays(3)},
+    {title:'Prepare M&A technicals for Lazard interview',type:'Interview prep',firm:'Lazard',due:addDays(6)},
+    {title:'Submit Rothschild application',type:'Application',firm:'Rothschild & Co',due:addDays(4)}
+  ].map((t,i)=>({id:'ext-'+i,done:false,example:true,created:Date.now()-i,...t}));
+}
+
+/* ---------- interview question bank (starter set) ---------- */
+const QCATS=['Motivation & fit','Behavioural','Accounting','Valuation','M&A and LBO','Markets & deals','Private equity'];
+const QB=[
+ ['Motivation & fit','Walk me through your CV.','Two minutes, chronological, each step with one reason it led to the next. End on why this role is the logical next step. Practise until it sounds natural, not memorised.'],
+ ['Motivation & fit','Why investment banking?','Link to things you have done: a deal you followed, a project that used modelling, the pace you enjoy. Mention learning curve, exposure to senior clients and transactions. Avoid money and prestige.'],
+ ['Motivation & fit','Why this bank?','Two or three specifics: its deal strengths (sectors, products), a recent transaction, people you spoke to, the programme structure. Generic praise reads as a copy-paste answer.'],
+ ['Motivation & fit','Why this division (M&A, ECM, DCM, Leveraged Finance)?','Show you know what the team does day to day and how it differs from neighbouring teams. Tie it to a skill or interest you can evidence.'],
+ ['Motivation & fit','What do analysts actually do day to day?','Models, pitch books, comps, data rooms, coordinating with clients and advisers, long hours under deadlines. Show you are realistic about the role.'],
+ ['Behavioural','Tell me about a time you worked in a team under pressure.','Use STAR: situation, task, action, result. Make your own action clear and finish with a measurable result and what you learnt.'],
+ ['Behavioural','Describe a time you made a mistake.','Pick a real but recoverable mistake, own it, explain how you fixed it and what you now do differently. Never blame others.'],
+ ['Behavioural','Tell me about a time you showed leadership.','Leading without a title counts: organising, persuading, taking ownership. Focus on how you got others to act.'],
+ ['Behavioural','How do you handle conflicting deadlines?','Prioritise by importance and urgency, communicate early with the people affected, and show a concrete example.'],
+ ['Behavioural','What is your greatest weakness?','A real, relevant weakness with evidence of the steps you are taking to improve it. Avoid disguised strengths.'],
+ ['Accounting','Walk me through the three financial statements.','Income statement (revenue to net income), balance sheet (assets = liabilities + equity at a point in time), cash flow statement (operating, investing, financing). Explain how net income and cash link them.'],
+ ['Accounting','If depreciation goes up by £10, how do the statements change?','Assume 25% tax. Income statement: pre-tax income down £10, net income down £7.50. Cash flow: net income down £7.50, add back £10 depreciation, cash up £2.50. Balance sheet: cash up £2.50, PP&E down £10, equity down £7.50, so both sides fall by £7.50.'],
+ ['Accounting','What is working capital and why does it matter?','Current assets minus current liabilities (often excluding cash and debt). An increase uses cash, a decrease releases cash. It drives the gap between profit and cash flow.'],
+ ['Accounting','What is the difference between EBITDA and free cash flow?','EBITDA ignores capex, working capital, tax and interest. Free cash flow subtracts them, so it is closer to the cash a business actually generates.'],
+ ['Valuation','What are the main ways to value a company?','Trading comparables, precedent transactions, discounted cash flow, and for PE-owned or leveraged businesses an LBO analysis. Explain when each is most useful.'],
+ ['Valuation','Walk me through a DCF.','Project unlevered free cash flow for 5 to 10 years, estimate a terminal value (perpetuity growth or exit multiple), discount both at the WACC, sum to enterprise value, then bridge to equity value by subtracting net debt.'],
+ ['Valuation','How do you calculate WACC?','Cost of equity (CAPM: risk-free rate plus beta times equity risk premium) and after-tax cost of debt, weighted by market values of equity and debt.'],
+ ['Valuation','What is the difference between enterprise value and equity value?','Equity value is what belongs to shareholders. Enterprise value is the value of the whole business to all capital providers: equity value plus net debt, preferred shares and minority interests.'],
+ ['Valuation','Why might two similar companies trade at different multiples?','Growth, margins, risk, market position, capital intensity, size and liquidity of the shares.'],
+ ['M&A and LBO','Walk me through an LBO.','Buy the company with a mix of debt and equity, use its cash flows to pay down debt, sell after 3 to 7 years. Returns come from EBITDA growth, multiple expansion and deleveraging. Explain IRR and money multiple.'],
+ ['M&A and LBO','What makes a good LBO candidate?','Stable, predictable cash flows, low capex needs, strong market position, room to cut costs or grow, a clear exit route and assets that can support debt.'],
+ ['M&A and LBO','Is an acquisition accretive or dilutive?','Compare the buyer’s earnings per share before and after. In an all-stock deal it is accretive if the buyer’s P/E is higher than the P/E paid for the target. Cash deals depend on the after-tax cost of debt or forgone interest.'],
+ ['M&A and LBO','Why do companies make acquisitions?','Growth, synergies (cost and revenue), entering new markets or products, buying capabilities or technology, consolidation, using surplus cash.'],
+ ['M&A and LBO','What are synergies and why are revenue synergies treated with caution?','Extra value from combining businesses. Cost synergies are easier to plan and measure, revenue synergies depend on customers and are often not delivered.'],
+ ['Markets & deals','Tell me about a deal you have followed recently.','Buyer, target, price and multiple, rationale, how it was financed, which banks advised and your own view on whether it made sense. Check your facts before the interview.'],
+ ['Markets & deals','Where are interest rates and how do they affect M&A?','Know the current Bank of England and Fed rates. Higher rates raise the cost of debt, lower LBO returns and valuations, and slow deal volumes. Check the latest numbers before each interview.'],
+ ['Markets & deals','Which sector would you like to cover and why?','Name the main players, two or three trends, a recent deal and what drives valuation in that sector.'],
+ ['Markets & deals','What is happening in the IPO market?','Recent large listings, how they traded, why companies choose London or New York, and what affects the IPO window (volatility, rates, valuations).'],
+ ['Private equity','How does a private equity fund make money?','Management fees (around 2% of committed capital) and carried interest (around 20% of profits above a hurdle). Returns to investors are measured by IRR and money multiple.'],
+ ['Private equity','Pitch me an investment.','A business, why it is attractive (market, position, cash flows), how you would create value, the main risks and how you would exit. Keep it to two minutes.'],
+ ['Private equity','What would you look at in a quick case study?','Market growth and position, revenue quality, margins, cash conversion, capex, leverage capacity, management, exit options and key risks.'],
+ ['Private equity','What is the difference between growth equity and a buyout?','Growth equity takes minority stakes in fast-growing companies with little or no debt. Buyouts take control and use leverage, with more focus on cash flow and operational improvements.']
+].map(([cat,q,g],i)=>({id:'q'+(i+1),cat,q,g}));
+
+/* ---------- state ---------- */
+const S={real:{apps:[],todos:[]},uid:null,profile:{name:'',cv:'',letter:''},apps:exampleApps(),todos:exampleTodos(),prep:{},
+  mode:'connecting',tab:'tracker',robot:[],hand:[],manual:[],firms:[],meta:null,loaded:{robot:false,db:false},
+  f:{types:[],cat:'All',status:'open',q:'',firms:true},
+  pf:{q:''},ai:{target:'',jd:''},qp:{cat:'All',q:''},busy:null};
+let db=null,opDb=null,profRef=null,appsCol=null,todoCol=null,prepCol=null,sample=null,downloads=null,ctl=null,pending=false;
+try{const h=location.hash.slice(1);if(TABS.includes(h))S.tab=h}catch(e){}
+
+/* ---------- openings: robot file + hand-checked list + roles added by hand ---------- */
+function prep_(o,src){
+  const level=OLD_LEVEL[o.level]||o.level||'Summer Internship';
+  let status=o.status||'open';
+  if(status==='open'&&o.deadline&&daysTo(o.deadline)<0) status='closed';
+  return {...o,level,status,src,category:o.category||'Investment Banking',location:o.location||'London'};
+}
+function allOpenings(){
+  const out=[],seen=new Map();
+  const add=(o,src)=>{
+    const r=prep_(o,src),k=firmKey(r.firm)+'|'+norm(r.title);
+    if(seen.has(k)){const prev=seen.get(k);if(!prev.deadline&&r.deadline&&daysTo(r.deadline)>=0)prev.deadline=r.deadline;return}
+    seen.set(k,r);out.push(r);
+  };
+  S.manual.forEach(o=>add(o,'manual'));
+  S.robot.forEach(o=>add(o,'robot'));
+  S.hand.forEach(o=>add(o,'hand'));
+  return out;
+}
+function opList(){
+  const q=S.f.q.trim().toLowerCase(),types=S.f.types;
+  return allOpenings().filter(o=>{
+    if(S.f.status==='open'&&o.status!=='open') return false;
+    if(S.f.status==='closed'&&o.status==='open') return false;
+    if(types.length&&!types.includes(o.level)) return false;
+    if(S.f.cat!=='All'&&o.category!==S.f.cat) return false;
+    if(q&&!(o.firm+' '+o.title+' '+(o.area||'')).toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a,b)=>(a.status!=='open')-(b.status!=='open')||((a.deadline||'9999')<(b.deadline||'9999')?-1:(a.deadline||'9999')>(b.deadline||'9999')?1:0)||a.firm.localeCompare(b.firm));
+}
+function idleFirms(){
+  if(!S.f.firms||S.f.types.length||S.f.status==='closed') return [];
+  const withOpen=new Set(allOpenings().filter(o=>o.status==='open').map(o=>firmKey(o.firm)));
+  const q=S.f.q.trim().toLowerCase();
+  return S.firms.filter(f=>!withOpen.has(firmKey(f.name))&&(S.f.cat==='All'||f.category===S.f.cat)&&(!q||(f.name+' '+f.sector).toLowerCase().includes(q)));
+}
+const appFor=oid=>S.apps.find(a=>a.openingId===oid);
+const isNew=o=>o.src==='robot'&&o.firstSeen&&daysTo(o.firstSeen)>=-3&&o.firstSeen>((S.meta&&S.meta.seededOn)||'');
+const byEmail=o=>o.apply&&o.apply.method==='email';
+
+/* ---------- TRACKER ---------- */
+function trackerHTML(){
+  const all=allOpenings(),open=all.filter(o=>o.status==='open');
+  const m=S.meta||{};
+  const last=m.generated?new Date(m.generated).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'not yet';
+  const base=all.filter(o=>(S.f.status==='all'||(S.f.status==='open'?o.status==='open':o.status!=='open'))&&(S.f.cat==='All'||o.category===S.f.cat));
+  const count=t=>base.filter(o=>o.level===t).length;
+  return `<section class="panel glass">
+    <div class="head"><div><h1>Entry-level IB &amp; PE roles in London</h1>
+      <div class="stats"><span><b>${all.length}</b> roles listed</span><span><b>${open.length}</b> open now</span><span><b>${S.firms.length||'—'}</b> firms tracked</span><span><b>${m.firmsReadable??'—'}</b> read automatically</span><span>Robot last ran <b>${esc(last)}</b></span></div></div>
+      <button class="btn" data-act="addrole">Add a role</button></div>
+    <div class="chips" role="group" aria-label="Programme types (pick one or more)">
+      <button class="chip" data-type="" aria-pressed="${!S.f.types.length}">All types</button>
+      ${PROGS.map(t=>`<button class="chip" data-type="${esc(t)}" aria-pressed="${S.f.types.includes(t)}">${esc(t)}<span>${count(t)}</span></button>`).join('')}
+    </div>
+    <div class="row">
+      <div class="seg" role="group" aria-label="Category">${['All','Investment Banking','Private Equity'].map(c=>`<button data-cat="${c}" aria-pressed="${S.f.cat===c}">${c==='All'?'IB and PE':c}</button>`).join('')}</div>
+      <div class="seg" role="group" aria-label="Status">${[['open','Open'],['all','All'],['closed','Closed']].map(([v,l])=>`<button data-status="${v}" aria-pressed="${S.f.status===v}">${l}</button>`).join('')}</div>
+      <input type="search" class="ctl" id="f-q" placeholder="Search firm, programme or team" aria-label="Search roles" value="${esc(S.f.q)}">
+      <label class="toggle"><input type="checkbox" id="f-firms" ${S.f.firms?'checked':''}> Firms with nothing open</label>
+    </div>
+    <div class="scroll"><table><thead><tr><th>My status</th><th>Company</th><th>Programme</th><th>Type</th><th>Closes</th><th>Location</th><th>Source</th><th></th></tr></thead>
+      <tbody id="rows">${rowsHTML()}</tbody></table></div>
+    <p class="hint">Pick one or more types to combine them, for example Graduate Programme and Off-Cycle Internship. "Live" roles come from the robot that reads careers sites. "Checked" roles were verified by hand on the date shown. "Found" roles were spotted on job boards for firms that block the robot; their link goes to the firm's own careers site. Firms with nothing open link to their careers page.</p>
+  </section>`;
+}
+function rowsHTML(){
+  const L=opList(),F=idleFirms();
+  if(!S.loaded.robot&&!S.loaded.db) return `<tr><td colspan="8"><div class="empty">Loading roles…</div></td></tr>`;
+  if(!L.length&&!F.length) return `<tr><td colspan="8"><div class="empty">No roles match these filters. Clear a filter or pick another type.</div></td></tr>`;
+  const roles=L.map(o=>{
+    const a=appFor(o.id);
+    const opts=(a?'':`<option value="">Track</option>`)+STAGES.map(s=>`<option${a&&a.stage===s?' selected':''}>${s}</option>`).join('');
+    const d=daysTo(o.deadline);
+    const closes=o.status!=='open'?`<span class="pill t-idle">Closed</span>${o.deadline?`<div class="p">${fmt(o.deadline)}</div>`:''}`:o.unconfirmed?'<span class="pill t-warn">Check status</span><div class="p">on the careers site</div>':o.rolling?'<span class="pill t-info">Rolling</span>':o.deadline?`<span class="num ${d<=7?'due soon':''}">${fmt(o.deadline)}</span><div class="p">${whenLabel(d)}</div>`:'<span class="p">Not stated</span>';
+    const src=o.foundOn?`<span class="pill t-info">Found</span><div class="p">on ${esc(o.foundOn)}</div>`:o.src==='robot'?`<span class="pill t-good">Live</span><div class="p">seen ${fmt(o.firstSeen)}</div>`:o.src==='manual'?'<span class="pill t-accent">Added</span>':`<span class="pill t-idle">Checked</span><div class="p">${fmt(o.lastChecked||o.firstSeen)}</div>`;
+    const title=byEmail(o)?`<button class="t" data-act="howto" data-oid="${esc(o.id)}">${esc(o.title)}</button><span class="tag mail">Apply by email</span>`:`<a class="t" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.title)}</a>`;
+    return `<tr class="${o.status!=='open'?'closed':''}">
+      <td><select class="osel ${a?'tracked':''}" data-ostatus="${esc(o.id)}" aria-label="My status for ${esc(o.firm)}">${opts}</select></td>
+      <td class="firmname">${esc(o.firm)}<div class="p">${esc(o.category==='Private Equity'?'Private equity':'Investment banking')}</div></td>
+      <td>${title}${isNew(o)?'<span class="tag new">New</span>':''}${o.area?`<div class="p">${esc(o.area)}</div>`:''}${o.note?`<div class="p">${esc(o.note)}</div>`:''}</td>
+      <td>${esc(o.level)}</td><td>${closes}</td><td>${esc(o.location)}</td><td>${src}</td>
+      <td><div class="acts"><button class="btn small" data-act="totailor" data-oid="${esc(o.id)}" title="Tailor your CV and cover letter for this role">Tailor</button>${byEmail(o)?`<button class="btn small primary" data-act="howto" data-oid="${esc(o.id)}">How to apply</button>`:`<a class="btn small primary" href="${esc(o.url)}" target="_blank" rel="noopener">Apply</a>`}</div></td></tr>`;
+  }).join('');
+  const firms=F.length?`<tr><td colspan="8"><h3 style="margin-top:6px">Firms with no open role found right now (${F.length})</h3></td></tr>`+F.map(f=>{
+    const isRoot=(()=>{try{return new URL(f.url).pathname.length<=1}catch(_){return false}})();
+    const link=f.url?`<a class="btn small" href="${esc(f.url)}" target="_blank" rel="noopener">${isRoot?'Website':'Careers page'}</a>`:`<a class="btn small" href="https://www.google.com/search?q=${encodeURIComponent(f.name+' careers students graduates London')}" target="_blank" rel="noopener">Find careers page</a>`;
+    return `<tr class="firm"><td><span class="pill t-idle">Watching</span></td><td class="firmname">${esc(f.name)}<div class="p">${esc(f.sector)}</div></td>
+      <td><span class="p">No open entry-level role found${f.readable?'. Checked automatically'+(f.lastRead?' on '+fmt(f.lastRead):''):'. Not read automatically yet: check the careers page'}</span></td>
+      <td>—</td><td>—</td><td>London</td><td>${f.readable?'<span class="pill t-good">Robot</span>':'<span class="pill t-warn">Manual</span>'}</td><td><div class="acts">${link}</div></td></tr>`;
+  }).join(''):'';
+  return roles+firms;
+}
+
+/* ---------- PROGRESS ---------- */
+function stageIndex(s){return FUNNEL.indexOf(s)}
+function reached(a,s){ // has the application reached stage s at some point?
+  if(a.stage==='Offer') return true;
+  if(a.stage==='Rejected'||a.stage==='Withdrawn') return s==='Applied'?!!a.appliedOn:(a.maxStage?stageIndex(a.maxStage)>=stageIndex(s):false);
+  return stageIndex(a.stage)>=stageIndex(s);
+}
+function progressHTML(){
+  const A=S.apps, sent=A.filter(a=>a.stage!=='Not started'), active=A.filter(a=>ACTIVE.includes(a.stage));
+  const interviews=A.filter(a=>reached(a,'Video interview')).length, offers=A.filter(a=>a.stage==='Offer').length;
+  const responded=sent.filter(a=>a.stage!=='Applied').length;
+  const rate=sent.length?Math.round(responded/sent.length*100):0;
+  const open=S.todos.filter(t=>!t.done);
+  const k=(v,l)=>`<div class="kpi glass"><b>${v}</b><span>${l}</span></div>`;
+  const banner=S.mode==='preview'?`<div class="banner glass row"><p>Showing example data so you can see how this page works. Nothing here is saved.</p><button class="btn small" data-act="unpreview">Back to my data</button></div>`
+    :S.mode==='live'&&!S.apps.length&&!S.todos.length?`<div class="banner glass row"><p style="color:var(--muted)">Your dashboard fills in as you track roles and add tasks.</p><button class="btn small" data-act="preview">Preview with example data</button></div>`
+    :S.mode!=='live'?`<div class="banner glass"><p>${S.mode==='connecting'?'Loading your saved progress…':'These are example applications and tasks. Open this page signed in to Claude to keep your own.'}</p></div>`:'';
+  return `${banner}
+  <div class="head"><div><h1>My progress</h1><p class="sub">Applications, deadlines and what to prepare next.</p></div>
+    <div class="row"><button class="btn" data-act="newtask">Add a task</button><button class="btn primary" data-act="newapp">Add an application</button></div></div>
+  <div class="kpis">${k(sent.length,'Applications sent')}${k(active.length,'In progress')}${k(interviews,'Reached interviews')}${k(offers,'Offers')}${k(rate+'%','Heard back')}${k(open.length,'Tasks to do')}</div>
+  <div class="grid2">
+    <section class="panel glass"><div class="head"><h2>To do</h2><span class="hint">${open.length} open · sorted by deadline</span></div>${todoHTML()}</section>
+    <section class="panel glass"><h2>Key insights</h2><ul class="insights">${insights().map(([c,t])=>`<li class="${c}"><span>${t}</span></li>`).join('')}</ul></section>
+  </div>
+  <div class="grid3">
+    <section class="panel glass chart"><h2>Pipeline</h2>${funnelSVG()}</section>
+    <section class="panel glass chart"><h2>Applications per week</h2>${weeksSVG()}</section>
+    <section class="panel glass chart"><h2>By programme type</h2>${typesSVG()}</section>
+  </div>
+  <section class="panel glass"><div class="head"><h2>Applications</h2>
+    <input type="search" class="ctl" id="p-q" placeholder="Search firm or role" aria-label="Search applications" value="${esc(S.pf.q)}" style="max-width:280px"></div>
+    <div class="scroll"><table><thead><tr><th>Company</th><th>Role</th><th>Type</th><th>Stage</th><th>Applied</th><th>Next step</th><th></th></tr></thead><tbody id="arows">${appRowsHTML()}</tbody></table></div>
+  </section>`;
+}
+function appRowsHTML(){
+  const q=S.pf.q.trim().toLowerCase();
+  const L=S.apps.filter(a=>!q||(a.company+' '+a.role).toLowerCase().includes(q)).sort((a,b)=>(b.appliedOn||b.deadline||'').localeCompare(a.appliedOn||a.deadline||''));
+  if(!L.length) return `<tr><td colspan="7"><div class="empty">No applications yet. Use Track on any role in the Tracker, or Add an application.</div></td></tr>`;
+  return L.map(a=>`<tr><td class="firmname">${esc(a.company)}</td><td><button class="t" data-act="openapp" data-id="${esc(a.id)}">${esc(a.role)}</button></td><td>${esc(a.level||'')}</td>
+    <td><select class="osel tracked" data-stage-for="${esc(a.id)}" aria-label="Stage for ${esc(a.company)}">${STAGES.map(s=>`<option${a.stage===s?' selected':''}>${s}</option>`).join('')}</select></td>
+    <td class="num">${a.appliedOn?fmt(a.appliedOn):a.deadline?'<span class="p">closes '+fmt(a.deadline)+'</span>':'—'}</td>
+    <td>${a.nextStep?esc(a.nextStep):'<span class="p">—</span>'}${a.nextDate?`<div class="p num">${fmt(a.nextDate)}</div>`:''}</td>
+    <td><div class="acts"><button class="btn small" data-act="openapp" data-id="${esc(a.id)}">Edit</button></div></td></tr>`).join('');
+}
+function todoHTML(){
+  const L=[...S.todos].sort((a,b)=>(a.done-b.done)||((a.due||'9999')<(b.due||'9999')?-1:1));
+  if(!L.length) return `<div class="empty">Nothing to do yet. Add online tests, video interviews and interview prep with their deadlines.</div>`;
+  return `<ul class="todo">${L.slice(0,12).map(t=>{const d=daysTo(t.due);const cls=t.done?'':d!==null&&d<0?'late':d!==null&&d<=3?'soon':'';
+    return `<li class="${t.done?'done':''}"><input type="checkbox" data-done="${esc(t.id)}" ${t.done?'checked':''} aria-label="Mark ${esc(t.title)} done">
+      <div><div class="what">${esc(t.title)}</div><div class="p"><span class="pill t-${t.type==='Online test'||t.type==='Video interview'?'warn':t.type==='Interview prep'||t.type==='Assessment centre'?'accent':'idle'}">${esc(t.type)}</span>${t.firm?' '+esc(t.firm):''}</div></div>
+      <div style="text-align:right"><div class="due ${cls}">${t.due?fmt(t.due):'No deadline'}</div>${t.due&&!t.done?`<div class="p">${whenLabel(d)}</div>`:''}<button class="btn ghost small" data-act="edittask" data-id="${esc(t.id)}">Edit</button></div></li>`}).join('')}</ul>`;
+}
+function insights(){
+  const A=S.apps,sent=A.filter(a=>a.stage!=='Not started'),out=[];
+  const last14=sent.filter(a=>a.appliedOn&&daysTo(a.appliedOn)>=-14).length;
+  out.push(['',`You sent <b>${last14}</b> application${last14===1?'':'s'} in the last 14 days and <b>${sent.length}</b> in total.`]);
+  const soon=allOpenings().filter(o=>o.status==='open'&&o.deadline&&daysTo(o.deadline)>=0&&daysTo(o.deadline)<=7&&!appFor(o.id));
+  if(soon.length) out.push(['warn',`<b>${soon.length}</b> role${soon.length===1?'':'s'} you are not tracking close in the next 7 days: ${soon.slice(0,3).map(o=>esc(o.firm)).join(', ')}${soon.length>3?'…':''}.`]);
+  const notStarted=A.filter(a=>a.stage==='Not started'&&a.deadline&&daysTo(a.deadline)>=0);
+  if(notStarted.length) out.push(['warn',`<b>${notStarted.length}</b> saved application${notStarted.length===1?' is':'s are'} not submitted yet. The nearest closes ${fmt(notStarted.sort((a,b)=>a.deadline.localeCompare(b.deadline))[0].deadline)}.`]);
+  const quiet=A.filter(a=>a.stage==='Applied'&&a.appliedOn&&daysTo(a.appliedOn)<=-21);
+  if(quiet.length) out.push(['',`No reply after 3 weeks from <b>${quiet.length}</b> firm${quiet.length===1?'':'s'} (${quiet.slice(0,3).map(a=>esc(a.company)).join(', ')}). Most banks reply in waves, so check your portal.`]);
+  const toInt=sent.length?Math.round(A.filter(a=>reached(a,'Video interview')).length/sent.length*100):0;
+  if(sent.length>=3) out.push([toInt>=20?'good':'',`<b>${toInt}%</b> of your applications reached an interview stage.`]);
+  const tests=S.todos.filter(t=>!t.done&&t.type==='Online test');
+  if(tests.length) out.push(['warn',`<b>${tests.length}</b> online test${tests.length===1?'':'s'} to complete. Most expire 5 to 7 days after the invite.`]);
+  const lv={};sent.forEach(a=>{lv[a.level||'Other']=(lv[a.level||'Other']||0)+1});
+  const top=Object.entries(lv).sort((a,b)=>b[1]-a[1])[0];
+  if(top) out.push(['',`Most of your applications are for <b>${esc(top[0])}</b> (${top[1]}).`]);
+  return out;
+}
+/* charts: plain SVG, one scale per chart */
+function funnelSVG(){
+  const vals=FUNNEL.map(s=>S.apps.filter(a=>reached(a,s)).length),max=Math.max(1,...vals);
+  const W=360,row=30,H=FUNNEL.length*row+8,x0=118,w=W-x0-40;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Applications reaching each stage">${FUNNEL.map((s,i)=>{const y=i*row+4,bw=Math.max(vals[i]?4:0,vals[i]/max*w);
+    return `<text class="lbl" x="${x0-8}" y="${y+16}" text-anchor="end">${s}</text><rect x="${x0}" y="${y+4}" width="${w}" height="18" rx="9" fill="rgba(120,120,128,.10)"/><rect x="${x0}" y="${y+4}" width="${bw}" height="18" rx="9" fill="${s==='Offer'?'#34c759':'#0071e3'}" opacity="${1-i*0.1}"/><text x="${x0+bw+6}" y="${y+17}">${vals[i]}</text>`}).join('')}</svg>`;
+}
+function weeksSVG(){
+  const N=10,weeks=[];for(let i=N-1;i>=0;i--){weeks.push(i)}
+  const vals=weeks.map(i=>S.apps.filter(a=>{if(!a.appliedOn)return false;const d=-daysTo(a.appliedOn);return d>=i*7&&d<(i+1)*7}).length);
+  const max=Math.max(2,...vals),W=360,H=180,b=24,l=26,cw=(W-l-8)/N;
+  const ticks=[0,Math.ceil(max/2),max];
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Applications sent per week, last ${N} weeks">${ticks.map(t=>{const y=H-b-(t/max)*(H-b-12);return `<line x1="${l}" x2="${W-4}" y1="${y}" y2="${y}" stroke="rgba(60,60,67,.12)"/><text x="${l-6}" y="${y+4}" text-anchor="end">${t}</text>`}).join('')}
+  ${vals.map((v,i)=>{const h=(v/max)*(H-b-12),x=l+i*cw+cw*.18;return `<rect x="${x}" y="${H-b-h}" width="${cw*.64}" height="${h}" rx="5" fill="${i===N-1?'#0071e3':'rgba(0,113,227,.45)'}"/>`}).join('')}
+  <text x="${l}" y="${H-6}">${N} weeks ago</text><text x="${W-4}" y="${H-6}" text-anchor="end">This week</text></svg>`;
+}
+function typesSVG(){
+  const sent=S.apps.filter(a=>a.stage!=='Not started');
+  const vals=PROGS.map(p=>sent.filter(a=>(a.level||'Summer Internship')===p).length),max=Math.max(1,...vals);
+  const rows=PROGS.map((p,i)=>[p,vals[i]]).filter(r=>r[1]>0);
+  if(!rows.length) return `<div class="empty">Applications you send will show here by type.</div>`;
+  const W=360,row=30,H=rows.length*row+8,x0=136,w=W-x0-36;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Applications by programme type">${rows.map(([p,v],i)=>{const y=i*row+4,bw=v/max*w;return `<text class="lbl" x="${x0-8}" y="${y+16}" text-anchor="end">${p}</text><rect x="${x0}" y="${y+4}" width="${bw}" height="18" rx="9" fill="#5856d6" opacity=".8"/><text x="${x0+bw+6}" y="${y+17}">${v}</text>`}).join('')}</svg>`;
+}
+
+/* ---------- CV & LETTERS ---------- */
+function tailorHTML(){
+  const opts=[`<option value="">Choose a role…</option>`,
+    S.apps.length?`<optgroup label="My applications">${S.apps.map(a=>`<option value="a:${esc(a.id)}"${S.ai.target==='a:'+a.id?' selected':''}>${esc(a.company)} · ${esc(a.role)}</option>`).join('')}</optgroup>`:'',
+    `<optgroup label="Open roles">${allOpenings().filter(o=>o.status==='open').slice(0,250).map(o=>`<option value="o:${esc(o.id)}"${S.ai.target==='o:'+o.id?' selected':''}>${esc(o.firm)} · ${esc(o.title)}</option>`).join('')}</optgroup>`].join('');
+  const can=!!sample&&S.profile.cv.trim();
+  return `<div class="head"><div><h1>CV &amp; cover letters</h1><p class="sub">Claude rewrites your CV and drafts a cover letter for one role at a time, using only facts from your CV.</p></div></div>
+  <div class="grid2">
+    <section class="panel glass"><h2>Your master CV</h2>
+      <div class="field"><label for="p-name">Your name</label><input id="p-name" value="${esc(S.profile.name)}" placeholder="As it should appear on letters"></div>
+      <div class="field"><label for="p-cv">CV text</label><textarea id="p-cv" style="min-height:260px" placeholder="Paste the text of your CV here. From a PDF: open it, select all, copy and paste.">${esc(S.profile.cv)}</textarea></div>
+      <div class="field"><label for="p-letter">An existing cover letter (optional, so drafts match your voice)</label><textarea id="p-letter">${esc(S.profile.letter)}</textarea></div>
+      <div class="row"><button class="btn primary" data-act="psave">Save</button><label class="btn" for="p-file">Load a .txt file</label><input type="file" id="p-file" accept=".txt,.md,text/plain" hidden><span class="status" id="p-status"></span></div>
+    </section>
+    <section class="panel glass"><h2>Tailor for a role</h2>
+      <div class="field"><label for="ai-target">Role</label><select id="ai-target" class="ctl">${opts}</select></div>
+      <div class="field"><label for="ai-jd">Job description (paste it from the posting for the best result)</label><textarea id="ai-jd" style="min-height:200px">${esc(S.ai.jd)}</textarea></div>
+      <div class="row"><button class="btn primary" data-act="ai" data-kind="cv" ${can?'':'disabled'}>Tailor my CV</button><button class="btn primary" data-act="ai" data-kind="letter" ${can?'':'disabled'}>Write a cover letter</button><button class="btn" data-act="stop" id="ai-stop" hidden>Stop</button></div>
+      <p class="hint">${!sample?(S.mode==='connecting'?'Connecting to Claude…':'AI tailoring works when this page is open signed in to Claude.'):!S.profile.cv.trim()?'Paste and save your CV on the left first.':'Each run takes 10 to 40 seconds. Always check the result before sending it.'}</p>
+    </section>
+  </div>
+  <section class="panel glass"><div class="head"><h2 id="ai-h">Result</h2><div class="row"><button class="btn small" data-act="copy">Copy</button><button class="btn small" data-act="dl">Download</button><button class="btn small" data-act="keep">Save to application</button></div></div>
+    <p class="status" id="ai-st"></p><textarea id="ai-out" class="ctl out" aria-labelledby="ai-h" placeholder="Your tailored CV or cover letter will appear here."></textarea><p class="notes" id="ai-nt"></p></section>`;
+}
+function targetRole(){
+  const t=S.ai.target;
+  if(t.startsWith('a:')){const a=S.apps.find(x=>x.id===t.slice(2));if(a)return {company:a.company,role:a.role,location:a.location,category:a.category,appId:a.id,jd:a.jd}}
+  if(t.startsWith('o:')){const o=allOpenings().find(x=>x.id===t.slice(2));if(o)return {company:o.firm,role:o.title,location:o.location,category:o.category,opening:o}}
+  return null;
+}
+function promptFor(kind,r,jd){
+  const role=`${r.role} at ${r.company}${r.location?' ('+r.location+')':''}, category: ${r.category}`;
+  const job=jd?jd.slice(0,12000):'Not provided. Tailor to a typical role of this kind.';
+  if(kind==='cv') return `You are an experienced recruiter for entry-level finance roles in the UK and Europe. Tailor the candidate's CV to the role below.
+
+Rules:
+- Use only facts that appear in the candidate's CV. Never invent employers, dates, grades, numbers, skills or achievements.
+- Reorder sections and bullets, and rephrase them, so the experience most relevant to this role comes first.
+- Use the job description's vocabulary only where it truthfully matches the candidate's experience.
+- Start bullets with strong past-tense verbs and keep every number already in the CV.
+- Keep it to one page: about 450 to 600 words.
+- British English. Plain text only: section headings in capitals, bullets starting with "- ". No markdown, no tables.
+- After the CV, write a line containing only ### and then up to 4 short bullets saying what you changed and why.
+
+Role: ${role}
+Job description:
+"""${job}"""
+
+Candidate's CV:
+"""${S.profile.cv.slice(0,15000)}"""`;
+  return `Write a cover letter for an entry-level finance candidate applying to the role below.
+
+Rules:
+- Use only facts from the candidate's CV and existing cover letter. Never invent experience, grades, numbers or personal connections.
+- Explain why this firm and this role using only what the job description says. Where a firm-specific fact would help but is not given, write a placeholder in square brackets, for example [a recent deal you followed].
+- 250 to 350 words in four short paragraphs. British English. Confident and specific; avoid stock openings such as "I am writing to express my interest".
+- If an existing cover letter is given, match its voice.
+- Plain text only. Start with "Dear Hiring Team," unless the job description names a contact. End with "Kind regards," and then ${S.profile.name?'"'+S.profile.name+'"':"the candidate's name if it appears in the CV"}.
+- After the letter, write a line containing only ### and then up to 3 short bullets listing the placeholders the candidate must fill in.
+
+Role: ${role}
+Job description:
+"""${job}"""
+
+Candidate's CV:
+"""${S.profile.cv.slice(0,15000)}"""
+
+Candidate's existing cover letter:
+"""${(S.profile.letter||'None given.').slice(0,8000)}"""`;
+}
+function sampleErr(e){
+  const c=e&&e.code;
+  return c==='cancelled'?'Stopped.':c==='not_granted'||c==='sampling_disabled'?'AI is not allowed in this view.':c==='rate_limited'?'Too many requests just now. Wait a minute and try again.':c==='refused'?'Claude could not write this one. Edit the text and try again.':c==='prompt_too_large'?'The text is too long. Shorten the job description.':'Something went wrong. Try again.';
+}
+let lastKind='cv';
+async function runAI(kind){
+  const r=targetRole(); const out=$('ai-out'),st=$('ai-st'),nt=$('ai-nt');
+  if(!sample) return;
+  if(!r){st.textContent='Choose a role first.';$('ai-target').focus();return}
+  S.ai.jd=$('ai-jd').value; lastKind=kind;
+  const btns=[...document.querySelectorAll('[data-act="ai"]')];
+  ctl=new AbortController(); S.busy=kind; btns.forEach(b=>b.disabled=true); $('ai-stop').hidden=false; nt.textContent='';
+  $('ai-h').textContent=(kind==='cv'?'Tailored CV':'Cover letter')+': '+r.company; st.textContent='Thinking… this usually takes 10 to 40 seconds.';
+  try{
+    const res=await sample(promptFor(kind,r,S.ai.jd.trim()),{signal:ctl.signal,cache:false,onText:({text})=>{out.value=text;st.textContent='Writing…'}});
+    const parts=res.text.split(/\n\s*###\s*\n/); out.value=parts[0].trim(); nt.textContent=parts[1]?'What to check:\n'+parts[1].trim():'';
+    st.textContent=res.truncated?'The answer was cut short. Try a shorter job description.':'Done. Read it carefully, edit anything, then copy or save it.';
+  }catch(e){if(typeof e.text==='string')out.value=e.text;st.textContent=sampleErr(e)}
+  finally{S.busy=null;$('ai-stop').hidden=true;btns.forEach(b=>b.disabled=!S.profile.cv.trim());if(pending)setTimeout(softRender,0)}
+}
+
+/* ---------- INTERVIEW PREP ---------- */
+function prepHTML(){
+  const q=S.qp.q.trim().toLowerCase();
+  const L=QB.filter(x=>(S.qp.cat==='All'||x.cat===S.qp.cat)&&(!q||(x.q+' '+x.g).toLowerCase().includes(q)));
+  const done=QB.filter(x=>S.prep[x.id]&&S.prep[x.id].done).length;
+  return `<div class="head"><div><h1>Interview prep</h1><p class="sub">A starter question bank for IB and PE interviews. Write your answer, then ask Claude for feedback.</p>
+    <div class="stats"><span><b>${done}</b> of ${QB.length} practised</span></div></div></div>
+  <section class="panel glass">
+    <div class="chips" role="group" aria-label="Question topics">${['All',...QCATS].map(c=>`<button class="chip" data-qcat="${esc(c)}" aria-pressed="${S.qp.cat===c}">${esc(c)}<span>${c==='All'?QB.length:QB.filter(x=>x.cat===c).length}</span></button>`).join('')}</div>
+    <input type="search" class="ctl" id="q-q" placeholder="Search questions" aria-label="Search questions" value="${esc(S.qp.q)}">
+    <ul class="qlist">${L.map(x=>{const p=S.prep[x.id]||{};return `<li><details class="q" data-qid="${x.id}"><summary><span>${esc(x.q)}</span><span class="pill ${p.done?'t-good':'t-idle'}">${p.done?'Practised':esc(x.cat)}</span></summary>
+      <p class="guide"><b>What a good answer covers</b>${esc(x.g)}</p>
+      <div class="field"><label for="ans-${x.id}">Your answer</label><textarea id="ans-${x.id}" data-ans="${x.id}" placeholder="Write it as you would say it.">${esc(p.answer||'')}</textarea></div>
+      <div class="row"><button class="btn small primary" data-act="fb" data-qid="${x.id}" ${sample?'':'disabled'}>Get feedback</button><button class="btn small" data-act="saveans" data-qid="${x.id}">Save answer</button><label class="toggle"><input type="checkbox" data-qdone="${x.id}" ${p.done?'checked':''}> Practised</label><span class="status" id="fs-${x.id}"></span></div>
+      <p class="fb" id="fb-${x.id}" ${p.feedback?'':'hidden'}>${esc(p.feedback||'')}</p></details></li>`}).join('')||'<li class="empty">No questions match.</li>'}</ul>
+    <p class="hint">This is a first set of ${QB.length} questions. Which topics and firms the bank should cover is still to be decided.</p>
+  </section>`;
+}
+async function runFeedback(qid){
+  const x=QB.find(q=>q.id===qid),ans=$('ans-'+qid).value.trim(),fb=$('fb-'+qid),st=$('fs-'+qid);
+  if(!ans){st.textContent='Write an answer first.';return}
+  st.textContent='Reading your answer…';S.busy='fb';
+  try{
+    const r=await sample(`You are a senior investment banker running a first-round interview for an entry-level role in London. Give feedback on the candidate's answer.
+
+Question: ${x.q}
+What a strong answer covers: ${x.g}
+Candidate's answer:
+"""${ans.slice(0,6000)}"""
+
+Reply in plain text, British English, under 180 words, in this order:
+Score: X/10
+What works: 2 short bullets starting with "- "
+Improve: 2 or 3 short bullets starting with "- "
+For technical questions, correct any factual error plainly.`,{cache:false,onText:({text})=>{fb.hidden=false;fb.textContent=text}});
+    fb.hidden=false;fb.textContent=r.text.trim();st.textContent='';
+    await putPrep(qid,{answer:ans,feedback:r.text.trim()});
+  }catch(e){st.textContent=sampleErr(e)}
+  finally{S.busy=null;if(pending)setTimeout(softRender,0)}
+}
+
+/* ---------- sheets ---------- */
+function showSheet(html){const d=$('sheet');$('sheet-in').innerHTML=html;if(!d.open){try{d.showModal()}catch(_){d.setAttribute('open','')}}const f=d.querySelector('input:not([type=hidden]),textarea,select');if(f)f.focus()}
+function hideSheet(){const d=$('sheet');if(d.open){try{d.close()}catch(_){d.removeAttribute('open')}}}
+function appSheet(a,isNewApp){
+  const sel=(k,list)=>`<select id="e-${k}" data-k="${k}">${list.map(v=>`<option${a[k]===v?' selected':''}>${esc(v)}</option>`).join('')}</select>`;
+  return `<h2 id="sheet-h">${isNewApp?'Add an application':esc(a.company)+': '+esc(a.role)}</h2>
+  <form class="form" id="appform" novalidate>
+    <div class="field"><label for="e-company">Company</label><input id="e-company" data-k="company" value="${esc(a.company)}"></div>
+    <div class="field"><label for="e-role">Role</label><input id="e-role" data-k="role" value="${esc(a.role)}"></div>
+    <div class="field"><label for="e-level">Programme type</label>${sel('level',PROGS)}</div>
+    <div class="field"><label for="e-category">Category</label>${sel('category',['Investment Banking','Private Equity'])}</div>
+    <div class="field"><label for="e-stage">Stage</label>${sel('stage',STAGES)}</div>
+    <div class="field"><label for="e-location">Location</label><input id="e-location" data-k="location" value="${esc(a.location)}"></div>
+    <div class="field"><label for="e-deadline">Closing date</label><input type="date" id="e-deadline" data-k="deadline" value="${esc(a.deadline)}"></div>
+    <div class="field"><label for="e-appliedOn">Applied on</label><input type="date" id="e-appliedOn" data-k="appliedOn" value="${esc(a.appliedOn)}"></div>
+    <div class="field"><label for="e-nextStep">Next step</label><input id="e-nextStep" data-k="nextStep" value="${esc(a.nextStep)}" placeholder="e.g. HireVue video interview"></div>
+    <div class="field"><label for="e-nextDate">Next step deadline</label><input type="date" id="e-nextDate" data-k="nextDate" value="${esc(a.nextDate)}"></div>
+    <div class="field w2"><label for="e-link">Link</label><input id="e-link" data-k="link" value="${esc(a.link)}" placeholder="https://"></div>
+    <div class="field w2"><label for="e-notes">Notes</label><textarea id="e-notes" data-k="notes">${esc(a.notes)}</textarea></div>
+    ${a.cvT||a.letterT?`<p class="hint w2">Saved: ${a.cvT?'tailored CV':''}${a.cvT&&a.letterT?' and ':''}${a.letterT?'cover letter':''}. Open CV &amp; letters to view or redo them.</p>`:''}
+    <p class="err w2" id="e-err" role="alert"></p>
+  </form>
+  <div class="actions">${isNewApp?'':`<button class="btn danger" data-act="delapp" data-id="${esc(a.id)}" style="margin-right:auto">Delete</button>`}<button class="btn" data-act="sheetclose">Cancel</button>${a.nextStep&&a.nextDate?'':''}<button class="btn primary" data-act="saveapp" data-id="${esc(a.id)}">${isNewApp?'Add':'Save'}</button></div>
+  <p class="hint">Setting a next step with a deadline adds it to your to-do list.</p>`;
+}
+function taskSheet(t,isNewT){
+  return `<h2 id="sheet-h">${isNewT?'Add a task':'Edit task'}</h2>
+  <form class="form" id="taskform" novalidate>
+    <div class="field w2"><label for="t-title">What to do</label><input id="t-title" value="${esc(t.title)}" placeholder="e.g. Complete the SHL numerical test"></div>
+    <div class="field"><label for="t-type">Type</label><select id="t-type">${TASK_TYPES.map(v=>`<option${t.type===v?' selected':''}>${v}</option>`).join('')}</select></div>
+    <div class="field"><label for="t-due">Deadline</label><input type="date" id="t-due" value="${esc(t.due)}"></div>
+    <div class="field w2"><label for="t-firm">Firm (optional)</label><input id="t-firm" value="${esc(t.firm||'')}" list="firmlist"></div>
+    <datalist id="firmlist">${[...new Set(S.apps.map(a=>a.company))].map(f=>`<option value="${esc(f)}">`).join('')}</datalist>
+    <p class="err w2" id="t-err" role="alert"></p>
+  </form>
+  <div class="actions">${isNewT?'':`<button class="btn danger" data-act="deltask" data-id="${esc(t.id)}" style="margin-right:auto">Delete</button>`}<button class="btn" data-act="sheetclose">Cancel</button><button class="btn primary" data-act="savetask" data-id="${esc(t.id)}">${isNewT?'Add task':'Save'}</button></div>`;
+}
+function mailFor(o){
+  const ap=o.apply||{},name=(S.profile.name||'').trim();
+  const subject=ap.subject||`Application: ${o.title}${name?' – '+name:''}`;
+  const body=`Dear ${o.firm} recruiting team,\n\nPlease find attached my CV${ap.coverLetter===false?'':' and cover letter'} for the ${o.title}${o.location?' in '+o.location:''}.\n\nKind regards,\n${name||'[Your name]'}`;
+  return {subject,href:`mailto:${encodeURIComponent(ap.email||'')}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`};
+}
+function howtoHTML(o){
+  const ap=o.apply||{},m=mailFor(o),a=appFor(o.id),needLetter=ap.coverLetter!==false;
+  const dl=o.status!=='open'?'This role is closed.':o.rolling?'Rolling: apply early.':o.deadline?`Closes ${fmt(o.deadline)}.`:'No closing date published.';
+  return `<h2 id="sheet-h">How to apply: ${esc(o.firm)}</h2><p class="sub">${esc(o.title)} &middot; ${esc(o.location)} &middot; ${esc(dl)}</p>
+  <ol class="steps">
+    <li><b>Prepare your documents</b>Your CV${needLetter?' and a cover letter addressed to '+esc(o.firm):''}, saved as PDFs named with your full name.<div class="row" style="margin-top:8px"><button class="btn small" data-act="totailor" data-oid="${esc(o.id)}">Tailor them with AI</button></div></li>
+    <li><b>Send the email</b>To <span class="mail">${esc(ap.email||'address not recorded')}</span> with the subject <span class="mail">${esc(m.subject)}</span><div class="row" style="margin-top:8px"><a class="btn small primary" href="${esc(m.href)}">Open an email draft</a><button class="btn small" data-act="copymail" data-oid="${esc(o.id)}">Copy address</button></div><p class="hint" style="margin-top:6px">If the draft does not open, copy the address into your email app and attach your files.</p></li>
+    ${ap.instructions?`<li><b>What ${esc(o.firm)} asks for</b><span class="p">${esc(ap.instructions)}</span></li>`:''}
+    <li><b>Track it</b>Once sent, mark it as applied.<div class="row" style="margin-top:8px"><button class="btn small" data-act="markapplied" data-oid="${esc(o.id)}" ${a&&a.stage!=='Not started'?'disabled':''}>${a&&a.stage!=='Not started'?'Already in my applications':'I have sent it'}</button></div></li>
+  </ol>
+  ${o.url?`<p class="hint">Source: <a href="${esc(o.url)}" target="_blank" rel="noopener">where ${esc(o.firm)} published these instructions</a></p>`:''}
+  <div class="actions"><button class="btn" data-act="sheetclose">Close</button></div>`;
+}
+function addRoleHTML(){
+  return `<h2 id="sheet-h">Add a role</h2><p class="sub">For roles the robot cannot see, such as ones you apply to by email.</p>
+  <form id="addform" class="form" novalidate>
+    <div class="field"><label for="ar-firm">Firm</label><input id="ar-firm"></div>
+    <div class="field"><label for="ar-level">Programme type</label><select id="ar-level">${PROGS.map(p=>`<option>${p}</option>`).join('')}</select></div>
+    <div class="field w2"><label for="ar-title">Programme name</label><input id="ar-title" placeholder="2027 Summer Analyst Programme"></div>
+    <div class="field"><label for="ar-cat">Category</label><select id="ar-cat"><option>Investment Banking</option><option>Private Equity</option></select></div>
+    <div class="field"><label for="ar-dl">Closing date</label><input id="ar-dl" type="date"></div>
+    <div class="field w2"><label for="ar-how">How do candidates apply?</label><select id="ar-how"><option value="web">On a website</option><option value="email">By email</option></select></div>
+    <div class="field w2"><label for="ar-url" id="ar-url-l">Application link</label><input id="ar-url" type="url" placeholder="https://"></div>
+    <div class="field w2" data-email hidden><label for="ar-email">Email address to send to</label><input id="ar-email" type="email"></div>
+    <div class="field w2" data-email hidden><label for="ar-subj">Subject line they ask for (optional)</label><input id="ar-subj"></div>
+    <div class="field w2" data-email hidden><label for="ar-ins">Their instructions, in their words (optional)</label><textarea id="ar-ins"></textarea></div>
+    <p class="err w2" id="ar-err" role="alert"></p>
+  </form>
+  <div class="actions"><button class="btn" data-act="sheetclose">Cancel</button><button class="btn primary" data-act="saverole">Add role</button></div>`;
+}
+
+/* ---------- saving ---------- */
+const clean=o=>{const c={...o};delete c.id;return c};
+function dbErr(e){const c=e&&e.code;return c==='quota_exceeded'?'Storage is full.':c==='permission_denied'||c==='invalid_argument'?'You do not have permission to save here.':'Could not save. Check your connection and try again.'}
+async function putIn(list,col,obj){const i=S[list].findIndex(x=>x.id===obj.id);if(i>=0)S[list][i]=obj;else S[list].push(obj);
+  if(S.mode==='live'){try{await col.doc(obj.id).set(clean(obj))}catch(e){toast(dbErr(e));return false}}return true}
+async function dropFrom(list,col,id){S[list]=S[list].filter(x=>x.id!==id);if(S.mode==='live'){try{await col.doc(id).delete()}catch(e){toast(dbErr(e));return false}}return true}
+const putApp=a=>putIn('apps',appsCol,a), putTodo=t=>putIn('todos',todoCol,t);
+async function putPrep(qid,patch){S.prep[qid]={...(S.prep[qid]||{}),...patch};if(S.mode==='live'){try{await prepCol.doc(qid).set(S.prep[qid])}catch(e){toast(dbErr(e));return false}}return true}
+async function putProfile(p){S.profile={...S.profile,...p};if(S.mode==='live'){try{await profRef.set(S.profile)}catch(e){toast(dbErr(e));return false}}return true}
+function draftFromOpening(o){return {...BLANK,id:newId(),created:Date.now(),openingId:o.id,company:o.firm,role:o.title,category:o.category,level:o.level,location:o.location,link:o.url,deadline:o.deadline||''}}
+async function syncTask(a){ // a next step with a deadline becomes a to-do
+  if(!a.nextStep||!a.nextDate) return;
+  const id='app-'+a.id, prev=S.todos.find(t=>t.id===id);
+  const type=/test|numerical|verbal|logical/i.test(a.nextStep)?'Online test':/video|hirevue/i.test(a.nextStep)?'Video interview':/assessment/i.test(a.nextStep)?'Assessment centre':/interview/i.test(a.nextStep)?'Interview prep':'Other';
+  if(prev&&prev.title===a.nextStep&&prev.due===a.nextDate) return;
+  await putTodo({id,title:a.nextStep,type,firm:a.company,due:a.nextDate,done:prev?prev.done:false,appId:a.id,created:Date.now()});
+}
+
+/* ---------- render ---------- */
+function render(){
+  pending=false;
+  for(const t of TABS) $('tab-'+t).setAttribute('aria-selected',String(S.tab===t));
+  const m=$('mode');m.className='mode'+(S.mode==='live'?' live':'');m.textContent=S.mode==='live'?'Saved to your account':S.mode==='connecting'?'Connecting':S.mode==='preview'?'Preview, not saved':'Examples, not saved';
+  const keep=S.tab==='tailor'&&$('ai-out')?{out:$('ai-out').value,st:$('ai-st').textContent,nt:$('ai-nt').textContent,h:$('ai-h').textContent}:null;
+  $('main').innerHTML=S.tab==='tracker'?trackerHTML():S.tab==='progress'?progressHTML():S.tab==='tailor'?tailorHTML():prepHTML();
+  if(keep&&$('ai-out')){$('ai-out').value=keep.out;$('ai-st').textContent=keep.st;$('ai-nt').textContent=keep.nt;$('ai-h').textContent=keep.h}
+}
+function softRender(){
+  const ae=document.activeElement;
+  if($('sheet').open||S.busy||(ae&&$('main').contains(ae)&&/^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName))||document.querySelector('details.q[open]')){pending=true;return}
+  render();
+}
+document.addEventListener('focusout',()=>setTimeout(()=>{if(pending&&!document.querySelector('details.q[open]'))softRender()},0));
+
+/* ---------- events ---------- */
+document.querySelector('.seg[role=tablist]').addEventListener('click',e=>{
+  const b=e.target.closest('[data-tab]');if(!b)return;
+  S.tab=b.dataset.tab;try{history.replaceState(null,'','#'+S.tab)}catch(_){}
+  render();window.scrollTo(0,0);
+});
+window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(TABS.includes(h)&&h!==S.tab){S.tab=h;render()}});
+function goTailor(o){S.ai.target='o:'+o.id;const a=appFor(o.id);if(a)S.ai.target='a:'+a.id;S.tab='tailor';hideSheet();render();window.scrollTo(0,0);try{history.replaceState(null,'','#tailor')}catch(_){}}
+
+document.addEventListener('click',async e=>{
+  const ty=e.target.closest('[data-type]');
+  if(ty){const t=ty.dataset.type;S.f.types=!t?[]:S.f.types.includes(t)?S.f.types.filter(x=>x!==t):[...S.f.types,t];render();return}
+  const ca=e.target.closest('[data-cat]');if(ca&&S.tab==='tracker'){S.f.cat=ca.dataset.cat;render();return}
+  const stt=e.target.closest('[data-status]');if(stt){S.f.status=stt.dataset.status;render();return}
+  const qc=e.target.closest('[data-qcat]');if(qc){S.qp.cat=qc.dataset.qcat;render();return}
+  const b=e.target.closest('[data-act]');if(!b)return;
+  const act=b.dataset.act, o=b.dataset.oid?allOpenings().find(x=>x.id===b.dataset.oid):null;
+  if(act==='sheetclose'){hideSheet();return}
+  if(act==='preview'){S.mode='preview';S.apps=exampleApps();S.todos=exampleTodos();render();return}
+  if(act==='unpreview'){S.mode='live';S.apps=[...S.real.apps];S.todos=[...S.real.todos];render();return}
+  if(act==='addrole'){showSheet(addRoleHTML());return}
+  if(act==='howto'&&o){showSheet(howtoHTML(o));return}
+  if(act==='totailor'&&o){goTailor(o);return}
+  if(act==='copymail'&&o){const em=(o.apply||{}).email||'';try{await navigator.clipboard.writeText(em);toast('Address copied')}catch(_){toast(em)}return}
+  if(act==='markapplied'&&o){const a=appFor(o.id);const u=a?{...a,stage:'Applied'}:{...draftFromOpening(o),stage:'Applied'};u.appliedOn=u.appliedOn||iso(TODAY);if(await putApp(u)){toast(o.firm+': Applied');showSheet(howtoHTML(o))}return}
+  if(act==='saverole'){saveRole(b);return}
+  if(act==='newapp'){showSheet(appSheet({...BLANK,id:newId(),created:Date.now()},true));return}
+  if(act==='openapp'){const a=S.apps.find(x=>x.id===b.dataset.id);if(a)showSheet(appSheet(a,false));return}
+  if(act==='saveapp'){
+    const prev=S.apps.find(x=>x.id===b.dataset.id)||{...BLANK,id:b.dataset.id,created:Date.now()};
+    const a={...prev};document.querySelectorAll('#appform [data-k]').forEach(el=>a[el.dataset.k]=el.value.trim());
+    if(!a.company||!a.role){$('e-err').textContent='Add the company and the role.';return}
+    if(a.stage!=='Not started'&&!a.appliedOn)a.appliedOn=iso(TODAY);
+    if(FUNNEL.includes(a.stage)&&(!a.maxStage||stageIndex(a.stage)>stageIndex(a.maxStage)))a.maxStage=a.stage;
+    b.disabled=true;if(await putApp(a)){await syncTask(a);hideSheet();toast('Saved');render()}else b.disabled=false;return}
+  if(act==='delapp'){if(b.dataset.confirm){await dropFrom('apps',appsCol,b.dataset.id);hideSheet();toast('Application deleted');render()}else{b.dataset.confirm='1';b.textContent='Delete for good?'}return}
+  if(act==='newtask'){showSheet(taskSheet({id:newId(),title:'',type:'Online test',due:'',firm:'',done:false},true));return}
+  if(act==='edittask'){const t=S.todos.find(x=>x.id===b.dataset.id);if(t)showSheet(taskSheet(t,false));return}
+  if(act==='savetask'){
+    const prev=S.todos.find(x=>x.id===b.dataset.id)||{id:b.dataset.id,done:false,created:Date.now()};
+    const t={...prev,title:$('t-title').value.trim(),type:$('t-type').value,due:$('t-due').value,firm:$('t-firm').value.trim()};
+    if(!t.title){$('t-err').textContent='Say what needs doing.';return}
+    b.disabled=true;if(await putTodo(t)){hideSheet();toast('Task saved');render()}else b.disabled=false;return}
+  if(act==='deltask'){await dropFrom('todos',todoCol,b.dataset.id);hideSheet();toast('Task deleted');render();return}
+  if(act==='psave'){b.disabled=true;const ok=await putProfile({name:$('p-name').value.trim(),cv:$('p-cv').value,letter:$('p-letter').value});b.disabled=false;
+    $('p-status').textContent=ok?(S.mode==='live'?'Saved.':'Updated for this visit only.'):'Not saved.';document.querySelectorAll('[data-act="ai"]').forEach(x=>x.disabled=!sample||!S.profile.cv.trim());return}
+  if(act==='ai'){runAI(b.dataset.kind);return}
+  if(act==='stop'){if(ctl)ctl.abort();return}
+  if(act==='copy'){const ta=$('ai-out');try{await navigator.clipboard.writeText(ta.value);toast('Copied')}catch(_){ta.focus();ta.select();toast('Selected. Press Ctrl+C or Cmd+C to copy.')}return}
+  if(act==='dl'){const v=$('ai-out').value;if(!v.trim()){toast('Nothing to download yet');return}const r=targetRole();
+    const name=`${((r&&r.company)||'Role').replace(/[^\w\- ]+/g,'').trim()} - ${lastKind==='cv'?'CV':'Cover letter'}.txt`;
+    if(!downloads){toast('Download is not available here. Use Copy instead.');return}
+    try{await downloads.save({filename:name,data:v})}catch(err){if(err&&err.code!=='declined')toast('Download is not available here. Use Copy instead.')}return}
+  if(act==='keep'){const v=$('ai-out').value,r=targetRole();if(!v.trim()||!r){toast('Write something for a role first');return}
+    let a=r.appId?S.apps.find(x=>x.id===r.appId):r.opening?appFor(r.opening.id):null;
+    if(!a&&r.opening)a=draftFromOpening(r.opening);
+    if(!a){toast('Choose a role first');return}
+    const u={...a,[lastKind==='cv'?'cvT':'letterT']:v,jd:$('ai-jd').value};
+    if(await putApp(u)){S.ai.target='a:'+u.id;toast(lastKind==='cv'?'CV saved to the application':'Letter saved to the application')}return}
+  if(act==='fb'){runFeedback(b.dataset.qid);return}
+  if(act==='saveans'){const q=b.dataset.qid;if(await putPrep(q,{answer:$('ans-'+q).value}))$('fs-'+q).textContent='Saved.';return}
+});
+document.addEventListener('input',e=>{
+  const t=e.target;
+  if(t.id==='f-q'){S.f.q=t.value;$('rows').innerHTML=rowsHTML();return}
+  if(t.id==='p-q'){S.pf.q=t.value;$('arows').innerHTML=appRowsHTML();return}
+  if(t.id==='q-q'){S.qp.q=t.value;const pos=t.selectionStart;render();const n=$('q-q');n.focus();n.setSelectionRange(pos,pos);return}
+  if(t.id==='ai-jd'){S.ai.jd=t.value;return}
+});
+document.addEventListener('change',async e=>{
+  const t=e.target;
+  if(t.id==='f-firms'){S.f.firms=t.checked;$('rows').innerHTML=rowsHTML();return}
+  if(t.id==='ai-target'){S.ai.target=t.value;const r=targetRole();if(r&&r.jd&&!$('ai-jd').value.trim()){$('ai-jd').value=r.jd;S.ai.jd=r.jd}return}
+  if(t.id==='ar-how'){const em=t.value==='email';document.querySelectorAll('#addform [data-email]').forEach(x=>x.hidden=!em);$('ar-url-l').textContent=em?'Page where they publish the instructions (optional)':'Application link';return}
+  if(t.id==='p-file'){const f=t.files&&t.files[0];if(!f)return;try{$('p-cv').value=await f.text();$('p-status').textContent='Loaded. Press Save to keep it.'}catch(_){$('p-status').textContent='Could not read that file. Paste the text instead.'}return}
+  if(t.dataset.ostatus){const o=allOpenings().find(x=>x.id===t.dataset.ostatus);if(!o||!t.value)return;const a=appFor(o.id);
+    const u=a?{...a,stage:t.value}:{...draftFromOpening(o),stage:t.value};if(u.stage!=='Not started'&&!u.appliedOn)u.appliedOn=iso(TODAY);
+    if(FUNNEL.includes(u.stage)&&(!u.maxStage||stageIndex(u.stage)>stageIndex(u.maxStage)))u.maxStage=u.stage;
+    if(await putApp(u))toast(`${o.firm}: ${t.value}`);t.blur();$('rows').innerHTML=rowsHTML();return}
+  if(t.dataset.stageFor){const a=S.apps.find(x=>x.id===t.dataset.stageFor);if(!a)return;const u={...a,stage:t.value};
+    if(u.stage!=='Not started'&&!u.appliedOn)u.appliedOn=iso(TODAY);if(FUNNEL.includes(u.stage)&&(!u.maxStage||stageIndex(u.stage)>stageIndex(u.maxStage)))u.maxStage=u.stage;
+    if(await putApp(u))toast(`${u.company}: ${u.stage}`);t.blur();render();return}
+  if(t.dataset.done){const x=S.todos.find(y=>y.id===t.dataset.done);if(x&&await putTodo({...x,done:t.checked}))render();return}
+  if(t.dataset.qdone){await putPrep(t.dataset.qdone,{done:t.checked});return}
+});
+async function saveRole(btn){
+  const v=id=>($(id)||{}).value||'';
+  const firm=v('ar-firm').trim(),title=v('ar-title').trim(),how=v('ar-how'),email=v('ar-email').trim(),url=v('ar-url').trim(),err=$('ar-err');
+  if(!firm||!title){err.textContent='Add the firm and the programme name.';return}
+  if(how==='email'&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){err.textContent='Add the email address candidates should write to.';return}
+  if(how==='web'&&!/^https?:\/\//.test(url)){err.textContent='Add the application link, starting with https://.';return}
+  if(!opDb){err.textContent='Open this page signed in to Claude to add roles.';return}
+  const o={manual:true,firm,title,level:v('ar-level'),category:v('ar-cat'),location:'London',area:'',posted:'',firstSeen:iso(TODAY),deadline:v('ar-dl'),rolling:false,status:'open',url,
+    apply:how==='email'?{method:'email',email,subject:v('ar-subj').trim(),coverLetter:true,instructions:v('ar-ins').trim()}:{method:'web'}};
+  btn.disabled=true;
+  try{await opDb.collection('openings').doc('m-'+newId()).set(o);hideSheet();toast(firm+' added to the tracker')}
+  catch(e){btn.disabled=false;err.textContent=e&&(e.code==='permission_denied'||e.code==='invalid_argument')?'Only the owner of this page can add roles.':dbErr(e)}
+}
+$('sheet').addEventListener('close',()=>{if(pending)softRender()});
+document.addEventListener('toggle',e=>{if(e.target.matches&&e.target.matches('details.q')&&!e.target.open&&pending)setTimeout(softRender,0)},true);
+
+/* ---------- connect ---------- */
+render();
+(async()=>{
+  try{const r=await fetch('openings.json',{cache:'no-store'});if(r.ok){const j=await r.json();S.robot=j.openings||[];S.firms=j.firms||[];S.meta=j.meta||null}}catch(e){}
+  S.loaded.robot=true;softRender();
+})();
+(async()=>{
+  if(!window.claude||!claude.use){S.mode='demo';S.loaded.db=true;render();return}
+  const [d,u,s,dl]=await Promise.all([claude.use('db'),claude.use('user'),claude.use('sample'),claude.use('downloads')]);
+  sample=s;downloads=dl;
+  if(d){opDb=d;d.collection('openings').limit(1000).onSnapshot(q=>{const all=q.docs.map(x=>({...x.data(),id:x.id}));
+    S.manual=all.filter(o=>o.manual===true);S.hand=all.filter(o=>o.manual!==true);S.loaded.db=true;softRender()},()=>{S.loaded.db=true;softRender()})}
+  else S.loaded.db=true;
+  const id=u?await u.id():null;
+  if(!d||!id){S.mode='demo';render();return}
+  db=d;S.uid=id;profRef=db.doc('data/users/'+id+'/profile');appsCol=profRef.collection('apps');todoCol=profRef.collection('todos');prepCol=profRef.collection('prep');
+  let got=0;const ready=()=>{if(++got===2&&S.mode!=='preview'){S.mode='live';softRender()}};
+  profRef.onSnapshot(snap=>{if(snap.exists){const p=snap.data();S.profile={name:p.name||'',cv:p.cv||'',letter:p.letter||''}}softRender()},()=>{});
+  appsCol.onSnapshot(q=>{S.real.apps=q.docs.map(x=>{const a={...BLANK,...x.data(),id:x.id};if(a.stage==='Saved')a.stage='Not started';a.level=OLD_LEVEL[a.level]||a.level||'Summer Internship';return a});if(S.mode!=='preview')S.apps=[...S.real.apps];ready();softRender()},
+    ()=>{S.mode='demo';render();toast('Could not load your saved tracker. Showing examples.')});
+  todoCol.onSnapshot(q=>{S.real.todos=q.docs.map(x=>({...x.data(),id:x.id}));if(S.mode!=='preview')S.todos=[...S.real.todos];ready();softRender()},()=>{S.todos=[];ready()});
+  prepCol.onSnapshot(q=>{const m={};q.docs.forEach(x=>m[x.id]=x.data());S.prep=m;softRender()},()=>{});
+})();
+</script>
