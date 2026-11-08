@@ -67,7 +67,7 @@ OTHER_CITY = re.compile(
     r"menlo park|washington|toronto|montreal|sydney|melbourne|mumbai|bangalore|bengaluru|tokyo|shanghai|beijing|paris|"
     r"frankfurt|madrid|milan|amsterdam|zurich|geneva|luxembourg|stockholm|dublin|edinburgh|glasgow|aberdeen|manchester|"
     r"birmingham|leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|"
-    r"liverpool|milton keynes|ashbourne|derby|san diego|cleveland|atlanta|dallas|charlotte|minneapolis|denver|miami|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
+    r"liverpool|milton keynes|ashbourne|seoul|korea|japan|china|india|brazil|s[aã]o paulo|mexico|argentina|chile|colombia|peru|canada|australia|germany|france|italy|spain|netherlands|belgium|switzerland|sweden|norway|denmark|finland|poland|ireland|israel|saudi|qatar|kuwait|bahrain|uae|egypt|south africa|johannesburg|lagos|nigeria|kenya|turkey|istanbul|taipei|taiwan|jakarta|manila|bangkok|kuala lumpur|ho chi minh|vietnam|richmond|philadelphia|pittsburgh|baltimore|nashville|st\.? louis|salt lake|seattle|portland|phoenix|austin|detroit|columbus|indianapolis|kansas city|milwaukee|tampa|orlando|raleigh|greenwich|stamford|palo alto|calgary|vancouver|brussels|vienna|warsaw|prague|lisbon|munich|hamburg|düsseldorf|dusseldorf|copenhagen|oslo|helsinki|athens|budapest|bucharest|luxemb|monaco|derby|san diego|cleveland|atlanta|dallas|charlotte|minneapolis|denver|miami|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
     r"dartmouth|georgetown|\bduke\b|harvard|wharton|\bhbcu\b|veteran",  # US campus events
     re.I,
 )
