@@ -202,3 +202,10 @@ def test_events_and_pre_uni_count_as_early_careers():
     assert filters.is_entry_level("London Open House 2026")
     assert filters.is_entry_level("Sixth Form Work Experience")
     assert filters.is_london("", "2028 Evercore Summer Analyst Coffee Chats - Dartmouth") is False
+
+
+def test_scope_and_location_extras():
+    assert not filters.in_scope("Talent Acquisition Apprenticeship Programme 2027 - London")
+    assert not filters.in_scope("Summer 2027 Intern - Disputes, Claims & Investigations")
+    assert filters.is_london("", "Summer 2027 Intern: Cleveland, OH") is False
+    assert filters.programme_type("FinTech Strategy First Year Analyst") != "Spring Insight"

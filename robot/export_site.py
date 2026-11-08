@@ -52,6 +52,13 @@ def main() -> None:
                      "area": area(m["title"]), "level": m["level"], "posted": m.get("posted", ""),
                      "firstSeen": m.get("added", ""), "deadline": closes, "rolling": m.get("rolling", False),
                      "status": status, "apply": m.get("apply", {"method": "web"}), "manual": True})
+    seen, unique = set(), []
+    for r in sorted(rows, key=lambda r: r["status"] != "open"):  # keep the open copy
+        k = (r["firm"], r["title"].lower())
+        if k not in seen:
+            seen.add(k)
+            unique.append(r)
+    rows = unique
     in_scope = [s for s in sources.values() if s.get("segment") in ("IB", "PE")]
     meta = {
         "lastRun": max((r.get("last_seen", "") for r in openings.values()), default=""),

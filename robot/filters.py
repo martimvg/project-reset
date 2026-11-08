@@ -18,7 +18,7 @@ PROGRAMMES = [
     ("Pre-Uni", r"sixth form|year 1[0-3]\b|school leaver|a[- ]levels?|gcse|pre[- ]?uni|apprentice|"
                 r"school students?|for schools"),
     ("Spring Insight", r"spring (week|insight|programme|program)|insight (day|days|week|programme|program|event|events)|"
-                       r"discovery (day|week|programme|program)|first[- ]year|work experience|open day|spring into"),
+                       r"discovery (day|week|programme|program)|first[- ]year (insight|programme|program|students?)|work experience|open day|spring into"),
     ("Events", r"open (house|evening)|coffee chats?|info(rmation)? session|webinar|masterclass|workshop|"
                r"discovery (series|session)|event series|networking|meet the (firm|team)|panel|launch event|"
                r"virtual event|\bevents?\b|challenge|competition|careers fair"),
@@ -54,7 +54,9 @@ OFF_SCOPE = re.compile(
     r"technolog|software|engineer|developer|\bdata\b|cyber|\bIT\b|digital|\bAI\b|machine learning|quant|"
     r"operations|\bops\b|sales|trading|trader|(?<!capital )\bmarkets\b|research|wealth|private bank|asset management|"
     r"audit|assurance|\btax\b|risk|compliance|legal|human resources|\bHR\b|marketing|procurement|"
-    r"treasury|payments|retail|branch|customer|actuar|pension|insurance|consulting|accountan",
+    r"treasury|payments|retail|branch|customer|actuar|pension|insurance|consulting|accountan|"
+    r"talent acquisition|recruit|governance|internal|disputes|investigations|forensic|communications|transformation|"
+    r"business services|business banking|commercial banking|transaction banking|claims|underwriting|fund services",
     re.I,
 )
 # Words that only appear on articles and menus, never on job adverts.
@@ -65,7 +67,7 @@ OTHER_CITY = re.compile(
     r"menlo park|washington|toronto|montreal|sydney|melbourne|mumbai|bangalore|bengaluru|tokyo|shanghai|beijing|paris|"
     r"frankfurt|madrid|milan|amsterdam|zurich|geneva|luxembourg|stockholm|dublin|edinburgh|glasgow|aberdeen|manchester|"
     r"birmingham|leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|"
-    r"liverpool|milton keynes|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
+    r"liverpool|milton keynes|ashbourne|derby|san diego|cleveland|atlanta|dallas|charlotte|minneapolis|denver|miami|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
     r"dartmouth|georgetown|\bduke\b|harvard|wharton|\bhbcu\b|veteran",  # US campus events
     re.I,
 )
@@ -96,12 +98,16 @@ def in_scope(title: str) -> bool:
     return not OFF_SCOPE.search(title)
 
 
+# "Cleveland, OH" or "Austin, TX": a US state code after a comma (capitals only).
+US_STATE = re.compile(r",\s*(A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|PA|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])\b")
+
+
 def is_london(location: str, title: str = "") -> bool | None:
     """True / False when we can tell, None when the system gave no location."""
     text = f"{location} {title}".strip()
     if LONDON.search(text):
         return True
-    if OTHER_CITY.search(text):
+    if OTHER_CITY.search(text) or US_STATE.search(text):
         return False
     loc = location.strip()
     if not loc:
