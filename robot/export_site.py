@@ -7,7 +7,7 @@ import json
 import re
 from pathlib import Path
 
-from .filters import programme_type
+from .filters import in_scope as ib_pe_work, is_entry_level, is_london, programme_type
 
 ROOT = Path(__file__).resolve().parent.parent
 AREAS = [("restructur", "Restructuring"), ("insolvency", "Restructuring"), ("leveraged", "Leveraged Finance"),
@@ -33,6 +33,10 @@ def main() -> None:
     rows = []
     for key, r in openings.items():
         if r.get("segment") not in ("IB", "PE"):
+            continue
+        # apply today's rules to older records too
+        loc = "" if r.get("location") in ("", "Not stated") else r.get("location", "")
+        if not (is_entry_level(r["title"]) and ib_pe_work(r["title"]) and is_london(loc, r["title"]) is not False):
             continue
         rows.append({
             "id": key, "firm": r["company"], "title": r["title"], "url": r["url"],

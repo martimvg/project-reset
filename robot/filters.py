@@ -25,10 +25,10 @@ PROGRAMMES = [
     ("Industrial Placement", r"industrial placement|placement year|sandwich|year[- ]long placement|"
                              r"(12|twelve)[- ]month placement|\bplacement\b"),
     ("Off-Cycle Internship", r"off[- ]?cycle|seasonal internship|long[- ]term internship|(3|three|6|six)[- ]month internship|"
-                             r"winter internship|autumn internship|january start|september start"),
-    ("Graduate Programme", r"graduate|full[- ]time analyst|analyst (program|programme)|new analyst|entry[- ]level|"
-                           r"early careers? analyst|final[- ]year"),
+                             r"(winter|autumn|january|february|march|april|september|october) internship|january start|september start"),
     ("Summer Internship", r"summer|\bintern(s|ship|ships)?\b|vacation scheme"),
+    ("Graduate Programme", r"graduate|full[- ]time analyst|analyst (program|programme)|new analyst|entry[- ]level|"
+                           r"early careers? analyst|final[- ]year|first[- ]year analyst"),
 ]
 PROGRAMME_NAMES = [name for name, _ in PROGRAMMES]
 
@@ -56,7 +56,9 @@ OFF_SCOPE = re.compile(
     r"audit|assurance|\btax\b|risk|compliance|legal|human resources|\bHR\b|marketing|procurement|"
     r"treasury|payments|retail|branch|customer|actuar|pension|insurance|consulting|accountan|"
     r"talent acquisition|recruit|governance|internal|disputes|investigations|forensic|communications|transformation|"
-    r"business services|business banking|commercial banking|transaction banking|claims|underwriting|fund services",
+    r"business services|business banking|commercial banking|transaction banking|claims|underwriting|fund services|"
+    r"investment management|fixed income|\bcoo\b|financial resources|liquidity|sustainability|client engagement|"
+    r"controllers?|\bfinance (internship|apprenticeship|programme|program)|benefits",
     re.I,
 )
 # Words that only appear on articles and menus, never on job adverts.
@@ -67,7 +69,7 @@ OTHER_CITY = re.compile(
     r"menlo park|washington|toronto|montreal|sydney|melbourne|mumbai|bangalore|bengaluru|tokyo|shanghai|beijing|paris|"
     r"frankfurt|madrid|milan|amsterdam|zurich|geneva|luxembourg|stockholm|dublin|edinburgh|glasgow|aberdeen|manchester|"
     r"birmingham|leeds|bristol|belfast|cardiff|stoke|reading|cambridge|oxford|newcastle|nottingham|sheffield|southampton|"
-    r"liverpool|milton keynes|ashbourne|seoul|korea|japan|china|india|brazil|s[aã]o paulo|mexico|argentina|chile|colombia|peru|canada|australia|germany|france|italy|spain|netherlands|belgium|switzerland|sweden|norway|denmark|finland|poland|ireland|israel|saudi|qatar|kuwait|bahrain|uae|egypt|south africa|johannesburg|lagos|nigeria|kenya|turkey|istanbul|taipei|taiwan|jakarta|manila|bangkok|kuala lumpur|ho chi minh|vietnam|richmond|philadelphia|pittsburgh|baltimore|nashville|st\.? louis|salt lake|seattle|portland|phoenix|austin|detroit|columbus|indianapolis|kansas city|milwaukee|tampa|orlando|raleigh|greenwich|stamford|palo alto|calgary|vancouver|brussels|vienna|warsaw|prague|lisbon|munich|hamburg|düsseldorf|dusseldorf|copenhagen|oslo|helsinki|athens|budapest|bucharest|luxemb|monaco|derby|san diego|cleveland|atlanta|dallas|charlotte|minneapolis|denver|miami|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
+    r"liverpool|milton keynes|ashbourne|seoul|korea|tel aviv|syracuse|japan|china|india|brazil|s[aã]o paulo|mexico|argentina|chile|colombia|peru|canada|australia|germany|france|italy|spain|netherlands|belgium|switzerland|sweden|norway|denmark|finland|poland|ireland|israel|saudi|qatar|kuwait|bahrain|uae|egypt|south africa|johannesburg|lagos|nigeria|kenya|turkey|istanbul|taipei|taiwan|jakarta|manila|bangkok|kuala lumpur|ho chi minh|vietnam|richmond|philadelphia|pittsburgh|baltimore|nashville|st\.? louis|salt lake|seattle|portland|phoenix|austin|detroit|columbus|indianapolis|kansas city|milwaukee|tampa|orlando|raleigh|greenwich|stamford|palo alto|calgary|vancouver|brussels|vienna|warsaw|prague|lisbon|munich|hamburg|düsseldorf|dusseldorf|copenhagen|oslo|helsinki|athens|budapest|bucharest|luxemb|monaco|derby|san diego|cleveland|atlanta|dallas|charlotte|minneapolis|denver|miami|\bemea\b(?!.*london)|\bapac\b|americas|\bus\b|\busa\b|u\.s\.|"
     r"dartmouth|georgetown|\bduke\b|harvard|wharton|\bhbcu\b|veteran",  # US campus events
     re.I,
 )

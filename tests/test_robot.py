@@ -209,3 +209,9 @@ def test_scope_and_location_extras():
     assert not filters.in_scope("Summer 2027 Intern - Disputes, Claims & Investigations")
     assert filters.is_london("", "Summer 2027 Intern: Cleveland, OH") is False
     assert filters.programme_type("FinTech Strategy First Year Analyst") != "Spring Insight"
+
+
+def test_summer_analyst_program_is_summer():
+    assert filters.programme_type("Global Investment Banking Summer Analyst Program 2028 - Energy") == "Summer Internship"
+    assert filters.programme_type("2027 January Internship - Financial Sponsor Coverage") == "Off-Cycle Internship"
+    assert filters.programme_type("FinTech Strategy First Year Analyst") == "Graduate Programme"
