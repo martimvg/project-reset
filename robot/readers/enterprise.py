@@ -40,7 +40,7 @@ def workday(p, http):
     base = f"https://{p['host']}/wday/cxs/{p['tenant']}/{p['site']}/jobs"
     out = []
     for word in p.get("search_words", ENTRY_SEARCH_WORDS):
-        for page in range(5):
+        for page in range(10):  # up to 200 results per search word
             data = http.post_json(base, {"appliedFacets": p.get("facets", {}), "limit": 20,
                                           "offset": page * 20, "searchText": word})
             rows = data.get("jobPostings", [])
@@ -59,18 +59,21 @@ def oracle(p, http):
     base = f"https://{p['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
     out = []
     for word in p.get("search_words", ENTRY_SEARCH_WORDS):
-        finder = (f"findReqs;siteNumber={p['site']},facetsList=NONE,limit=100,offset=0,"
-                  f'keyword="{word}",sortBy=POSTING_DATES_DESC')
-        data = http.get_json(base, params={"onlyData": "true", "expand": "requisitionList.secondaryLocations",
-                                           "finder": finder})
-        for block in data.get("items", []):
-            for j in block.get("requisitionList", []):
+        for offset in range(0, 500, 100):  # big banks list hundreds of student roles worldwide: read them all
+            finder = (f"findReqs;siteNumber={p['site']},facetsList=NONE,limit=100,offset={offset},"
+                      f'keyword="{word}",sortBy=POSTING_DATES_DESC')
+            data = http.get_json(base, params={"onlyData": "true", "expand": "requisitionList.secondaryLocations",
+                                               "finder": finder})
+            page = [j for block in data.get("items", []) for j in block.get("requisitionList", [])]
+            for j in page:
                 out.append(Job(
                     title=j.get("Title", ""),
                     url=f"https://{p['host']}/hcmUI/CandidateExperience/en/sites/{p['site']}/job/{j.get('Id')}",
                     location=j.get("PrimaryLocation", ""), posted=to_date(j.get("PostedDate")),
                     external_id=str(j.get("Id", "")),
                 ))
+            if len(page) < 100:
+                break
     return _dedupe(out)
 
 
