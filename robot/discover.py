@@ -73,7 +73,8 @@ def guess(company: dict, http: Http) -> tuple[str, dict] | None:
             pass
         try:
             info = http.get_json(f"https://apply.workable.com/api/v1/widget/accounts/{slug}")
-            if _same_company(info.get("name", ""), name):
+            # Workable answers for almost any name, so also require live jobs
+            if _same_company(info.get("name", ""), name) and info.get("jobs"):
                 return "workable", {"account": slug}
         except (httpx.HTTPError, Blocked, ValueError):
             pass

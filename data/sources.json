@@ -1,15 +1,13 @@
 {
  "abn-amro": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "abn-amro",
   "name": "ABN AMRO",
-  "params": {
-   "account": "abn-amro"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "access-capital-partners": {
   "checked": "2026-11-07",
@@ -223,15 +221,13 @@
  },
  "bbva": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "bbva",
   "name": "BBVA",
-  "params": {
-   "account": "bbva"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "bda-partners": {
   "checked": "2026-11-07",
@@ -442,15 +438,13 @@
  },
  "cibc": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "cibc",
   "name": "CIBC",
-  "params": {
-   "account": "cibc"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "cicc": {
   "checked": "2026-11-07",
@@ -647,15 +641,13 @@
  },
  "dealglobe": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "dealglobe",
   "name": "DealGlobe",
-  "params": {
-   "account": "dealglobe"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "deloitte": {
   "careers_url": "https://www.deloitte.com/uk/en/careers/students.html",
@@ -1015,15 +1007,13 @@
  },
  "handelsbanken": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "handelsbanken",
   "name": "Handelsbanken",
-  "params": {
-   "account": "handelsbanken"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "harbourvest": {
   "checked": "2026-11-07",
@@ -1103,15 +1093,13 @@
  },
  "howden": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "howden",
   "name": "Howden",
-  "params": {
-   "account": "howden"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "hsbc": {
   "careers_url": "https://www.hsbc.com/careers/students-and-graduates",
@@ -1503,15 +1491,13 @@
  },
  "national-bank-of-canada": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "national-bank-of-canada",
   "name": "National Bank of Canada",
-  "params": {
-   "account": "national-bank-of-canada"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "natixis": {
   "careers_url": "https://www.natixis.com/en/careers",
@@ -1866,15 +1852,13 @@
  },
  "scotiabank": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "scotiabank",
   "name": "Scotiabank",
-  "params": {
-   "account": "scotiabank"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "silverpeak": {
   "checked": "2026-11-07",
@@ -1936,15 +1920,13 @@
  },
  "standard-bank": {
   "checked": "2026-11-07",
-  "how": "name guess",
+  "how": "not found",
   "id": "standard-bank",
   "name": "Standard Bank",
-  "params": {
-   "account": "standard-bank"
-  },
+  "note": "needs a careers page link in data/seeds.json",
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "workable"
+  "system": null
  },
  "standard-chartered": {
   "careers_url": "https://www.sc.com/en/careers/students-graduates/",
