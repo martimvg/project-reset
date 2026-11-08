@@ -60,7 +60,10 @@ def main() -> int:
     # Plain web requests run in parallel; browser-based sources run one by one
     # on the main thread (the screenless browser can't be shared between threads).
     plain = [s for s in sources.values() if s["system"] != "browser"]
-    in_browser = [s for s in sources.values() if s["system"] == "browser"]
+    # Browser pages are slow, so each run starts with the ones read least recently;
+    # whatever doesn't fit in this run's time is read first next time.
+    in_browser = sorted((s for s in sources.values() if s["system"] == "browser"),
+                        key=lambda s: health.get(s["id"], {}).get("last_tried", ""))
     with ThreadPoolExecutor(max_workers=int(os.environ.get("WORKERS", "8"))) as pool:
         results = list(pool.map(lambda s: read_source(s, http), plain))
     deadline = time.monotonic() + float(os.environ.get("BROWSER_MINUTES", "6")) * 60
@@ -72,7 +75,7 @@ def main() -> int:
     for src, jobs, error, seconds in results:
         cid = src["id"]
         h = health.get(cid, {"failures": 0})
-        h.update({"system": src["system"]})
+        h.update({"system": src["system"], "last_tried": now})
         if error:
             h["failures"] = h.get("failures", 0) + 1
             h["error"] = error

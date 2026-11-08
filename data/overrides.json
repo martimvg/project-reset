@@ -1,1 +1,217 @@
-{}
+{
+ "bank-of-america": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "link_contains": "/opp/",
+   "urls": [
+    "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
+    "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/"
+   ]
+  },
+  "system": "browser"
+ },
+ "bbva": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "bbva.wd3.myworkdayjobs.com",
+   "site": "BBVA",
+   "tenant": "bbva"
+  },
+  "system": "workday"
+ },
+ "berenberg": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "berenberg.avature.net",
+   "path": "/en_GB/careers"
+  },
+  "system": "avature"
+ },
+ "cibc": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "cibc.wd3.myworkdayjobs.com",
+   "site": "campus",
+   "tenant": "cibc"
+  },
+  "system": "workday"
+ },
+ "deloitte": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.deloitte.com/uk/en/careers/search-jobs.html"
+  },
+  "system": "browser"
+ },
+ "deutsche-bank": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "db.wd3.myworkdayjobs.com",
+   "site": "DBWebsite",
+   "tenant": "db"
+  },
+  "system": "workday"
+ },
+ "evercore": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "urls": [
+    "https://evercore.tal.net/vx/lang-en-GB/mobile-0/channel-1/appcentre-ext/brand-6/candidate/jobboard/vacancy/2/adv/",
+    "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/1/adv/"
+   ]
+  },
+  "system": "oleeo"
+ },
+ "ey": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.ey.com/en_uk/careers/job-search"
+  },
+  "system": "browser"
+ },
+ "fti-consulting": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "fticonsulting.wd108.myworkdayjobs.com",
+   "site": "FTIConsultingCareers",
+   "tenant": "fticonsulting"
+  },
+  "system": "workday"
+ },
+ "goldman-sachs": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "link_contains": "/roles/",
+   "url": "https://higher.gs.com/results?EXPERIENCE_LEVEL=Campus&LOCATION=London"
+  },
+  "system": "browser"
+ },
+ "harris-williams": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "pnc.wd5.myworkdayjobs.com",
+   "site": "HarrisWilliams",
+   "tenant": "pnc"
+  },
+  "system": "workday"
+ },
+ "howden": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "hyperiongrp.wd3.myworkdayjobs.com",
+   "site": "hyperion_external",
+   "tenant": "hyperiongrp"
+  },
+  "system": "workday"
+ },
+ "jefferies": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "link_contains": "/opp/",
+   "urls": [
+    "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/",
+    "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/"
+   ]
+  },
+  "system": "browser"
+ },
+ "kpmg": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.kpmgcareers.co.uk/search/vacancies/"
+  },
+  "system": "browser"
+ },
+ "leerink-partners": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "leerink.wd5.myworkdayjobs.com",
+   "site": "leerinkpartners",
+   "tenant": "leerink"
+  },
+  "system": "workday"
+ },
+ "macquarie-group": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "recruitment.macquarie.com",
+   "path": "/en_US/careers"
+  },
+  "system": "avature"
+ },
+ "morgan-stanley": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "link_contains": "/opp/",
+   "urls": [
+    "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
+    "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/"
+   ]
+  },
+  "system": "browser"
+ },
+ "nomura": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "link_contains": "/opp/",
+   "urls": [
+    "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/1/adv/",
+    "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/2/adv/"
+   ]
+  },
+  "system": "browser"
+ },
+ "peel-hunt": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "feed": "https://careersat.peelhunt.com/jobs.rss"
+  },
+  "system": "rss"
+ },
+ "piper-sandler": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "pipersandler.wd501.myworkdayjobs.com",
+   "site": "Piper_Sandler_Careers",
+   "tenant": "pipersandler"
+  },
+  "system": "workday"
+ },
+ "pwc": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.pwc.co.uk/careers/early-careers/job-search.html"
+  },
+  "system": "browser"
+ },
+ "stout": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "host": "stout.wd5.myworkdayjobs.com",
+   "site": "Stout-Student-Careers",
+   "tenant": "stout"
+  },
+  "system": "workday"
+ },
+ "teneo": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.teneo.com/careers/open-positions/"
+  },
+  "system": "browser"
+ },
+ "ubs": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.ubs.com/global/en/careers/search-jobs.html"
+  },
+  "system": "browser"
+ },
+ "william-blair": {
+  "note": "set by hand from the careers-page probe (2026-11-08)",
+  "params": {
+   "url": "https://www.williamblair.com/Careers/Job-Search"
+  },
+  "system": "browser"
+ }
+}

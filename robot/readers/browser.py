@@ -35,10 +35,17 @@ def close():
 
 
 def browser(p, http):
-    url = p["url"]
+    """Pass "url", or "urls" for firms with several job boards."""
+    out: dict[str, Job] = {}
+    for url in p.get("urls") or [p["url"]]:
+        for job in _one_page(url, p.get("link_contains"), http):
+            out.setdefault(job.url, job)
+    return list(out.values())
+
+
+def _one_page(url, link_hint, http):
     if not http.allowed(url):
         raise Blocked(url)
-    link_hint = p.get("link_contains")
     with _lock:  # called from the main thread only (see run.py)
         page = _browser().new_page(user_agent=USER_AGENT)
         try:

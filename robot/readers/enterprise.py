@@ -166,8 +166,12 @@ def icims(p, http):
 
 
 def oleeo(p, http):
-    """Oleeo (tal.net) vacancy boards, used by many UK banks and boutiques."""
-    return _dedupe(links_from_html(http.get_text(p["url"]), p["url"], "/opp/"))
+    """Oleeo (tal.net) vacancy boards, used by many UK banks and boutiques.
+    Firms often have several boards (e.g. one for the US, one for Europe): pass "urls"."""
+    out = []
+    for url in p.get("urls") or [p["url"]]:
+        out += links_from_html(http.get_text(url), url, "/opp/")
+    return _dedupe(out)
 
 
 def radancy(p, http):
