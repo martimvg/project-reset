@@ -7,7 +7,7 @@ import re
 import threading
 from urllib.parse import urljoin
 
-from ..filters import EARLY, NOT_A_JOB, is_job_link
+from ..filters import EARLY, NOT_A_JOB, NOT_A_PAGE_FOR_ONE_JOB, is_job_link
 from ..http import USER_AGENT, Blocked
 from ..models import Job
 
@@ -64,8 +64,12 @@ def _one_page(url, link_hint, http):
         text = " ".join(text.split())
         if not text or len(text) > 200:
             continue
-        if link_hint and link_hint not in href:
-            continue
+        if link_hint:
+            bare = href.split("?")[0].split("#")[0].rstrip("/")
+            # skip the listing page itself, its parent pages, and short menu links
+            if (link_hint not in href or url.split("?")[0].rstrip("/").startswith(bare)
+                    or len(text.split()) < 3 or NOT_A_PAGE_FOR_ONE_JOB.search(text)):
+                continue
         if not link_hint and (not EARLY.search(text) or NOT_A_JOB.search(text) or not is_job_link(text)):
             continue
         full = urljoin(url, href)
