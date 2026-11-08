@@ -130,6 +130,18 @@
   },
   "system": "workday"
  },
+ "lloyds-banking-group": {
+  "note": "programme pages found by web search (2026-11-08)",
+  "params": {
+   "link_contains": "/our-opportunities/",
+   "urls": [
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/undergraduates/summer-internships/",
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/undergraduates/industrial-placements/"
+   ]
+  },
+  "system": "browser"
+ },
  "macquarie-group": {
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
@@ -180,6 +192,17 @@
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "url": "https://www.pwc.co.uk/careers/early-careers/job-search.html"
+  },
+  "system": "browser"
+ },
+ "rothschild-and-co": {
+  "note": "programme pages found by web search (2026-11-08)",
+  "params": {
+   "link_contains": "/students-and-graduates/",
+   "urls": [
+    "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+    "https://www.rothschildandco.com/en/careers/students-and-graduates/events/"
+   ]
   },
   "system": "browser"
  },
