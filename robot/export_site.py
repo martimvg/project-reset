@@ -108,7 +108,12 @@ def main() -> None:
     }
     out = ROOT / "site"
     out.mkdir(exist_ok=True)
-    (out / "openings.json").write_text(json.dumps({"meta": meta, "openings": rows, "firms": firms}, ensure_ascii=False), encoding="utf-8")
+    payload = json.dumps({"meta": meta, "openings": rows, "firms": firms}, ensure_ascii=False)
+    (out / "openings.json").write_text(payload, encoding="utf-8")
+    web = ROOT / "web" / "public"  # the web app's fallback copy (used before the database is connected)
+    if web.parent.exists():
+        web.mkdir(exist_ok=True)
+        (web / "openings.json").write_text(payload, encoding="utf-8")
     print(f"{len(rows)} roles written to site/openings.json")
 
 

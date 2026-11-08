@@ -48,12 +48,21 @@ jobs:
         env:
           ONLY: ${{ inputs.only }}
         run: timeout 15m python -m robot.run
+      - name: Build the website's list of roles
+        if: always()
+        run: python -m robot.export_site
+      - name: Send roles to the website's database
+        if: always()
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python -m robot.push_supabase
       - name: Save results
         if: always()
         run: |
           git config user.name "project-reset-robot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
+          git add -A data site web/public/openings.json
           if ! git diff --cached --quiet; then
             git commit -m "Update openings $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase
