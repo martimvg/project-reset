@@ -238,20 +238,21 @@
   "system": "browser"
  },
  "bank-of-america": {
-  "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "bank-of-america",
   "name": "Bank of America",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "host": "ghr.wd1.myworkdayjobs.com",
-   "site": "lateral-us",
-   "tenant": "ghr"
+   "link_contains": "/opp/",
+   "urls": [
+    "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
+    "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/"
+   ]
   },
   "sector": "Bulge Bracket",
   "segment": "IB",
-  "system": "workday"
+  "system": "browser"
  },
  "barclays": {
   "careers_url": "https://search.jobs.barclays/",
@@ -270,15 +271,14 @@
   "system": "workday"
  },
  "bbva": {
-  "careers_url": "https://careers.bbva.com/europa/",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "bbva",
   "name": "BBVA",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "bbva.wd3.myworkdayjobs.com",
-   "site": "es",
+   "site": "BBVA",
    "tenant": "bbva"
   },
   "sector": "Middle Market",
@@ -339,18 +339,18 @@
   "system": "browser"
  },
  "berenberg": {
-  "careers_url": "https://www.berenberg.de/en/careers/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "berenberg",
   "name": "Berenberg",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://careers.berenberg.com/"
+   "host": "berenberg.avature.net",
+   "path": "/en_GB/careers"
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "browser"
+  "system": "avature"
  },
  "bgf": {
   "careers_url": "https://www.bgf.co.uk/careers/",
@@ -534,12 +534,11 @@
   "system": "browser"
  },
  "cibc": {
-  "careers_url": "https://cibc.wd3.myworkdayjobs.com/campus",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "cibc",
   "name": "CIBC",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "cibc.wd3.myworkdayjobs.com",
    "site": "campus",
@@ -809,32 +808,32 @@
   "system": "browser"
  },
  "deloitte": {
-  "careers_url": "https://www.deloitte.com/uk/en/careers/students.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "deloitte",
   "name": "Deloitte",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.deloitte.com/uk/en/careers/students.html"
+   "url": "https://www.deloitte.com/uk/en/careers/search-jobs.html"
   },
   "sector": "Big 4",
   "segment": "IB",
   "system": "browser"
  },
  "deutsche-bank": {
-  "careers_url": "https://careers.db.com/students-graduates/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "deutsche-bank",
   "name": "Deutsche Bank",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://careers.db.com/students-graduates/#/graduate/"
+   "host": "db.wd3.myworkdayjobs.com",
+   "site": "DBWebsite",
+   "tenant": "db"
   },
   "sector": "Bulge Bracket",
   "segment": "IB",
-  "system": "browser"
+  "system": "workday"
  },
  "eastdil-secured": {
   "careers_url": "https://www.eastdilsecured.com/careers",
@@ -932,14 +931,16 @@
   "system": "browser"
  },
  "evercore": {
-  "careers_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "evercore",
   "name": "Evercore",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/1/adv/"
+   "urls": [
+    "https://evercore.tal.net/vx/lang-en-GB/mobile-0/channel-1/appcentre-ext/brand-6/candidate/jobboard/vacancy/2/adv/",
+    "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/1/adv/"
+   ]
   },
   "sector": "Elite Boutique",
   "segment": "IB",
@@ -960,14 +961,13 @@
   "system": "browser"
  },
  "ey": {
-  "careers_url": "https://www.ey.com/en_uk/careers/students",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "ey",
   "name": "EY",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.ey.com/en_uk/careers/students"
+   "url": "https://www.ey.com/en_uk/careers/job-search"
   },
   "sector": "Big 4",
   "segment": "IB",
@@ -1030,12 +1030,11 @@
   "system": "greenhouse"
  },
  "fti-consulting": {
-  "careers_url": "https://www.fticonsulting.com/careers",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "fti-consulting",
   "name": "FTI Consulting",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "fticonsulting.wd108.myworkdayjobs.com",
    "site": "FTIConsultingCareers",
@@ -1126,14 +1125,14 @@
   "system": "browser"
  },
  "goldman-sachs": {
-  "careers_url": "https://higher.gs.com/campus",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "goldman-sachs",
   "name": "Goldman Sachs",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://higher.gs.com/campus"
+   "link_contains": "/roles/",
+   "url": "https://higher.gs.com/results?EXPERIENCE_LEVEL=Campus&LOCATION=London"
   },
   "sector": "Bulge Bracket",
   "segment": "IB",
@@ -1260,12 +1259,11 @@
   "system": "workday"
  },
  "harris-williams": {
-  "careers_url": "https://www.harriswilliams.com/careers",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "harris-williams",
   "name": "Harris Williams",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "pnc.wd5.myworkdayjobs.com",
    "site": "HarrisWilliams",
@@ -1348,12 +1346,11 @@
   "system": "workday"
  },
  "howden": {
-  "careers_url": "https://www.howdengroup.com/uk-en/careers",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "howden",
   "name": "Howden",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "hyperiongrp.wd3.myworkdayjobs.com",
    "site": "hyperion_external",
@@ -1507,18 +1504,21 @@
   "system": "oracle"
  },
  "jefferies": {
-  "careers_url": "https://www.jefferies.com/careers/campus/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "jefferies",
   "name": "Jefferies",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/"
+   "link_contains": "/opp/",
+   "urls": [
+    "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/",
+    "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/"
+   ]
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "oleeo"
+  "system": "browser"
  },
  "kkr": {
   "careers_url": "https://www.kkr.com/careers",
@@ -1549,14 +1549,13 @@
   "system": "browser"
  },
  "kpmg": {
-  "careers_url": "https://kpmgcareers.co.uk/graduate/deal-advisory",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "kpmg",
   "name": "KPMG",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.kpmgcareers.co.uk/graduate/deal-advisory"
+   "url": "https://www.kpmgcareers.co.uk/search/vacancies/"
   },
   "sector": "Big 4",
   "segment": "IB",
@@ -1606,12 +1605,11 @@
   "system": "oracle"
  },
  "leerink-partners": {
-  "careers_url": "https://www.leerink.com/careers/",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "leerink-partners",
   "name": "Leerink Partners",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "leerink.wd5.myworkdayjobs.com",
    "site": "leerinkpartners",
@@ -1706,18 +1704,18 @@
   "system": "browser"
  },
  "macquarie-group": {
-  "careers_url": "https://recruitment.macquarie.com/en_US/careers/SearchJobs",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "macquarie-group",
   "name": "Macquarie Group",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://recruitment.macquarie.com/en_US/careers/SearchJobs"
+   "host": "recruitment.macquarie.com",
+   "path": "/en_US/careers"
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "browser"
+  "system": "avature"
  },
  "mizuho": {
   "careers_url": "https://www.mizuhogroup.com/emea/careers/graduates",
@@ -1776,14 +1774,17 @@
   "system": "pinpoint"
  },
  "morgan-stanley": {
-  "careers_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "morgan-stanley",
   "name": "Morgan Stanley",
-  "note": "browser failed: Error",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.morganstanley.com/people-opportunities/students-graduates"
+   "link_contains": "/opp/",
+   "urls": [
+    "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
+    "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/"
+   ]
   },
   "sector": "Bulge Bracket",
   "segment": "IB",
@@ -1846,18 +1847,21 @@
   "system": "browser"
  },
  "nomura": {
-  "careers_url": "https://www.nomura.com/europe/careers/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "nomura",
   "name": "Nomura",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/2/adv/"
+   "link_contains": "/opp/",
+   "urls": [
+    "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/1/adv/",
+    "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/2/adv/"
+   ]
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "oleeo"
+  "system": "browser"
  },
  "nordic-capital": {
   "careers_url": "https://www.nordiccapital.com/careers/",
@@ -1958,18 +1962,17 @@
   "system": "browser"
  },
  "peel-hunt": {
-  "careers_url": "https://careersat.peelhunt.com/jobs",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "peel-hunt",
   "name": "Peel Hunt",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://careersat.peelhunt.com/jobs"
+   "feed": "https://careersat.peelhunt.com/jobs.rss"
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "browser"
+  "system": "rss"
  },
  "pemberton-asset-management": {
   "careers_url": "https://pemberton-am.com/careers/",
@@ -2014,18 +2017,19 @@
   "system": "browser"
  },
  "piper-sandler": {
-  "careers_url": "https://www.pipersandler.com/careers",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "piper-sandler",
   "name": "Piper Sandler",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.pipersandler.com/careers"
+   "host": "pipersandler.wd501.myworkdayjobs.com",
+   "site": "Piper_Sandler_Careers",
+   "tenant": "pipersandler"
   },
   "sector": "Middle Market",
   "segment": "IB",
-  "system": "browser"
+  "system": "workday"
  },
  "pjt-partners": {
   "careers_url": "https://www.pjtpartners.com/careers",
@@ -2058,14 +2062,13 @@
   "system": "rss"
  },
  "pwc": {
-  "careers_url": "https://www.pwc.co.uk/careers/early-careers.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "pwc",
   "name": "PwC",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.pwc.co.uk/careers/early-careers.html"
+   "url": "https://www.pwc.co.uk/careers/early-careers/job-search.html"
   },
   "sector": "Big 4",
   "segment": "IB",
@@ -2399,12 +2402,11 @@
   "system": "browser"
  },
  "stout": {
-  "careers_url": "https://www.stout.com/en/careers",
   "checked": "2026-11-08",
-  "how": "careers page",
+  "how": "set by hand",
   "id": "stout",
   "name": "Stout",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "stout.wd5.myworkdayjobs.com",
    "site": "Stout-Student-Careers",
@@ -2431,12 +2433,11 @@
   "system": "workday"
  },
  "teneo": {
-  "careers_url": "https://www.teneo.com/careers/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "teneo",
   "name": "Teneo",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "url": "https://www.teneo.com/careers/open-positions/"
   },
@@ -2503,18 +2504,17 @@
   "system": "workday"
  },
  "ubs": {
-  "careers_url": "https://www.ubs.com/global/en/careers/early-careers.html",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "ubs",
   "name": "UBS",
-  "note": "",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "host": "www.ubs.com"
+   "url": "https://www.ubs.com/global/en/careers/search-jobs.html"
   },
   "sector": "Bulge Bracket",
   "segment": "IB",
-  "system": "radancy"
+  "system": "browser"
  },
  "venero-capital-advisors": {
   "careers_url": "https://www.venerocapital.com/careers",
@@ -2559,14 +2559,13 @@
   "system": "browser"
  },
  "william-blair": {
-  "careers_url": "https://www.williamblair.com/careers",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "william-blair",
   "name": "William Blair",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
-   "url": "https://www.williamblair.com/careers"
+   "url": "https://www.williamblair.com/Careers/Job-Search"
   },
   "sector": "Middle Market",
   "segment": "IB",
