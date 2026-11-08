@@ -176,8 +176,29 @@ def test_london_and_programme():
     assert filters.is_london("London, United Kingdom") is True
     assert filters.is_london("New York") is False
     assert filters.is_london("") is None and filters.is_london("United Kingdom") is None
-    assert filters.programme_type("2027 Off-Cycle Analyst") == "Off Cycle Internship"
+    assert filters.programme_type("2027 Off-Cycle Analyst") == "Off-Cycle Internship"
     assert filters.programme_type("Spring Insight Programme") == "Spring Insight"
-    assert filters.programme_type("Banking Graduate Programme 2027") == "Graduate / Entry Level"
+    assert filters.programme_type("Banking Graduate Programme 2027") == "Graduate Programme"
     assert filters.programme_type("Summer Internship 2027") == "Summer Internship"
     assert filters.programme_type("2027-2028 Industrial Placement") == "Industrial Placement"
+
+
+def test_seven_programme_types():
+    pt = filters.programme_type
+    assert pt("Year 12 Work Experience Week") == "Pre-Uni"
+    assert pt("Degree Apprenticeship – Investment Banking 2027") == "Pre-Uni"
+    assert pt("2027 Spring Insight Week - Corporate Finance") == "Spring Insight"
+    assert pt("RSM London Insight Event 2026") == "Spring Insight"
+    assert pt("Moelis Virtual Discovery Series") == "Events"
+    assert pt("London Open House 2026") == "Events"
+    assert pt("2027-2028 London Financial Advisory Industrial Placement") == "Industrial Placement"
+    assert pt("Off-Cycle Internship – M&A, January 2027") == "Off-Cycle Internship"
+    assert pt("Investment Bank Graduate Programme London") == "Graduate Programme"
+    assert pt("2027 Summer Analyst, Investment Banking") == "Summer Internship"
+    assert len(filters.PROGRAMME_NAMES) == 7
+
+
+def test_events_and_pre_uni_count_as_early_careers():
+    assert filters.is_entry_level("London Open House 2026")
+    assert filters.is_entry_level("Sixth Form Work Experience")
+    assert filters.is_london("", "2028 Evercore Summer Analyst Coffee Chats - Dartmouth") is False

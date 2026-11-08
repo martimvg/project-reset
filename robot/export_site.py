@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from .filters import programme_type
+
 ROOT = Path(__file__).resolve().parent.parent
 AREAS = [("restructur", "Restructuring"), ("insolvency", "Restructuring"), ("leveraged", "Leveraged Finance"),
          ("debt", "Debt Advisory / DCM"), ("dcm", "Debt Advisory / DCM"), ("capital markets", "Capital Markets"),
@@ -36,17 +38,27 @@ def main() -> None:
             "id": key, "firm": r["company"], "title": r["title"], "url": r["url"],
             "location": "London" if r.get("location_checked") else (r.get("location") or "Not stated"),
             "category": "Private Equity" if r["segment"] == "PE" else "Investment Banking",
-            "area": area(r["title"]), "level": r.get("programme", ""), "posted": r.get("posted", ""),
+            "area": area(r["title"]), "level": programme_type(r["title"]), "posted": r.get("posted", ""),
             "firstSeen": (r.get("first_seen") or "")[:10], "deadline": "", "rolling": False,
             "status": r.get("status", "open"),
         })
+    # Roles added by hand (for example ones you apply to by email): data/manual.json
+    manual_file = ROOT / "data/manual.json"
+    for m in (json.loads(manual_file.read_text(encoding="utf-8")) if manual_file.exists() else []):
+        closes = m.get("deadline", "")
+        status = "closed" if closes and closes < dt.date.today().isoformat() else m.get("status", "open")
+        rows.append({"id": m["id"], "firm": m["firm"], "title": m["title"], "url": m.get("url", ""),
+                     "location": m.get("location", "London"), "category": m.get("category", "Investment Banking"),
+                     "area": area(m["title"]), "level": m["level"], "posted": m.get("posted", ""),
+                     "firstSeen": m.get("added", ""), "deadline": closes, "rolling": m.get("rolling", False),
+                     "status": status, "apply": m.get("apply", {"method": "web"}), "manual": True})
     in_scope = [s for s in sources.values() if s.get("segment") in ("IB", "PE")]
     meta = {
         "lastRun": max((r.get("last_seen", "") for r in openings.values()), default=""),
         "generated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
         "firmsTracked": len(in_scope),
         "firmsReadable": sum(1 for s in in_scope if s.get("system") and health.get(s["id"], {}).get("failures", 1) == 0),
-        "seededOn": min((r["firstSeen"] for r in rows if r["firstSeen"]), default=""),
+        "seededOn": min((r["firstSeen"] for r in rows if r["firstSeen"] and not r.get("manual")), default=""),
     }
     out = ROOT / "site"
     out.mkdir(exist_ok=True)
