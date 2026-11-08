@@ -1,0 +1,21 @@
+## Check at 2026-11-08T00:42:10+00:00
+
+- Sources read: 78 of 83
+- Open entry-level London roles: 21
+- New this run: 0
+- Sources broken (3+ failures in a row): 5
+
+### Newly broken sources
+
+- ING (radancy): robots.txt asks tools not to read this page
+- UBS (radancy): httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+- KR8 Advisory (browser): playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers
+Call log:
+  - navigating to "https://www.kr8advisory.com/careers", waiting until "domcontentloaded"
+- Morgan Stanley (browser): playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates
+Call log:
+  - navigating to "https://www.morganstanley.com/people-opportunities/students-graduates", waiting until "domcontentloaded"
+- Raymond James (browser): playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers
+Call log:
+  - navigating to "https://www.raymondjames.com/careers", waiting until "domcontentloaded"

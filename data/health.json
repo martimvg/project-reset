@@ -3,7 +3,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -11,7 +11,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -19,7 +19,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 127,
   "system": "greenhouse"
  },
@@ -27,7 +27,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -35,7 +35,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -43,7 +43,7 @@
   "entry_level_found": 2,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 3,
   "system": "browser"
  },
@@ -51,23 +51,23 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
-  "postings_read": 280,
+  "last_ok": "2026-11-08",
+  "postings_read": 281,
   "system": "workday"
  },
  "barclays": {
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
-  "postings_read": 279,
+  "last_ok": "2026-11-08",
+  "postings_read": 278,
   "system": "workday"
  },
  "bbva": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -75,7 +75,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -83,7 +83,7 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 1,
   "system": "browser"
  },
@@ -91,7 +91,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 38,
   "system": "phenom"
  },
@@ -99,7 +99,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -107,7 +107,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 238,
   "system": "greenhouse"
  },
@@ -115,7 +115,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -123,7 +123,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -131,7 +131,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -139,7 +139,7 @@
   "entry_level_found": 9,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 597,
   "system": "workday"
  },
@@ -147,7 +147,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 6,
   "system": "personio"
  },
@@ -155,7 +155,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -163,7 +163,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -171,7 +171,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -179,7 +179,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -187,7 +187,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -195,15 +195,15 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
  "evercore": {
-  "entry_level_found": 7,
+  "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 10,
   "system": "oleeo"
  },
@@ -211,7 +211,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -227,7 +227,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -235,7 +235,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -243,7 +243,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 2,
   "system": "greenhouse"
  },
@@ -251,7 +251,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 14,
   "system": "greenhouse"
  },
@@ -259,7 +259,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -267,7 +267,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -275,7 +275,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -283,7 +283,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 27,
   "system": "workday"
  },
@@ -291,7 +291,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -299,7 +299,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 21,
   "system": "workday"
  },
@@ -307,7 +307,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -315,7 +315,7 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 52,
   "system": "workday"
  },
@@ -323,7 +323,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -331,7 +331,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -339,20 +339,20 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 2,
   "system": "recruitee"
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 2,
+  "failures": 3,
   "system": "radancy"
  },
  "interpath-advisory": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 79,
   "system": "workable"
  },
@@ -360,7 +360,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -368,7 +368,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 647,
   "system": "oracle"
  },
@@ -376,7 +376,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "oleeo"
  },
@@ -384,20 +384,20 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
  "kr8-advisory": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers\nCall log:\n  - navigating to \"https://www.kr8advisory.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 2,
+  "failures": 3,
   "system": "browser"
  },
  "kroll": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -405,7 +405,7 @@
   "entry_level_found": 2,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 98,
   "system": "oracle"
  },
@@ -413,7 +413,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -421,7 +421,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -429,7 +429,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -437,7 +437,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -445,7 +445,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -453,20 +453,20 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 14,
   "system": "oleeo"
  },
  "morgan-stanley": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates\nCall log:\n  - navigating to \"https://www.morganstanley.com/people-opportunities/students-graduates\", waiting until \"domcontentloaded\"",
-  "failures": 2,
+  "failures": 3,
   "system": "browser"
  },
  "mufg": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -474,7 +474,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -482,7 +482,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -490,7 +490,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -498,7 +498,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "oleeo"
  },
@@ -506,7 +506,7 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 3,
   "system": "bamboohr"
  },
@@ -514,7 +514,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -522,7 +522,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -530,7 +530,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 54,
   "system": "workday"
  },
@@ -538,7 +538,7 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 1,
   "system": "browser"
  },
@@ -546,20 +546,20 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 2,
+  "failures": 3,
   "system": "browser"
  },
  "rbc-capital-markets": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 50,
   "system": "phenom"
  },
@@ -567,7 +567,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -575,7 +575,7 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 5,
   "system": "oleeo"
  },
@@ -591,7 +591,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 193,
   "system": "workday"
  },
@@ -599,7 +599,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -607,7 +607,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -615,7 +615,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -623,7 +623,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
  },
@@ -631,7 +631,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
@@ -639,7 +639,7 @@
   "entry_level_found": 2,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 10,
   "system": "icims"
  },
@@ -647,7 +647,7 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 470,
   "system": "workday"
  },
@@ -655,13 +655,13 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-07",
+  "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "browser"
  },
  "ubs": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 2,
+  "failures": 3,
   "system": "radancy"
  },
  "wells-fargo": {
