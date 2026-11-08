@@ -1,39 +1,10 @@
-## Check at 2026-11-08T14:33:40+00:00
+## Check at 2026-11-08T15:03:17+00:00
 
-- Sources read: 86 of 97
-- Open entry-level London roles: 59
-- New this run: 23
+- Sources read: 92 of 98
+- Open entry-level London roles: 53
+- New this run: 0
 - Sources broken (3+ failures in a row): 7
-
-### New roles
-
-- **Jefferies**: [2027 Investment Banking Summer Internship Programme - London](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1792-2027-Investment-Banking-Summer-Internship-Programme-London/en-GB)
-- **Jefferies**: [2027 Private Fund Advisory Summer Internship Programme - London](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1927-2027-Private-Fund-Advisory-Summer-Internship-Programme-London/en-GB)
-- **Jefferies**: [2027 Private Credit Investment Summer Internship Programme - London](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB)
-- **Jefferies**: [2027 Finance Controllers Analyst Programme - London](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1978-2027-Finance-Controllers-Analyst-Programme-London/en-GB)
-- **Jefferies**: [2027 Investment Banking Spring Week Programme - London](https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Off-cycle Internship - Office of the COO (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22414-2027-Investment-Management-Off-cycle-Internship-Office-of-the-COO-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Off-cycle Internship - Sustainability and Client Engagement (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22413-2027-Investment-Management-Off-cycle-Internship-Sustainability-and-Client-Engagement-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Off-cycle Internship - Real Estate Investing (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22354-2027-Investment-Management-Off-cycle-Internship-Real-Estate-Investing-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Off-cycle Internship - Liquidity (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22345-2027-Investment-Management-Off-cycle-Internship-Liquidity-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Summer Analyst Programme - Real Assets (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22304-2027-Investment-Management-Summer-Analyst-Programme-Real-Assets-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Summer Analyst Programme - Office of the COO (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22272-2027-Investment-Management-Summer-Analyst-Programme-Office-of-the-COO-London/en-GB)
-- **Morgan Stanley**: [2027 Investment Management Summer Analyst Programme - Fixed Income (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22271-2027-Investment-Management-Summer-Analyst-Programme-Fixed-Income-London/en-GB)
-- **Morgan Stanley**: [2027 Finance Apprenticeship Programme (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22260-2027-Finance-Apprenticeship-Programme-London/en-GB)
-- **Morgan Stanley**: [2026 Finance Internship Program (Mexico City)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22099-2026-Finance-Internship-Program-Mexico-City/en-GB)
-- **Morgan Stanley**: [2027 Investment Banking Internship Program (Mexico City)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22001-2027-Investment-Banking-Internship-Program-Mexico-City/en-GB)
-- **Morgan Stanley**: [2027 Investment Banking Off-Cycle Internship (Tel Aviv)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21791-2027-Investment-Banking-Off-Cycle-Internship-Tel-Aviv/en-GB)
-- **Morgan Stanley**: [2027 Fixed Income Off-Cycle Internship (Copenhagen)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21609-2027-Fixed-Income-Off-Cycle-Internship-Copenhagen/en-GB)
-- **Morgan Stanley**: [2027 Finance Internship Program (Budapest)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21528-2027-Finance-Internship-Program-Budapest/en-GB)
-- **Morgan Stanley**: [2027 Financial Resources & Strategy Industrial Placement Internship (London)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21513-2027-Financial-Resources-Strategy-Industrial-Placement-Internship-London/en-GB)
-- **Morgan Stanley**: [Syracuse University (Internship Opportunities)](https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/2/opp/22381-Syracuse-University-Internship-Opportunities/en-GB)
-- **Nomura**: [2027 - Investment Banking - Coverage & Advisory - Summer Internship - London](https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1427-2027-Investment-Banking-Coverage-Advisory-Summer-Internship-London/en-GB)
-- **Nomura**: [2027 - Investment Banking - Client Financing Solutions - Summer Internship - London](https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1426-2027-Investment-Banking-Client-Financing-Solutions-Summer-Internship-London/en-GB)
-- **Nomura**: [2027 - Discover Nomura Programme - Insight Programme](https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1478-2027-Discover-Nomura-Programme-Insight-Programme/en-GB)
 
 ### Newly broken sources
 
-- Quantuma (rss): xml.etree.ElementTree.ParseError: mismatched tag: line 32, column 4
-- Sagard (greenhouse): httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/portagecareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-- Scotiabank (successfactors): robots.txt asks tools not to read this page
+- Berenberg (avature): robots.txt asks tools not to read this page
