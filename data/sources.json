@@ -1661,14 +1661,18 @@
   "system": "browser"
  },
  "lloyds-banking-group": {
-  "careers_url": "https://www.lloydsbankinggrouptalent.com/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "lloyds-banking-group",
   "name": "Lloyds Banking Group",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "programme pages found by web search (2026-11-08)",
   "params": {
-   "url": "https://www.lloydsbankinggrouptalent.com/"
+   "link_contains": "/our-opportunities/",
+   "urls": [
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/undergraduates/summer-internships/",
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "https://www.lloydsbankinggrouptalent.com/our-opportunities/undergraduates/industrial-placements/"
+   ]
   },
   "sector": "Middle Market",
   "segment": "IB",
@@ -2173,14 +2177,17 @@
   "system": "browser"
  },
  "rothschild-and-co": {
-  "careers_url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
-  "checked": "2026-11-07",
-  "how": "careers page",
+  "checked": "2026-11-08",
+  "how": "set by hand",
   "id": "rothschild-and-co",
   "name": "Rothschild & Co",
-  "note": "no known hiring system found; reading the page in the browser",
+  "note": "programme pages found by web search (2026-11-08)",
   "params": {
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/"
+   "link_contains": "/students-and-graduates/",
+   "urls": [
+    "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+    "https://www.rothschildandco.com/en/careers/students-and-graduates/events/"
+   ]
   },
   "sector": "Elite Boutique",
   "segment": "IB",

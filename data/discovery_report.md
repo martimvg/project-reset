@@ -114,7 +114,7 @@
 - LGT Capital Partners: https://www.lgtcp.com/career no known hiring system found; reading the page in the browser
 - Lincoln International: https://www.lincolninternational.com/careers/ no known hiring system found; reading the page in the browser
 - LionTree: https://liontree.com/careers no known hiring system found; reading the page in the browser
-- Lloyds Banking Group: https://www.lloydsbankinggrouptalent.com/ no known hiring system found; reading the page in the browser
+- Lloyds Banking Group:  programme pages found by web search (2026-11-08)
 - Loizou & Co: https://www.loizou.co.uk/careers browser failed: Error
 - Longspur Capital: https://longspur.com/careers/ no known hiring system found; reading the page in the browser
 - Mizuho: https://www.mizuhogroup.com/emea/careers/graduates no known hiring system found; reading the page in the browser
@@ -140,7 +140,7 @@
 - Raymond James: https://www.raymondjames.com/careers browser failed: Error
 - Rede Partners: https://www.rede-partners.com/careers no known hiring system found; reading the page in the browser
 - Revaia: https://www.revaia.com/careers/ no known hiring system found; reading the page in the browser
-- Rothschild & Co: https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ no known hiring system found; reading the page in the browser
+- Rothschild & Co:  programme pages found by web search (2026-11-08)
 - Silverpeak: https://www.silverpeak.com/careers browser failed: Error
 - Skagen Capital: https://www.skagencapital.com/careers no known hiring system found; reading the page in the browser
 - SMBC: https://www.smbcgroup.com/emea/careers no known hiring system found; reading the page in the browser
