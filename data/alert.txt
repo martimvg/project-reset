@@ -1,0 +1,15 @@
+## Check at 2026-11-08T17:27:26+00:00
+
+- Sources read: 96 of 102
+- Open entry-level London roles: 38
+- New this run: 1
+- Sources broken (3+ failures in a row): 8
+
+### New roles
+
+- **Standard Chartered**: [Pearl shares her journey from intern to Credit Analyst.](https://www.sc.com/en/global-careers/our-employee-stories/pearl-chandra/)
+
+### Newly broken sources
+
+- Kroll (radancy): httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://careers.kroll.com/en/search-jobs/intern'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
