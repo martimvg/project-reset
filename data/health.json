@@ -345,7 +345,7 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 9,
+  "failures": 10,
   "system": "radancy"
  },
  "interpath-advisory": {
@@ -390,7 +390,7 @@
  },
  "kr8-advisory": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers\nCall log:\n  - navigating to \"https://www.kr8advisory.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 9,
+  "failures": 10,
   "system": "browser"
  },
  "kroll": {
@@ -459,7 +459,7 @@
  },
  "morgan-stanley": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates\nCall log:\n  - navigating to \"https://www.morganstanley.com/people-opportunities/students-graduates\", waiting until \"domcontentloaded\"",
-  "failures": 9,
+  "failures": 10,
   "system": "browser"
  },
  "mufg": {
@@ -552,7 +552,7 @@
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 9,
+  "failures": 10,
   "system": "browser"
  },
  "rbc-capital-markets": {
@@ -661,7 +661,7 @@
  },
  "ubs": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 9,
+  "failures": 10,
   "system": "radancy"
  },
  "wells-fargo": {
