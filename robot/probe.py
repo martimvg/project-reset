@@ -78,8 +78,10 @@ def main() -> None:
             if time.monotonic() - started > 14 * 60:
                 break
             results[name] = probe(url, browser)
-            print(f"  {name}: {len(results[name].get('requests', []))} requests, {len(results[name].get('links', []))} links",
-                  results[name].get("error", ""), flush=True)
+            r = results[name]
+            found = sorted({re.sub(r"[?#].*", "", x.split(" | ")[0])[:160] for x in r.get("links", []) + r.get("requests", [])})
+            print("PROBE " + json.dumps({"id": name, "final": r.get("final", ""), "error": r.get("error", ""),
+                                        "found": found[:25]}, ensure_ascii=False), flush=True)
         browser.close()
     (DATA / f"probe-{i}.json").write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")
 
