@@ -18,6 +18,31 @@ AREAS = [("restructur", "Restructuring"), ("insolvency", "Restructuring"), ("lev
          ("coverage", "Coverage"), ("advisory", "Advisory")]
 
 
+def ats_link(system: str, p: dict) -> str:
+    """A page a person can open for a hiring system the robot reads."""
+    if p.get("url") or p.get("urls"):
+        return p.get("url") or p["urls"][0]
+    return {
+        "workday": lambda: f"https://{p['host']}/{p['site']}",
+        "oracle": lambda: f"https://{p['host']}/hcmUI/CandidateExperience/en/sites/{p['site']}",
+        "greenhouse": lambda: f"https://job-boards.greenhouse.io/{p['board']}",
+        "lever": lambda: f"https://jobs.{'eu.' if p.get('eu') else ''}lever.co/{p['site']}",
+        "ashby": lambda: f"https://jobs.ashbyhq.com/{p['board']}",
+        "smartrecruiters": lambda: f"https://jobs.smartrecruiters.com/{p['company']}",
+        "workable": lambda: f"https://apply.workable.com/{p['account']}",
+        "recruitee": lambda: f"https://{p['company']}.recruitee.com",
+        "pinpoint": lambda: f"https://{p['company']}.pinpointhq.com",
+        "bamboohr": lambda: f"https://{p['company']}.bamboohr.com/careers",
+        "personio": lambda: f"https://{p['host']}",
+        "rss": lambda: p["feed"].replace("/jobs.rss", "/jobs"),
+        "avature": lambda: f"https://{p['host']}{p.get('path', '')}/SearchJobs",
+        "icims": lambda: f"https://{p['host']}/jobs/search",
+        "phenom": lambda: f"https://{p['host']}",
+        "successfactors": lambda: f"https://{p['host']}",
+        "radancy": lambda: f"https://{p['host']}",
+    }.get(system, lambda: "")()
+
+
 def area(title: str) -> str:
     t = title.lower()
     for key, name in AREAS:
@@ -64,6 +89,15 @@ def main() -> None:
             unique.append(r)
     rows = unique
     in_scope = [s for s in sources.values() if s.get("segment") in ("IB", "PE")]
+    seeds = json.loads((ROOT / "data/seeds.json").read_text(encoding="utf-8"))
+    firms = []
+    for s in sorted(in_scope, key=lambda s: s["name"].lower()):
+        h = health.get(s["id"], {})
+        link = s.get("careers_url") or seeds.get(s["id"]) or (ats_link(s["system"], s.get("params") or {}) if s.get("system") else "")
+        firms.append({"id": s["id"], "name": s["name"], "sector": s.get("sector", ""),
+                      "category": "Private Equity" if s["segment"] == "PE" else "Investment Banking",
+                      "url": link, "readable": bool(s.get("system")) and h.get("failures", 1) == 0,
+                      "lastRead": h.get("last_ok", "")})
     meta = {
         "lastRun": max((r.get("last_seen", "") for r in openings.values()), default=""),
         "generated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
@@ -73,7 +107,7 @@ def main() -> None:
     }
     out = ROOT / "site"
     out.mkdir(exist_ok=True)
-    (out / "openings.json").write_text(json.dumps({"meta": meta, "openings": rows}, ensure_ascii=False), encoding="utf-8")
+    (out / "openings.json").write_text(json.dumps({"meta": meta, "openings": rows, "firms": firms}, ensure_ascii=False), encoding="utf-8")
     print(f"{len(rows)} roles written to site/openings.json")
 
 

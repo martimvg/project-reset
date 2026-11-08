@@ -80,7 +80,7 @@ def main() -> None:
             results[name] = probe(url, browser)
             r = results[name]
             found = sorted({re.sub(r"[?#].*", "", x.split(" | ")[0])[:160] for x in r.get("links", []) + r.get("requests", [])})
-            print("PROBE " + json.dumps({"id": name, "final": r.get("final", ""), "error": r.get("error", ""),
+            print("PROBE " + json.dumps({"id": name, "final": r.get("final", ""), "error": r.get("error", ""), "title": r.get("title", ""),
                                         "found": found[:25]}, ensure_ascii=False), flush=True)
         browser.close()
     (DATA / f"probe-{i}.json").write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")

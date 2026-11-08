@@ -1,5 +1,6 @@
 {
  "bank-of-america": {
+  "careers_url": "https://campus.bankofamerica.com/",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "link_contains": "/opp/",
@@ -44,6 +45,7 @@
   "system": "browser"
  },
  "deutsche-bank": {
+  "careers_url": "https://careers.db.com/students-graduates/",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "host": "db.wd3.myworkdayjobs.com",
@@ -53,6 +55,7 @@
   "system": "workday"
  },
  "evercore": {
+  "careers_url": "https://www.evercore.com/careers/students-graduates/",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "urls": [
@@ -78,6 +81,7 @@
   "system": "workday"
  },
  "goldman-sachs": {
+  "careers_url": "https://higher.gs.com/campus",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "link_contains": "/roles/",
@@ -104,6 +108,7 @@
   "system": "workday"
  },
  "jefferies": {
+  "careers_url": "https://www.jefferies.com/careers/campus/",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "link_contains": "/opp/",
@@ -151,6 +156,7 @@
   "system": "avature"
  },
  "morgan-stanley": {
+  "careers_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "link_contains": "/opp/",
@@ -162,6 +168,7 @@
   "system": "browser"
  },
  "nomura": {
+  "careers_url": "https://www.nomura.com/europe/careers/",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "link_contains": "/opp/",
@@ -223,6 +230,7 @@
   "system": "browser"
  },
  "ubs": {
+  "careers_url": "https://www.ubs.com/global/en/careers/early-careers.html",
   "note": "set by hand from the careers-page probe (2026-11-08)",
   "params": {
    "url": "https://www.ubs.com/global/en/careers/search-jobs.html"
