@@ -1,8 +1,8 @@
 {
  "abn-amro": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/abn-amro/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -65,8 +65,8 @@
  },
  "bbva": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/bbva/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -129,8 +129,8 @@
  },
  "cibc": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/cibc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -177,8 +177,8 @@
  },
  "dealglobe": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/dealglobe/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -305,8 +305,8 @@
  },
  "handelsbanken": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/handelsbanken/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -321,8 +321,8 @@
  },
  "howden": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/howden/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -345,13 +345,13 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 13,
+  "failures": 14,
   "system": "radancy"
  },
  "interpath-advisory": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/interpath-advisory/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 79,
   "system": "workable"
@@ -390,7 +390,7 @@
  },
  "kr8-advisory": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers\nCall log:\n  - navigating to \"https://www.kr8advisory.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 13,
+  "failures": 14,
   "system": "browser"
  },
  "kroll": {
@@ -459,7 +459,7 @@
  },
  "morgan-stanley": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/people-opportunities/students-graduates\nCall log:\n  - navigating to \"https://www.morganstanley.com/people-opportunities/students-graduates\", waiting until \"domcontentloaded\"",
-  "failures": 13,
+  "failures": 14,
   "system": "browser"
  },
  "mufg": {
@@ -472,8 +472,8 @@
  },
  "national-bank-of-canada": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/national-bank-of-canada/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -552,7 +552,7 @@
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 13,
+  "failures": 14,
   "system": "browser"
  },
  "rbc-capital-markets": {
@@ -597,8 +597,8 @@
  },
  "scotiabank": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/scotiabank/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -621,8 +621,8 @@
  },
  "standard-bank": {
   "entry_level_found": 0,
-  "error": "",
-  "failures": 0,
+  "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/standard-bank/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+  "failures": 1,
   "last_ok": "2026-11-08",
   "postings_read": 0,
   "system": "workable"
@@ -661,7 +661,7 @@
  },
  "ubs": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://www.ubs.com/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 13,
+  "failures": 14,
   "system": "radancy"
  },
  "wells-fargo": {
