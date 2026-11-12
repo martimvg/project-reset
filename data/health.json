@@ -46,7 +46,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 128,
   "system": "greenhouse"
  },
@@ -82,7 +82,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 65,
   "system": "workday"
  },
@@ -160,7 +160,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 395,
   "system": "workday"
  },
@@ -169,8 +169,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 194,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 196,
   "system": "workday"
  },
  "bdo-global": {
@@ -178,7 +178,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -193,16 +193,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "berenberg": {
   "entry_level_found": 1,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 97,
+  "failures": 98,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 1,
   "system": "avature"
  },
@@ -211,7 +211,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -220,7 +220,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -229,7 +229,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 49,
   "system": "phenom"
  },
@@ -238,7 +238,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -247,7 +247,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -256,7 +256,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 235,
   "system": "greenhouse"
  },
@@ -265,7 +265,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -274,7 +274,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -283,7 +283,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -292,7 +292,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -301,7 +301,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -310,7 +310,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -319,7 +319,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -328,7 +328,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 48,
   "system": "workday"
  },
@@ -337,7 +337,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -346,8 +346,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 1159,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 1160,
   "system": "workday"
  },
  "citic-clsa": {
@@ -355,7 +355,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 243,
   "system": "workday"
  },
@@ -364,7 +364,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -373,7 +373,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 6,
   "system": "personio"
  },
@@ -382,7 +382,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -391,7 +391,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -400,7 +400,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 103,
   "system": "workday"
  },
@@ -409,7 +409,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -469,7 +469,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "bamboohr"
  },
@@ -505,7 +505,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 557,
   "system": "workday"
  },
@@ -523,7 +523,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -532,7 +532,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -550,7 +550,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -559,7 +559,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -568,7 +568,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 32,
   "system": "oleeo"
  },
@@ -609,7 +609,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 125,
   "system": "workday"
  },
@@ -627,7 +627,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 21,
   "system": "greenhouse"
  },
@@ -636,8 +636,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 227,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 226,
   "system": "workday"
  },
  "galaxy": {
@@ -645,7 +645,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 3,
   "system": "greenhouse"
  },
@@ -654,8 +654,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 12,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 13,
   "system": "greenhouse"
  },
  "gerald-edelman": {
@@ -663,7 +663,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -672,7 +672,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -687,7 +687,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T18:30:27+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -714,7 +714,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -723,7 +723,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 11,
   "system": "workday"
  },
@@ -732,7 +732,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -741,7 +741,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 22,
   "system": "workday"
  },
@@ -750,7 +750,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 50,
   "system": "workday"
  },
@@ -759,7 +759,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -768,7 +768,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 62,
   "system": "workday"
  },
@@ -777,7 +777,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 13,
   "system": "workday"
  },
@@ -786,7 +786,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -819,7 +819,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 50,
   "system": "workday"
  },
@@ -828,7 +828,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 307,
   "system": "workday"
  },
@@ -846,7 +846,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 15,
   "system": "workday"
  },
@@ -855,7 +855,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 2,
   "system": "recruitee"
  },
@@ -870,8 +870,8 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 114,
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "failures": 115,
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "system": "radancy"
  },
  "insurance-advisory-partners": {
@@ -888,7 +888,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 73,
   "system": "workable"
  },
@@ -915,8 +915,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 2119,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 2117,
   "system": "oracle"
  },
  "jefferies": {
@@ -964,9 +964,9 @@
  "kroll": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://careers.kroll.com/en/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 94,
+  "failures": 95,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "radancy"
  },
@@ -975,7 +975,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 97,
   "system": "oracle"
  },
@@ -984,7 +984,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 10,
   "system": "workday"
  },
@@ -1044,7 +1044,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "avature"
  },
@@ -1071,7 +1071,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 15,
   "system": "oleeo"
  },
@@ -1080,7 +1080,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 16,
   "system": "pinpoint"
  },
@@ -1125,7 +1125,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1134,7 +1134,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 25,
   "system": "browser"
  },
@@ -1143,7 +1143,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1152,7 +1152,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1161,7 +1161,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1170,7 +1170,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 2,
   "system": "bamboohr"
  },
@@ -1179,7 +1179,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1188,7 +1188,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1197,7 +1197,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 2,
   "system": "rss"
  },
@@ -1206,7 +1206,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 3,
   "system": "ashby"
  },
@@ -1215,7 +1215,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1224,7 +1224,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1233,7 +1233,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 46,
   "system": "workday"
  },
@@ -1242,7 +1242,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 53,
   "system": "workday"
  },
@@ -1251,7 +1251,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 16,
   "system": "rss"
  },
@@ -1260,7 +1260,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 1,
   "system": "browser"
  },
@@ -1269,14 +1269,14 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "quantuma": {
   "error": "xml.etree.ElementTree.ParseError: mismatched tag: line 32, column 4",
-  "failures": 98,
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "failures": 99,
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "system": "rss"
  },
  "raine-group": {
@@ -1284,14 +1284,14 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 48,
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "failures": 49,
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "system": "browser"
  },
  "rbc-capital-markets": {
@@ -1299,8 +1299,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 60,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 59,
   "system": "phenom"
  },
  "rede-partners": {
@@ -1308,7 +1308,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1317,7 +1317,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1326,7 +1326,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T17:34:38+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1335,7 +1335,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 4,
   "system": "oleeo"
  },
@@ -1349,8 +1349,8 @@
  },
  "sagard": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/portagecareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 98,
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "failures": 99,
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "system": "greenhouse"
  },
  "santander": {
@@ -1358,16 +1358,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 403,
   "system": "workday"
  },
  "scotiabank": {
   "entry_level_found": 0,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 98,
+  "failures": 99,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 0,
   "system": "successfactors"
  },
@@ -1376,7 +1376,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 11,
   "system": "workday"
  },
@@ -1448,7 +1448,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 11,
   "system": "icims"
  },
@@ -1466,7 +1466,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 4,
   "system": "workday"
  },
@@ -1475,8 +1475,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
-  "postings_read": 784,
+  "last_tried": "2026-11-12T20:21:08+00:00",
+  "postings_read": 788,
   "system": "workday"
  },
  "teneo": {
@@ -1520,7 +1520,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-12",
-  "last_tried": "2026-11-12T19:29:02+00:00",
+  "last_tried": "2026-11-12T20:21:08+00:00",
   "postings_read": 6,
   "system": "workday"
  },
