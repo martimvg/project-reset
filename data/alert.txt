@@ -1,0 +1,11 @@
+## Check at 2026-11-13T23:32:21+00:00
+
+- Sources read: 87 of 101
+- Open entry-level London roles: 35
+- New this run: 0
+- Sources broken (3+ failures in a row): 9
+
+### Newly broken sources
+
+- Citi (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
