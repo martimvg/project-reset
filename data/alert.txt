@@ -1,13 +1,11 @@
-## Check at 2026-11-14T01:54:48+00:00
+## Check at 2026-11-14T02:41:53+00:00
 
 - Sources read: 84 of 100
 - Open entry-level London roles: 35
 - New this run: 0
-- Sources broken (3+ failures in a row): 13
+- Sources broken (3+ failures in a row): 14
 
 ### Newly broken sources
 
-- HarbourVest (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://harbourvest.wd5.myworkdayjobs.com/wday/cxs/harbourvest/HVP/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
-- Leerink Partners (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://leerink.wd5.myworkdayjobs.com/wday/cxs/leerink/leerinkpartners/jobs'
+- PJT Partners (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
