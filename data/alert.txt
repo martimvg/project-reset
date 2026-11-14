@@ -1,11 +1,13 @@
-## Check at 2026-11-13T23:32:21+00:00
+## Check at 2026-11-14T00:44:04+00:00
 
-- Sources read: 87 of 101
+- Sources read: 83 of 96
 - Open entry-level London roles: 35
 - New this run: 0
-- Sources broken (3+ failures in a row): 9
+- Sources broken (3+ failures in a row): 11
 
 ### Newly broken sources
 
-- Citi (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs'
+- Harris Williams (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/HarrisWilliams/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+- Stout (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://stout.wd5.myworkdayjobs.com/wday/cxs/stout/Stout-Student-Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
