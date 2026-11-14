@@ -1,11 +1,15 @@
-## Check at 2026-11-14T02:41:53+00:00
+## Check at 2026-11-14T03:42:10+00:00
 
-- Sources read: 84 of 100
+- Sources read: 83 of 99
 - Open entry-level London roles: 35
 - New this run: 0
-- Sources broken (3+ failures in a row): 14
+- Sources broken (3+ failures in a row): 17
 
 ### Newly broken sources
 
-- PJT Partners (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs'
+- Guggenheim Partners (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://guggenheiminvestment.wd5.myworkdayjobs.com/wday/cxs/guggenheiminvestment/External/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+- Houlihan Lokey (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+- Sixth Street (workday): httpx.HTTPStatusError: Server error '521 <none>' for url 'https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetcareers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
