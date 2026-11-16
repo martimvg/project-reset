@@ -1,0 +1,51 @@
+## Check at 2026-11-16T11:02:16+00:00
+
+- Sources read: 65 of 98
+- Open entry-level London roles: 31
+- New this run: 0
+- Sources broken (3+ failures in a row): 33
+
+### Newly broken sources
+
+- Barclays (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- BBVA (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/BBVA/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- CIBC (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/campus/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Citi (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- CITIC CLSA (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://citicclsa.wd3.myworkdayjobs.com/wday/cxs/citicclsa/External/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- CommBank (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://cba.wd3.myworkdayjobs.com/wday/cxs/cba/CommBank_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Deutsche Bank (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Grant Thornton (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://ukgrantt.wd3.myworkdayjobs.com/wday/cxs/ukgrantt/TraineeCareersGrantThornton/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Guggenheim Partners (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://guggenheiminvestment.wd5.myworkdayjobs.com/wday/cxs/guggenheiminvestment/External/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- HarbourVest (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://harbourvest.wd5.myworkdayjobs.com/wday/cxs/harbourvest/HVP/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Harris Williams (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/HarrisWilliams/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Houlihan Lokey (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Howden (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hyperiongrp.wd3.myworkdayjobs.com/wday/cxs/hyperiongrp/hyperion_external/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- ICG (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://icg.wd3.myworkdayjobs.com/wday/cxs/icg/external_careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Leerink Partners (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://leerink.wd5.myworkdayjobs.com/wday/cxs/leerink/leerinkpartners/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- PJT Partners (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Santander (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Sixth Street (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetcareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Stout (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://stout.wd5.myworkdayjobs.com/wday/cxs/stout/Stout-Student-Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- TD Securities (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Triton (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://tritonpartners.wd3.myworkdayjobs.com/wday/cxs/tritonpartners/External/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
