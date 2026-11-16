@@ -1,0 +1,17 @@
+## Check at 2026-11-16T02:20:37+00:00
+
+- Sources read: 89 of 100
+- Open entry-level London roles: 31
+- New this run: 0
+- Sources broken (3+ failures in a row): 12
+
+### Newly broken sources
+
+- Ardian (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- FTI Consulting (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Hamilton Lane (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hamiltonlane.wd108.myworkdayjobs.com/wday/cxs/hamiltonlane/search/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+- Piper Sandler (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/Piper_Sandler_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429

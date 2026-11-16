@@ -46,7 +46,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 132,
   "system": "greenhouse"
  },
@@ -80,9 +80,9 @@
  "ardian": {
   "entry_level_found": 1,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 2,
+  "failures": 3,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 64,
   "system": "workday"
  },
@@ -160,8 +160,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
-  "postings_read": 405,
+  "last_tried": "2026-11-16T02:20:37+00:00",
+  "postings_read": 406,
   "system": "workday"
  },
  "bbva": {
@@ -169,7 +169,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 157,
   "system": "workday"
  },
@@ -177,8 +177,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -192,17 +192,17 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "berenberg": {
   "entry_level_found": 1,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 175,
+  "failures": 176,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 1,
   "system": "avature"
  },
@@ -210,8 +210,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -219,8 +219,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -229,7 +229,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 48,
   "system": "phenom"
  },
@@ -237,8 +237,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -246,8 +246,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -256,7 +256,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 227,
   "system": "greenhouse"
  },
@@ -264,8 +264,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -273,8 +273,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -282,8 +282,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -291,8 +291,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -300,8 +300,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -309,8 +309,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -318,8 +318,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -328,7 +328,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 40,
   "system": "workday"
  },
@@ -336,8 +336,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -346,7 +346,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 1157,
   "system": "workday"
  },
@@ -355,7 +355,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 244,
   "system": "workday"
  },
@@ -363,8 +363,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -373,7 +373,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 6,
   "system": "personio"
  },
@@ -381,8 +381,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -390,8 +390,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -400,16 +400,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
-  "postings_read": 106,
+  "last_tried": "2026-11-16T02:20:37+00:00",
+  "postings_read": 107,
   "system": "workday"
  },
  "commerzbank": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -469,7 +469,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "bamboohr"
  },
@@ -495,8 +495,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -505,7 +505,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 551,
   "system": "workday"
  },
@@ -513,8 +513,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -522,8 +522,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -531,8 +531,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -540,8 +540,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -549,8 +549,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -568,7 +568,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 30,
   "system": "oleeo"
  },
@@ -609,7 +609,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 123,
   "system": "workday"
  },
@@ -627,16 +627,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 24,
   "system": "greenhouse"
  },
  "fti-consulting": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 2,
+  "failures": 3,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 215,
   "system": "workday"
  },
@@ -645,7 +645,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 2,
   "system": "greenhouse"
  },
@@ -654,7 +654,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 12,
   "system": "greenhouse"
  },
@@ -686,8 +686,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -704,8 +704,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -713,8 +713,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -723,7 +723,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 9,
   "system": "workday"
  },
@@ -731,8 +731,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -741,16 +741,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 22,
   "system": "workday"
  },
  "hamilton-lane": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hamiltonlane.wd108.myworkdayjobs.com/wday/cxs/hamiltonlane/search/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 2,
+  "failures": 3,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 51,
   "system": "workday"
  },
@@ -758,8 +758,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T23:38:04+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -768,7 +768,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 62,
   "system": "workday"
  },
@@ -777,7 +777,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 12,
   "system": "workday"
  },
@@ -819,7 +819,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 51,
   "system": "workday"
  },
@@ -828,7 +828,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 294,
   "system": "workday"
  },
@@ -846,7 +846,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 16,
   "system": "workday"
  },
@@ -855,7 +855,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 2,
   "system": "recruitee"
  },
@@ -870,8 +870,8 @@
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 192,
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "failures": 193,
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "system": "radancy"
  },
  "insurance-advisory-partners": {
@@ -888,7 +888,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 73,
   "system": "workable"
  },
@@ -896,8 +896,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -915,8 +915,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
-  "postings_read": 2091,
+  "last_tried": "2026-11-16T02:20:37+00:00",
+  "postings_read": 2095,
   "system": "oracle"
  },
  "jefferies": {
@@ -964,9 +964,9 @@
  "kroll": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://careers.kroll.com/en/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 172,
+  "failures": 173,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "radancy"
  },
@@ -975,7 +975,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 94,
   "system": "oracle"
  },
@@ -984,7 +984,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 10,
   "system": "workday"
  },
@@ -1044,7 +1044,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "avature"
  },
@@ -1071,7 +1071,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 13,
   "system": "oleeo"
  },
@@ -1080,7 +1080,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 15,
   "system": "pinpoint"
  },
@@ -1142,8 +1142,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1151,8 +1151,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1160,8 +1160,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1170,7 +1170,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 2,
   "system": "bamboohr"
  },
@@ -1178,8 +1178,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1187,8 +1187,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1197,7 +1197,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 2,
   "system": "rss"
  },
@@ -1206,7 +1206,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 3,
   "system": "ashby"
  },
@@ -1214,8 +1214,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1223,17 +1223,17 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "piper-sandler": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/Piper_Sandler_Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 2,
+  "failures": 3,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 44,
   "system": "workday"
  },
@@ -1242,7 +1242,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 53,
   "system": "workday"
  },
@@ -1251,7 +1251,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 16,
   "system": "rss"
  },
@@ -1259,8 +1259,8 @@
   "entry_level_found": 1,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 1,
   "system": "browser"
  },
@@ -1268,30 +1268,30 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "quantuma": {
   "error": "xml.etree.ElementTree.ParseError: mismatched tag: line 32, column 4",
-  "failures": 176,
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "failures": 177,
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "system": "rss"
  },
  "raine-group": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "raymond-james": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.raymondjames.com/careers\nCall log:\n  - navigating to \"https://www.raymondjames.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 74,
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "failures": 75,
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "system": "browser"
  },
  "rbc-capital-markets": {
@@ -1299,16 +1299,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
-  "postings_read": 60,
+  "last_tried": "2026-11-16T02:20:37+00:00",
+  "postings_read": 62,
   "system": "phenom"
  },
  "rede-partners": {
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1316,8 +1316,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1325,8 +1325,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1335,7 +1335,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 4,
   "system": "oleeo"
  },
@@ -1349,8 +1349,8 @@
  },
  "sagard": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/portagecareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 176,
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "failures": 177,
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "system": "greenhouse"
  },
  "santander": {
@@ -1358,16 +1358,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 393,
   "system": "workday"
  },
  "scotiabank": {
   "entry_level_found": 0,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 176,
+  "failures": 177,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "successfactors"
  },
@@ -1376,7 +1376,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 11,
   "system": "workday"
  },
@@ -1384,8 +1384,8 @@
   "entry_level_found": 0,
   "error": "",
   "failures": 0,
-  "last_ok": "2026-11-15",
-  "last_tried": "2026-11-15T22:30:00+00:00",
+  "last_ok": "2026-11-16",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1448,7 +1448,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 11,
   "system": "icims"
  },
@@ -1466,7 +1466,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 3,
   "system": "workday"
  },
@@ -1475,7 +1475,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 761,
   "system": "workday"
  },
@@ -1520,7 +1520,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-16T00:57:00+00:00",
+  "last_tried": "2026-11-16T02:20:37+00:00",
   "postings_read": 6,
   "system": "workday"
  },
