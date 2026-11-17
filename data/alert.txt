@@ -1,0 +1,11 @@
+## Check at 2026-11-17T13:42:53+00:00
+
+- Sources read: 67 of 99
+- Open entry-level London roles: 30
+- New this run: 0
+- Sources broken (3+ failures in a row): 33
+
+### Newly broken sources
+
+- Piper Sandler (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/Piper_Sandler_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
