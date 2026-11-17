@@ -283,6 +283,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22272-2027-Investment-Management-Summer-Analyst-Programme-Office-of-the-COO-London/en-GB"
  },
  "j-40f315d3edf82f": {
+  "closed_on": "2026-11-17",
   "company": "Lazard",
   "company_id": "lazard",
   "first_seen": "2026-11-07T23:36:45+00:00",
@@ -293,7 +294,7 @@
   "programme": "Industrial Placement",
   "sector": "Elite Boutique",
   "segment": "IB",
-  "status": "open",
+  "status": "closed",
   "system": "oracle",
   "title": "2027-2028 London Financial Advisory Industrial Placement",
   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6638"
