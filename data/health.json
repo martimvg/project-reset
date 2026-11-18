@@ -4,7 +4,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -13,7 +13,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -22,7 +22,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -31,7 +31,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -46,7 +46,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 132,
   "system": "greenhouse"
  },
@@ -55,7 +55,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -64,7 +64,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -73,16 +73,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "ardian": {
   "entry_level_found": 1,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 49,
+  "failures": 50,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 64,
   "system": "workday"
  },
@@ -91,7 +91,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -106,7 +106,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -115,7 +115,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -124,7 +124,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -133,7 +133,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 3,
   "system": "browser"
  },
@@ -142,7 +142,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -151,25 +151,25 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
-  "postings_read": 15,
+  "last_tried": "2026-11-18T09:13:06+00:00",
+  "postings_read": 16,
   "system": "browser"
  },
  "barclays": {
   "entry_level_found": 1,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 407,
   "system": "workday"
  },
  "bbva": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/BBVA/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 156,
   "system": "workday"
  },
@@ -200,9 +200,9 @@
  "berenberg": {
   "entry_level_found": 1,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 222,
+  "failures": 223,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 1,
   "system": "avature"
  },
@@ -229,7 +229,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 49,
   "system": "phenom"
  },
@@ -256,7 +256,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 227,
   "system": "greenhouse"
  },
@@ -326,9 +326,9 @@
  "cibc": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/campus/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 18,
   "system": "workday"
  },
@@ -344,18 +344,18 @@
  "citi": {
   "entry_level_found": 9,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 1156,
   "system": "workday"
  },
  "citic-clsa": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://citicclsa.wd3.myworkdayjobs.com/wday/cxs/citicclsa/External/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 243,
   "system": "workday"
  },
@@ -373,7 +373,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 7,
   "system": "personio"
  },
@@ -398,9 +398,9 @@
  "commbank": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://cba.wd3.myworkdayjobs.com/wday/cxs/cba/CommBank_Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 110,
   "system": "workday"
  },
@@ -433,7 +433,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -442,7 +442,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -451,7 +451,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -469,7 +469,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "bamboohr"
  },
@@ -478,7 +478,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -503,9 +503,9 @@
  "deutsche-bank": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 551,
   "system": "workday"
  },
@@ -523,7 +523,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -532,7 +532,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -550,7 +550,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -559,7 +559,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -568,7 +568,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 9,
   "system": "oleeo"
  },
@@ -583,7 +583,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -600,7 +600,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -609,7 +609,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 121,
   "system": "workday"
  },
@@ -627,16 +627,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 24,
   "system": "greenhouse"
  },
  "fti-consulting": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 49,
+  "failures": 50,
   "last_ok": "2026-11-15",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 215,
   "system": "workday"
  },
@@ -645,7 +645,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "greenhouse"
  },
@@ -654,7 +654,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 12,
   "system": "greenhouse"
  },
@@ -663,7 +663,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -672,7 +672,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -687,7 +687,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -696,7 +696,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 20,
   "system": "browser"
  },
@@ -721,9 +721,9 @@
  "grant-thornton": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://ukgrantt.wd3.myworkdayjobs.com/wday/cxs/ukgrantt/TraineeCareersGrantThornton/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 9,
   "system": "workday"
  },
@@ -739,18 +739,18 @@
  "guggenheim-partners": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://guggenheiminvestment.wd5.myworkdayjobs.com/wday/cxs/guggenheiminvestment/External/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 22,
   "system": "workday"
  },
  "hamilton-lane": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hamiltonlane.wd108.myworkdayjobs.com/wday/cxs/hamiltonlane/search/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 9,
+  "failures": 10,
   "last_ok": "2026-11-17",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 49,
   "system": "workday"
  },
@@ -766,18 +766,18 @@
  "harbourvest": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://harbourvest.wd5.myworkdayjobs.com/wday/cxs/harbourvest/HVP/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 62,
   "system": "workday"
  },
  "harris-williams": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/HarrisWilliams/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 12,
   "system": "workday"
  },
@@ -817,18 +817,18 @@
  "houlihan-lokey": {
   "entry_level_found": 1,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 51,
   "system": "workday"
  },
  "howden": {
   "entry_level_found": 1,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hyperiongrp.wd3.myworkdayjobs.com/wday/cxs/hyperiongrp/hyperion_external/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 294,
   "system": "workday"
  },
@@ -837,16 +837,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "icg": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://icg.wd3.myworkdayjobs.com/wday/cxs/icg/external_careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 16,
   "system": "workday"
  },
@@ -855,7 +855,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "recruitee"
  },
@@ -864,14 +864,14 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "ing": {
   "error": "robots.txt asks tools not to read this page",
-  "failures": 239,
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "failures": 240,
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "system": "radancy"
  },
  "insurance-advisory-partners": {
@@ -888,7 +888,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 74,
   "system": "workable"
  },
@@ -897,7 +897,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T07:04:43+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -915,8 +915,8 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
-  "postings_read": 2090,
+  "last_tried": "2026-11-18T09:13:06+00:00",
+  "postings_read": 2087,
   "system": "oracle"
  },
  "jefferies": {
@@ -933,7 +933,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -942,7 +942,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -951,22 +951,22 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
  "kr8-advisory": {
   "error": "playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.kr8advisory.com/careers\nCall log:\n  - navigating to \"https://www.kr8advisory.com/careers\", waiting until \"domcontentloaded\"",
-  "failures": 90,
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "failures": 91,
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "system": "browser"
  },
  "kroll": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://careers.kroll.com/en/search-jobs/intern'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 219,
+  "failures": 220,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "radancy"
  },
@@ -975,16 +975,16 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 94,
   "system": "oracle"
  },
  "leerink-partners": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://leerink.wd5.myworkdayjobs.com/wday/cxs/leerink/leerinkpartners/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 10,
   "system": "workday"
  },
@@ -993,7 +993,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1002,7 +1002,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 1,
   "system": "browser"
  },
@@ -1011,7 +1011,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1020,7 +1020,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "browser"
  },
@@ -1035,7 +1035,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1044,7 +1044,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "avature"
  },
@@ -1053,7 +1053,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1071,7 +1071,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 11,
   "system": "oleeo"
  },
@@ -1080,7 +1080,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 15,
   "system": "pinpoint"
  },
@@ -1089,7 +1089,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 61,
   "system": "browser"
  },
@@ -1098,7 +1098,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1125,7 +1125,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "browser"
  },
@@ -1134,7 +1134,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T05:54:21+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 23,
   "system": "browser"
  },
@@ -1170,7 +1170,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "bamboohr"
  },
@@ -1197,7 +1197,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "rss"
  },
@@ -1206,7 +1206,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 3,
   "system": "ashby"
  },
@@ -1231,18 +1231,18 @@
  "piper-sandler": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/Piper_Sandler_Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 21,
+  "failures": 22,
   "last_ok": "2026-11-17",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 44,
   "system": "workday"
  },
  "pjt-partners": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 10,
+  "failures": 11,
   "last_ok": "2026-11-17",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 52,
   "system": "workday"
  },
@@ -1251,7 +1251,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 16,
   "system": "rss"
  },
@@ -1275,8 +1275,8 @@
  },
  "quantuma": {
   "error": "xml.etree.ElementTree.ParseError: mismatched tag: line 32, column 4",
-  "failures": 223,
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "failures": 224,
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "system": "rss"
  },
  "raine-group": {
@@ -1299,7 +1299,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 56,
   "system": "phenom"
  },
@@ -1335,7 +1335,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 2,
   "system": "oleeo"
  },
@@ -1349,34 +1349,34 @@
  },
  "sagard": {
   "error": "httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/portagecareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-  "failures": 223,
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "failures": 224,
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "system": "greenhouse"
  },
  "santander": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 388,
   "system": "workday"
  },
  "scotiabank": {
   "entry_level_found": 0,
   "error": "robots.txt asks tools not to read this page",
-  "failures": 223,
+  "failures": 224,
   "last_ok": "2026-11-08",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 0,
   "system": "successfactors"
  },
  "sixth-street": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetcareers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 11,
   "system": "workday"
  },
@@ -1448,7 +1448,7 @@
   "error": "",
   "failures": 0,
   "last_ok": "2026-11-18",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 11,
   "system": "icims"
  },
@@ -1464,18 +1464,18 @@
  "stout": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://stout.wd5.myworkdayjobs.com/wday/cxs/stout/Stout-Student-Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 3,
   "system": "workday"
  },
  "td-securities": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 729,
   "system": "workday"
  },
@@ -1518,9 +1518,9 @@
  "triton": {
   "entry_level_found": 0,
   "error": "httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://tritonpartners.wd3.myworkdayjobs.com/wday/cxs/tritonpartners/External/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-  "failures": 44,
+  "failures": 45,
   "last_ok": "2026-11-16",
-  "last_tried": "2026-11-18T08:17:45+00:00",
+  "last_tried": "2026-11-18T09:13:06+00:00",
   "postings_read": 6,
   "system": "workday"
  },
