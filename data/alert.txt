@@ -1,11 +1,11 @@
-## Check at 2026-11-17T23:46:01+00:00
+## Check at 2026-11-18T00:52:51+00:00
 
 - Sources read: 67 of 99
-- Open entry-level London roles: 33
+- Open entry-level London roles: 32
 - New this run: 0
-- Sources broken (3+ failures in a row): 32
+- Sources broken (3+ failures in a row): 33
 
 ### Newly broken sources
 
-- PJT Partners (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs'
+- Hamilton Lane (workday): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://hamiltonlane.wd108.myworkdayjobs.com/wday/cxs/hamiltonlane/search/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
