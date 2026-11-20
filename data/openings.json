@@ -17,6 +17,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/21513-2027-Financial-Resources-Strategy-Industrial-Placement-Internship-London/en-GB"
  },
  "j-02e43ef7199c9d": {
+  "closed_on": "2026-11-20",
   "company": "Lincoln International",
   "company_id": "lincoln-international",
   "first_seen": "2026-11-10T23:26:43+00:00",
@@ -27,7 +28,7 @@
   "programme": "Events",
   "sector": "Middle Market",
   "segment": "IB",
-  "status": "open",
+  "status": "closed",
   "system": "browser",
   "title": "Webinar | Valuations & Opinions Group Q4 2026 Private Market Webinar NOV 2026 WEBINARS & VIDEOS VIEW MORE - WEBINAR | VALUATIONS & OPINIONS GROUP Q4 2026 PRIVATE MARKET WEBINAR",
   "url": "https://www.lincolninternational.com/perspectives/webinars/webinar-valuations-opinions-group-q4-2026-private-market-webinar-form/"
@@ -459,6 +460,22 @@
   "system": "browser",
   "title": "2027 Investment Management Off-cycle Internship - Sustainability and Client Engagement (London)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22413-2027-Investment-Management-Off-cycle-Internship-Sustainability-and-Client-Engagement-London/en-GB"
+ },
+ "j-584d02c9d89c7d": {
+  "company": "Lincoln International",
+  "company_id": "lincoln-international",
+  "first_seen": "2026-11-20T20:30:30+00:00",
+  "last_seen": "2026-11-20",
+  "location": "Not stated",
+  "location_checked": false,
+  "posted": "",
+  "programme": "Events",
+  "sector": "Middle Market",
+  "segment": "IB",
+  "status": "open",
+  "system": "browser",
+  "title": "Webinar | Q4 2026 European Private Market Webinar NOV 2026 WEBINARS & VIDEOS VIEW MORE - WEBINAR | Q4 2026 EUROPEAN PRIVATE MARKET WEBINAR",
+  "url": "https://www.lincolninternational.com/perspectives/webinars/q4-2026-european-private-market-webinar-form/"
  },
  "j-595f459f035df3": {
   "closed_on": "2026-11-16",
