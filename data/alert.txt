@@ -1,0 +1,11 @@
+## Check at 2026-11-21T12:44:38+00:00
+
+- Sources read: 64 of 97
+- Open entry-level London roles: 33
+- New this run: 0
+- Sources broken (3+ failures in a row): 34
+
+### Newly broken sources
+
+- Interpath Advisory (workable): httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/interpath-advisory/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
